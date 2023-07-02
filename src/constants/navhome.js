@@ -1,0 +1,16 @@
+export const url = {
+  home: "/",
+  aboutus: "/Aboutus",
+  NewArrivals: "arrivals",
+  fashion: "/Fashion",
+  SpecialOffers: "offers",
+  Meetthedesigner: "meet",
+  Blogs: "blog",
+  residential: "/Residential",
+  awards: "/Awards",
+  colletion: "/Colletion",
+  shop: "/Shop",
+  events: "/Events",
+  collectionwomen: "/Collectionwomen",
+  collectionmen: "/Collectionmen",
+};
