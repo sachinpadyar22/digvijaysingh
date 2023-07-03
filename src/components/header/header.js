@@ -7,6 +7,8 @@ import { Link } from "react-router-dom";
 import { url } from "../../constants/navhome";
 import { BackTop } from "antd";
 import "./header.css";
+import { Hidden } from "@mui/material";
+
 
 
 
@@ -31,10 +33,10 @@ const headeritemleft = [
     headname: "New Arrivals",
     headlink: url.arrivals,
   },
-  {
-    headname: "Events",
-    headlink: url.events,
-  },
+  // {
+  //   headname: "Events",
+  //   headlink: url.events,
+  // },
 ];
 const headeritemright = [
   // {
@@ -63,7 +65,7 @@ const headeritemright = [
 
 
 const Header = () => {
-
+ 
   // Sticky Menu Area
   useEffect(() => {
     window.addEventListener("scroll", isSticky);
@@ -80,6 +82,7 @@ const Header = () => {
     else header.classList.remove("fixed-nav");
   };
   /* end*/
+ 
   const [isActive, setIsActive] = useState(false);
 
   const [width, setWidth] = useState(window.innerWidth);
@@ -189,7 +192,7 @@ const Header = () => {
                 {headeritemleft.map((item, key) => {
                   return (
                     <div className="header_wrapper">
-                      <Link
+                      <Link 
                         className="navbar-item header_item hoverheader_item"
                         to={item.headlink}
                       >
@@ -201,7 +204,7 @@ const Header = () => {
                 {headeritemright.map((item, key) => {
                   return (
                     <div className="header_wrapper">
-                      <Link
+                      <Link 
                         className="navbar-item header_item hoverheader_item"
                         to={item.headlink}
                       >

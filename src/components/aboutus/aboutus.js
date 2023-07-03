@@ -102,7 +102,7 @@ const Aboutus = () => {
                 <img
                   src="Sources/images/digvijaysingh.png"
                   alt="404 - Not Given"
-                  style={{ width: "60%", paddingTop:"20px" }}
+                  style={{ width: "60%", paddingTop:"20px",  }}
                 />
               </div>
             </Col>

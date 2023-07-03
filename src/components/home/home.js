@@ -421,7 +421,7 @@ const Home = () => {
               </Col>
               <Col xxl={8} lg={8} md={12} sm={24} xs={24} style={{padding:"10px"}}>
                 <video loop muted autoPlay preload="auto">
-                  <source src="Sources/images/video.mp4" type="video/mp4" />
+                  <source src="Sources/images/video2.mp4" type="video/mp4" />
                 </video>
               </Col>
               <Col xxl={8} lg={8} md={12} sm={24} xs={24} style={{padding:"10px"}}>
@@ -521,17 +521,17 @@ const Home = () => {
         <div className="section_padding"></div>
       </section> */}
 
-      <section>
+      {/* <section>
         <div className="container">
           <div className="sectional_heading">
             <p className="is-size-3 pb-5 has-text-centered mb-1 green_color">
               Our Collections
             </p>
-            {/* <p className="is-size-6 mb-5 has-text-centered">
+            <p className="is-size-6 mb-5 has-text-centered">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry simply dummy text of the printing and typesetting
               industry.
-            </p> */}
+            </p>
           </div>
           <div>
             <Row>
@@ -575,7 +575,7 @@ const Home = () => {
                   </Space>
                 </div>
               </Col>
-              {/* <Col xxl={4} lg={4} md={24} sm={24} xs={24}>
+              <Col xxl={4} lg={4} md={24} sm={24} xs={24}>
                 <div className="men_wear_wrapper">
                   <Space direction="vertical">
                     <img
@@ -600,7 +600,7 @@ const Home = () => {
                     </div>
                   </Space>
                 </div>
-              </Col> */}
+              </Col>
             </Row>
             <div className="has-text-centered pb-5">
               <Button size="large" className="bgbrown_color knowmore_button">
@@ -609,7 +609,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   );
 };
