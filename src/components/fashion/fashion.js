@@ -6,78 +6,78 @@ const fashionimages = [
     src: "/Sources/images/fashionimg/2.JPG",
   },
   {
-    src: "./Sources/images/fashionimg/3.jpg",
+    src: "./Sources/images/fashionimg/3.JPG",
   },
   {
-    src: "./Sources/images/fashionimg/4.jpg",
+    src: "./Sources/images/fashionimg/4.JPG",
   },
   {
-    src: "./Sources/images/fashionimg/5.jpg",
+    src: "./Sources/images/fashionimg/5.JPG",
   },
   {
-    src: "./Sources/images/fashionimg/6.jpg",
+    src: "./Sources/images/fashionimg/6.JPG",
   },
   {
-    src: "./Sources/images/fashionimg/7.jpg",
+    src: "./Sources/images/fashionimg/7.JPG",
   },
   {
-    src: "./Sources/images/fashionimg/8.jpg",
+    src: "./Sources/images/fashionimg/8.JPG",
   },
   {
-    src: "./Sources/images/fashionimg/9.jpg",
+    src: "./Sources/images/fashionimg/9.JPG",
   },
 
   {
-    src: "./Sources/images/fashionimg/11.jpg",
+    src: "./Sources/images/fashionimg/11.JPG",
   },
   {
-    src: "./Sources/images/fashionimg/12.jpg",
+    src: "./Sources/images/fashionimg/12.JPG",
   },
   {
-    src: "./Sources/images/fashionimg/13.jpg",
+    src: "./Sources/images/fashionimg/13.JPG",
   },
   {
-    src: "./Sources/images/fashionimg/14.jpg",
+    src: "./Sources/images/fashionimg/14.JPG",
   },
   {
-    src: "./Sources/images/fashionimg/15.jpg",
+    src: "./Sources/images/fashionimg/15.JPG",
   },
   {
-    src: "./Sources/images/fashionimg/16.jpg",
+    src: "./Sources/images/fashionimg/16.JPG",
   },
   {
-    src: "./Sources/images/fashionimg/17.jpg",
+    src: "./Sources/images/fashionimg/17.JPG",
   },
   {
-    src: "./Sources/images/fashionimg/18.jpg",
+    src: "./Sources/images/fashionimg/18.JPG",
   },
   {
-    src: "./Sources/images/fashionimg/19.jpg",
+    src: "./Sources/images/fashionimg/19.JPG",
   },
   {
-    src: "./Sources/images/fashionimg/20.jpg",
+    src: "./Sources/images/fashionimg/20.JPG",
   },
   {
-    src: "./Sources/images/fashionimg/21.jpg",
+    src: "./Sources/images/fashionimg/21.JPG",
   },
   {
-    src: "./Sources/images/fashionimg/22.jpg",
+    src: "./Sources/images/fashionimg/22.JPG",
   },
   {
-    src: "./Sources/images/fashionimg/23.jpg",
+    src: "./Sources/images/fashionimg/23.JPG",
   },
   {
-    src: "./Sources/images/fashionimg/24.jpg",
+    src: "./Sources/images/fashionimg/24.JPG",
   },
  
   {
-    src: "./Sources/images/fashionimg/1.jpg",
+    src: "./Sources/images/fashionimg/1.JPG",
   },
   {
-    src: "./Sources/images/fashionimg/10.jpg",
+    src: "./Sources/images/fashionimg/10.JPG",
   },
   {
-    src: "../Sources/images/fashionimg/25.jpg",
+    src: "../Sources/images/fashionimg/25.JPG",
   },
   
 ];
