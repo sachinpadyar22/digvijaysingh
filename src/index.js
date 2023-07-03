@@ -21,6 +21,7 @@ import Lakmeone from "./components/fashion/lakmeone";
 import Lakmetwo from "./components/fashion/lakmetwo";
 import Lakmethree from "./components/fashion/lakmethree";
 import Lakmefour from "./components/fashion/lakmefour";
+import Lakmefive from "./components/fashion/lakmefive";
 
 
 const Main = () => {
@@ -47,6 +48,7 @@ const Main = () => {
         <Route path={url.lakmetwo} element={<Lakmetwo />} />
         <Route path={url.lakmethree} element={<Lakmethree />} />
         <Route path={url.lakmefour} element={<Lakmefour />} />
+        <Route path={url.lakmefive} element={<Lakmefive />} />
         <Route path={url.events} element={<Events />} />
         <Route path={url.collectionwomen} element={<Collectionwomen />} />
         <Route path={url.collectionmen} element={<Collectionmen />} />

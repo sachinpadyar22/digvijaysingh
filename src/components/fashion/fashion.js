@@ -288,12 +288,12 @@ const Fashion = () => {
                     <div>
                       <p className="is-size-5">--</p>
                       <p className="is-size-4 is-uppercase has-text-weight-semibold ">
-                      <Link to="/" className="green_color">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;---------------&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Link>
+                      <Link to="/lakmefive" className="green_color">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;---------------&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Link>
                       </p>
-                      <p className="is-size-6">(Kochi)</p>
+                      <p className="is-size-6">(kochi)</p>
                       <div className="mt-3">
                         <img style={{ width: "150px" }}
-                          src="Sources/images/event/1-4.JPG"
+                          src="Sources/images/event/1-6.JPG"
                           alt="404 - Not Given"
                         />
                       </div>

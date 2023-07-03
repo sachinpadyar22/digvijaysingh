@@ -15,7 +15,7 @@ body {
   font-size: 1.2rem;
   line-height: 1.5;
   color: #000;
-  background-color: beige;
+  background-color: c;
 }
 body::-webkit-scrollbar {
   display: none;
@@ -35,7 +35,7 @@ body::-webkit-scrollbar {
   padding-bottom: 0.75rem !important;
 }
 .navbar {
-  background-color: white;
+  background-color: beige;
   color: white;
  
 }
@@ -332,7 +332,7 @@ a.navbar-item.is-active,
 .navbar-link.is-active {
   background-color: #fff;
   color: #4f876c;
-  transform: translateY(-5px);
+
 }
 
 .header_button {
