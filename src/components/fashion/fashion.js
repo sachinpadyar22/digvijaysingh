@@ -1,86 +1,87 @@
 import React from "react";
 import {Col,Row} from "antd";
-const fashionimages = [
+import { Space } from "antd";
+// const fashionimages = [
 
-  {
-    src: "/Sources/images/fashionimg/2.JPG",
-  },
-  {
-    src: "./Sources/images/fashionimg/3.JPG",
-  },
-  {
-    src: "./Sources/images/fashionimg/4.JPG",
-  },
-  {
-    src: "./Sources/images/fashionimg/5.JPG",
-  },
-  {
-    src: "./Sources/images/fashionimg/6.JPG",
-  },
-  {
-    src: "./Sources/images/fashionimg/7.JPG",
-  },
-  {
-    src: "./Sources/images/fashionimg/8.JPG",
-  },
-  {
-    src: "./Sources/images/fashionimg/9.JPG",
-  },
+//   {
+//     src: "/Sources/images/fashionimg/2.JPG",
+//   },
+//   {
+//     src: "./Sources/images/fashionimg/3.JPG",
+//   },
+//   {
+//     src: "./Sources/images/fashionimg/4.JPG",
+//   },
+//   {
+//     src: "./Sources/images/fashionimg/5.JPG",
+//   },
+//   {
+//     src: "./Sources/images/fashionimg/6.JPG",
+//   },
+//   {
+//     src: "./Sources/images/fashionimg/7.JPG",
+//   },
+//   {
+//     src: "./Sources/images/fashionimg/8.JPG",
+//   },
+//   {
+//     src: "./Sources/images/fashionimg/9.JPG",
+//   },
 
-  {
-    src: "./Sources/images/fashionimg/11.JPG",
-  },
-  {
-    src: "./Sources/images/fashionimg/12.JPG",
-  },
-  {
-    src: "./Sources/images/fashionimg/13.JPG",
-  },
-  {
-    src: "./Sources/images/fashionimg/14.JPG",
-  },
-  {
-    src: "./Sources/images/fashionimg/15.JPG",
-  },
-  {
-    src: "./Sources/images/fashionimg/16.JPG",
-  },
-  {
-    src: "./Sources/images/fashionimg/17.JPG",
-  },
-  {
-    src: "./Sources/images/fashionimg/18.JPG",
-  },
-  {
-    src: "./Sources/images/fashionimg/19.JPG",
-  },
-  {
-    src: "./Sources/images/fashionimg/20.JPG",
-  },
-  {
-    src: "./Sources/images/fashionimg/21.JPG",
-  },
-  {
-    src: "./Sources/images/fashionimg/22.JPG",
-  },
-  {
-    src: "./Sources/images/fashionimg/23.JPG",
-  },
-  {
-    src: "./Sources/images/fashionimg/24.JPG",
-  },
+//   {
+//     src: "./Sources/images/fashionimg/11.JPG",
+//   },
+//   {
+//     src: "./Sources/images/fashionimg/12.JPG",
+//   },
+//   {
+//     src: "./Sources/images/fashionimg/13.JPG",
+//   },
+//   {
+//     src: "./Sources/images/fashionimg/14.JPG",
+//   },
+//   {
+//     src: "./Sources/images/fashionimg/15.JPG",
+//   },
+//   {
+//     src: "./Sources/images/fashionimg/16.JPG",
+//   },
+//   {
+//     src: "./Sources/images/fashionimg/17.JPG",
+//   },
+//   {
+//     src: "./Sources/images/fashionimg/18.JPG",
+//   },
+//   {
+//     src: "./Sources/images/fashionimg/19.JPG",
+//   },
+//   {
+//     src: "./Sources/images/fashionimg/20.JPG",
+//   },
+//   {
+//     src: "./Sources/images/fashionimg/21.JPG",
+//   },
+//   {
+//     src: "./Sources/images/fashionimg/22.JPG",
+//   },
+//   {
+//     src: "./Sources/images/fashionimg/23.JPG",
+//   },
+//   {
+//     src: "./Sources/images/fashionimg/24.JPG",
+//   },
  
-  {
-    src: "./Sources/images/fashionimg/1.JPG",
-  },
-  {
-    src: "./Sources/images/fashionimg/10.JPG",
-  },
-  {
-    src: "../Sources/images/fashionimg/25.JPG",
-  },
+//   {
+//     src: "./Sources/images/fashionimg/1.JPG",
+//   },
+//   {
+//     src: "./Sources/images/fashionimg/10.JPG",
+//   },
+//   {
+//     src: "../Sources/images/fashionimg/25.JPG",
+//   },
   
-];
+// ];
 
 const Fashion = () => {
   return (
@@ -107,7 +108,7 @@ const Fashion = () => {
               awards.
             </p>
           </div>
-          <div className="images">
+          {/* <div className="images">
             <Row>
               {fashionimages.map((item, key) => {
                 return (
@@ -119,6 +120,124 @@ const Fashion = () => {
                 );
               })}
             </Row>
+          </div> */}
+        </div>
+        <div className="container">
+          <div className="sectional_heading">
+            <p className="is-size-3 heading_style has-text-centered mb-4">
+              Events
+            </p>
+          </div>
+        </div>
+        {/* <div className="container is-fluid timeline_wrapper"> */}
+        <div className="timeline_wrapper">
+          <div className="timeline-block timeline-block-left">
+            <div className="marker"></div>
+            <div>
+              <div className="space-align-container">
+                <div className="space-align-block">
+                  <Space
+                    align="center"
+                    direction="horizontal"
+                    className="mile_box"
+                  >
+                    <div>
+                      <p className="is-size-5">2006</p>
+                      <p className="is-size-4 is-uppercase has-text-weight-semibold green_color">
+                         autumn Winter Collection
+                      </p>
+                      <p className="is-size-6">(-)</p>
+                      <div className="mt-3">
+                        <img
+                          src="Sources/images/event/1.png"
+                          alt="404 - Not Given"
+                        />
+                      </div>
+                      {/* <div>
+                        <p className="is-size-5 blue_color has-text-weight-semibold">
+                          9,00,000 sqft
+                        </p>
+                        <p className="is-size-6 has-text-black">
+                          Largest Built-up Residential project
+                        </p>
+                      </div> */}
+                    </div>
+                  </Space>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="timeline-block timeline-block-right">
+            <div className="marker"></div>
+            <div>
+              <div className="space-align-container">
+                <div className="space-align-block">
+                  <Space
+                    align="center"
+                    direction="horizontal"
+                    className="mile_box"
+                  >
+                    <div>
+                      <p className="is-size-5">2022</p>
+                      <p className="is-size-4 is-uppercase has-text-weight-semibold green_color">
+                        VIE FASHION WEEK
+                      </p>
+                      <p className="is-size-6">(Dubai)</p>
+                      <div className="mt-3">
+                        <img
+                          src="Sources/images/event/1.png"
+                          alt="404 - Not Given"
+                        />
+                      </div>
+                      {/* <div>
+                        <p className="is-size-5 blue_color has-text-weight-semibold">
+                          9,00,000 sqft
+                        </p>
+                        <p className="is-size-6 has-text-black">
+                          Largest Built-up Residential project
+                        </p>
+                      </div> */}
+                    </div>
+                  </Space>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="timeline-block timeline-block-left">
+            <div className="marker"></div>
+            <div>
+              <div className="space-align-container">
+                <div className="space-align-block">
+                  <Space
+                    align="center"
+                    direction="horizontal"
+                    className="mile_box"
+                  >
+                    <div>
+                      <p className="is-size-5">2016-2019</p>
+                      <p className="is-size-4 is-uppercase has-text-weight-semibold green_color">
+                        DILDA WHITE AND THE WATER MOUNTAIN
+                      </p>
+                      <p className="is-size-6">(Uttarakhand)</p>
+                      <div className="mt-3">
+                        <img
+                          src="Sources/images/event/1.png"
+                          alt="404 - Not Given"
+                        />
+                      </div>
+                      {/* <div>
+                        <p className="is-size-5 blue_color has-text-weight-semibold">
+                          9,00,000 sqft
+                        </p>
+                        <p className="is-size-6 has-text-black">
+                          Largest Built-up Residential project
+                        </p>
+                      </div> */}
+                    </div>
+                  </Space>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>

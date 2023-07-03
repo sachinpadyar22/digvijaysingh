@@ -6,6 +6,7 @@ import { BsInstagram } from "react-icons/bs";
 import { Link } from "react-router-dom";
 import { url } from "../../constants/navhome";
 import { BackTop } from "antd";
+import "./header.css";
 
 
 
@@ -30,10 +31,10 @@ const headeritemleft = [
     headname: "New Arrivals",
     headlink: url.arrivals,
   },
-  // {
-  //   headname: "Events",
-  //   headlink: url.events,
-  // },
+  {
+    headname: "Events",
+    headlink: url.events,
+  },
 ];
 const headeritemright = [
   // {
@@ -62,7 +63,7 @@ const headeritemright = [
 
 
 const Header = () => {
- 
+
   // Sticky Menu Area
   useEffect(() => {
     window.addEventListener("scroll", isSticky);
@@ -96,7 +97,7 @@ const Header = () => {
         role="navigation"
         aria-label="main navigation"
       >
-        <div className="container  navigation ">
+      <div className="container  navigation ">
           <div className="d-flex ">
             <div className="navbar-brand">
               <a className="navbar-item logo" href="\">
@@ -209,7 +210,7 @@ const Header = () => {
                 })}
               </div>
             </div>
-            {/* {width > 1023 && (
+            {width > 1023 && (
               <div className="navbar-end">
                 <div className="navbar-item">
                   <div
@@ -237,7 +238,7 @@ const Header = () => {
                   </div>
                 </div>
               </div>
-            )} */}
+            )}
             {width < 1024 && <div className="navbar-end"></div>}
             {/* {width > 1023 && (
               <div className="navbar-end">
@@ -270,7 +271,7 @@ const Header = () => {
               </div>
             )} */}
           </div>
-          {width > 1023 && (
+          {/* {width > 1023 && (
               <div className="navbar-end">
                 <div>
                   <div
@@ -299,7 +300,7 @@ const Header = () => {
                   </div>
                 </div>
               </div>
-            )}
+            )} */}
         </div>
           <div className="main_nav">
             
@@ -329,7 +330,7 @@ const Header = () => {
                 })}
               </div>
       </nav>
-      {/* <nav className="navbar" role="navigation" aria-label="main navigation">
+    {/* <nav className="navbar" role="navigation" aria-label="main navigation">
         <div className="container navigation">
           <div className="navbar-brand">
             <a className="navbar-item logo" href="\"></a>
@@ -431,7 +432,8 @@ const Header = () => {
             {width < 1024 && <div className="navbar-end"></div>}
           </div>
         </div>
-      </nav> */}
+      
+      </nav>  */}
     </>
   );
 };
