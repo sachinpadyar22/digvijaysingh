@@ -82,7 +82,7 @@ const Home = () => {
           {/* Hello world */}
           <div
             id="carouselExampleInterval"
-            className="carousel slide carousel-fade"
+            className="carousel slide "
             data-bs-ride="carousel"
           >
             <div className="carousel-inner">
@@ -230,7 +230,7 @@ const Home = () => {
                   <img
                     src="Sources/images/movie2.png"
                     alt="404 - Not Given"
-                    style={{ width: "100%"}}
+                    style={{ width: "100%" }}
                   />
                 </div>
               </Col>
@@ -238,15 +238,15 @@ const Home = () => {
                 <div
                   className="collection_img1"
                   style={{ width: "100%", height: "100%" }}
-                > 
+                >
                   <img
                     src="Sources/images/movie1.png"
                     alt="404 - Not Given"
-                    style={{ marginLeft:"auto", marginRight:"auto", paddingTop: "70px", display: "block" }}
+                    style={{ marginLeft: "auto", marginRight: "auto", paddingTop: "70px", display: "block" }}
                   />
                 </div>
               </Col>
-              
+
             </Row>
             {/* <div className="collection">
               <div className="collection_content">
@@ -359,7 +359,7 @@ const Home = () => {
                   />
                   <div>
                     <p className="shop_women">WOMEN</p>
-                    <div className="view_button">
+                    {/* <div className="view_button">
                       <Button
                         type="primary"
                         className="view_collection has-text-weight-semibold"
@@ -367,7 +367,7 @@ const Home = () => {
                       >
                         <Link to={url.collectionwomen}> View Collection</Link>
                       </Button>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
@@ -383,7 +383,7 @@ const Home = () => {
                   />
                   <div>
                     <p className="shop_women">MEN</p>
-                    <div className="view_button">
+                    {/* <div className="view_button">
                       <Button
                         type="primary"
                         size="large"
@@ -391,7 +391,7 @@ const Home = () => {
                       >
                         <Link to={url.collectionmen}>View Collection</Link>
                       </Button>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
@@ -404,17 +404,34 @@ const Home = () => {
         <div className="section_padding"></div>
         <div className="container">
           <div className="sectional_heading">
-          <p className="is-size-3 has-text-centered mb-4 green_color">
-          A Walk Down the Ramp
-          </p>
+            <p className="is-size-3 has-text-centered mb-4 green_color">
+              A Walk Down the Ramp
+            </p>
           </div>
-          <div className="video_splash">
+        
             {/* <video controls> */}
-            <video loop muted autoPlay preload="auto">
+            {/* <video loop muted autoPlay preload="auto">
               <source src="Sources/images/video.mp4" type="video/mp4" />
-            </video>
+            </video> */}
+            <Row>
+              <Col xxl={8} lg={8} md={12} sm={24} xs={24} style={{padding:"10px"}}>
+                <video loop muted autoPlay preload="auto">
+                  <source src="Sources/images/video.mp4" type="video/mp4" />
+                </video>
+              </Col>
+              <Col xxl={8} lg={8} md={12} sm={24} xs={24} style={{padding:"10px"}}>
+                <video loop muted autoPlay preload="auto">
+                  <source src="Sources/images/video.mp4" type="video/mp4" />
+                </video>
+              </Col>
+              <Col xxl={8} lg={8} md={12} sm={24} xs={24} style={{padding:"10px"}}>
+                <video loop muted autoPlay preload="auto">
+                  <source src="Sources/images/video.mp4" type="video/mp4" />
+                </video>
+              </Col>
+            </Row>
           </div>
-        </div>
+       
         <div className="section_padding"></div>
       </section>
 

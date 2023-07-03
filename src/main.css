@@ -351,7 +351,7 @@ a.navbar-item.is-active,
 .timeline_wrapper {
   width: 100%;
   padding: 50px 0;
-  margin: 50px auto;
+  margin: 0px auto;
   position: relative;
   overflow: hidden;
 }
@@ -1254,4 +1254,8 @@ hr {
 section {
   display: block;
   background-color: beige;
+}
+
+.about_para p{
+  font-size: 19px;
 }

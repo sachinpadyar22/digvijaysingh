@@ -4,15 +4,16 @@ import React from "react";
 const Aboutus = () => {
   return (
     <>
+
       <section>
-        <div className="container">
+        <div className="container ">
           <div>
             <div className="sectional_heading">
               <p className="is-size-3 heading_style has-text-centered mb-4">
                 About the Brand
               </p>
             </div>
-            <div className="has-text-left">
+            <div className="has-text-left about_para">
               <p>
                 Digvijay Singh is a celebrated fashion house in Gujarat. We
                 believe in holding the ground of tradition when it comes to
@@ -67,13 +68,13 @@ const Aboutus = () => {
         <div className="container">
           <Row>
             <Col xxl={16} lg={12} md={24} sm={24} xs={24} className="my-auto">
-              <div>
-                <div className="sectional_heading">
+              <div >
+                <div className="sectional_heading ">
                   <p className="is-size-3 heading_style has-text-centered mb-4">
                     About the Designer
                   </p>
                 </div>
-                <p className="has-text-left" style={{ padding: "0 15px" }}>
+                <p className="has-text-left" style={{ padding: "0 15px" , fontSize:"19px" }}>
                   The label Digvijay Singh was founded by Digvijay Singh in 2007
                   while he was in the second year of his fashion studies. A few
                   attempts at studying physiothisapy made his realize that his
@@ -101,7 +102,7 @@ const Aboutus = () => {
                 <img
                   src="Sources/images/digvijaysingh.png"
                   alt="404 - Not Given"
-                  style={{ width: "100%" }}
+                  style={{ width: "60%", paddingTop:"20px" }}
                 />
               </div>
             </Col>
@@ -109,6 +110,7 @@ const Aboutus = () => {
         </div>
         <div className="section_padding"></div>
       </section>
+     
     </>
   );
 };
