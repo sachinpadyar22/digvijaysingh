@@ -92,12 +92,16 @@ const Header = () => {
   return (
     <>
       <BackTop />
+
+      
+
+
       <nav
         className="navbar navbarshadow"
         role="navigation"
         aria-label="main navigation"
       >
-      <div className="container  navigation ">
+        <div className="container  navigation ">
           <div className="d-flex ">
             <div className="navbar-brand">
               <a className="navbar-item logo" href="\">
@@ -143,9 +147,8 @@ const Header = () => {
           </div> */}
           <div
             id="navbarBasicExample"
-            className={`borderXwidth navbar-menu ${
-              isActive ? "is-active" : ""
-            }`}
+            className={`borderXwidth navbar-menu ${isActive ? "is-active" : ""
+              }`}
           >
             <div
               className="navbar-end navbar_line "
@@ -157,9 +160,9 @@ const Header = () => {
               }}
             >
               <div id="logo">
-                
+
                 <div className="container" style={{ textAlign: "center" }}>
-                  <img 
+                  <img
                     src="Sources/images/logo2.png"
                     alt="logo"
                     style={{ width: "6rem" }}
@@ -168,9 +171,8 @@ const Header = () => {
 
                 <a
                   role="button"
-                  className={`my-auto navbar-burger ${
-                    isActive ? "is-active" : ""
-                  }`}
+                  className={`my-auto navbar-burger ${isActive ? "is-active" : ""
+                    }`}
                   onClick={() => {
                     setIsActive(!isActive);
                   }}
@@ -302,35 +304,35 @@ const Header = () => {
               </div>
             )} */}
         </div>
-          <div className="main_nav">
-            
-                {headeritemleft.map((item, key) => {
-                  return (
-                    <div className="header_wrapper">
-                      <Link
-                        className="navbar-item header_item hoverheader_item"
-                        to={item.headlink}
-                      >
-                        {item.headname}
-                      </Link>
-                    </div>
-                  );
-                })}
-                {headeritemright.map((item, key) => {
-                  return (
-                    <div className="header_wrapper">
-                      <Link
-                        className="navbar-item header_item hoverheader_item"
-                        to={item.headlink}
-                      >
-                        {item.headname}
-                      </Link>
-                    </div>
-                  );
-                })}
+        <div className="main_nav">
+
+          {headeritemleft.map((item, key) => {
+            return (
+              <div className="header_wrapper">
+                <Link
+                  className="navbar-item header_item hoverheader_item"
+                  to={item.headlink}
+                >
+                  {item.headname}
+                </Link>
               </div>
+            );
+          })}
+          {headeritemright.map((item, key) => {
+            return (
+              <div className="header_wrapper">
+                <Link
+                  className="navbar-item header_item hoverheader_item"
+                  to={item.headlink}
+                >
+                  {item.headname}
+                </Link>
+              </div>
+            );
+          })}
+        </div>
       </nav>
-    {/* <nav className="navbar" role="navigation" aria-label="main navigation">
+      {/* <nav className="navbar" role="navigation" aria-label="main navigation">
         <div className="container navigation">
           <div className="navbar-brand">
             <a className="navbar-item logo" href="\"></a>

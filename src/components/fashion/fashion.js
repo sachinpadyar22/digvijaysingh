@@ -1,6 +1,6 @@
 import React from "react";
-import {Col,Row} from "antd";
 import { Space } from "antd";
+import { Link } from "react-router-dom";
 // const fashionimages = [
 
 //   {
@@ -70,7 +70,7 @@ import { Space } from "antd";
 //   {
 //     src: "./Sources/images/fashionimg/24.JPG",
 //   },
- 
+
 //   {
 //     src: "./Sources/images/fashionimg/1.JPG",
 //   },
@@ -80,7 +80,7 @@ import { Space } from "antd";
 //   {
 //     src: "../Sources/images/fashionimg/25.JPG",
 //   },
-  
+
 // ];
 
 const Fashion = () => {
@@ -143,13 +143,13 @@ const Fashion = () => {
                   >
                     <div>
                       <p className="is-size-5">2006</p>
-                      <p className="is-size-4 is-uppercase has-text-weight-semibold green_color">
-                         autumn Winter Collection
+                      <p className="is-size-4 is-uppercase has-text-weight-semibold ">
+                        <Link to="/lakmeone" className="green_color">autumn Winter Collection </Link>
                       </p>
                       <p className="is-size-6">(-)</p>
                       <div className="mt-3">
-                        <img
-                          src="Sources/images/event/1.png"
+                        <img style={{ width: "150px" }}
+                          src="Sources/images/event/1-1.JPG"
                           alt="404 - Not Given"
                         />
                       </div>
@@ -178,14 +178,14 @@ const Fashion = () => {
                     className="mile_box"
                   >
                     <div>
-                      <p className="is-size-5">2022</p>
-                      <p className="is-size-4 is-uppercase has-text-weight-semibold green_color">
-                        VIE FASHION WEEK
+                      <p className="is-size-5">2007</p>
+                      <p className="is-size-4 is-uppercase has-text-weight-semibold ">
+                      <Link to="/lakmetwo" className="green_color">autumn Winter Collection </Link>
                       </p>
-                      <p className="is-size-6">(Dubai)</p>
+                      <p className="is-size-6">(-)</p>
                       <div className="mt-3">
-                        <img
-                          src="Sources/images/event/1.png"
+                        <img style={{ width: "150px" }}
+                          src="Sources/images/event/1-2.JPG"
                           alt="404 - Not Given"
                         />
                       </div>
@@ -214,14 +214,14 @@ const Fashion = () => {
                     className="mile_box"
                   >
                     <div>
-                      <p className="is-size-5">2016-2019</p>
-                      <p className="is-size-4 is-uppercase has-text-weight-semibold green_color">
-                        DILDA WHITE AND THE WATER MOUNTAIN
+                      <p className="is-size-5">2014</p>
+                      <p className="is-size-4 is-uppercase has-text-weight-semibold ">
+                      <Link to="/lakmethree" className="green_color">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Collection &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Link>
                       </p>
-                      <p className="is-size-6">(Uttarakhand)</p>
+                      <p className="is-size-6">(-)</p>
                       <div className="mt-3">
-                        <img
-                          src="Sources/images/event/1.png"
+                        <img style={{ width: "150px" }}
+                          src="Sources/images/event/1-3.JPG"
                           alt="404 - Not Given"
                         />
                       </div>
@@ -239,6 +239,79 @@ const Fashion = () => {
               </div>
             </div>
           </div>
+          <div className="timeline-block timeline-block-right">
+            <div className="marker"></div>
+            <div>
+              <div className="space-align-container">
+                <div className="space-align-block">
+                  <Space
+                    align="center"
+                    direction="horizontal"
+                    className="mile_box"
+                  >
+                    <div>
+                      <p className="is-size-5">--</p>
+                      <p className="is-size-4 is-uppercase has-text-weight-semibold ">
+                      <Link to="/" className="green_color">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;---------------&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Link>
+                      </p>
+                      <p className="is-size-6">(Goa)</p>
+                      <div className="mt-3">
+                        <img style={{ width: "150px" }}
+                          src="Sources/images/event/1-5.JPG"
+                          alt="404 - Not Given"
+                        />
+                      </div>
+                      {/* <div>
+                        <p className="is-size-5 blue_color has-text-weight-semibold">
+                          9,00,000 sqft
+                        </p>
+                        <p className="is-size-6 has-text-black">
+                          Largest Built-up Residential project
+                        </p>
+                      </div> */}
+                    </div>
+                  </Space>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="timeline-block timeline-block-left">
+            <div className="marker"></div>
+            <div>
+              <div className="space-align-container">
+                <div className="space-align-block">
+                  <Space
+                    align="center"
+                    direction="horizontal"
+                    className="mile_box"
+                  >
+                    <div>
+                      <p className="is-size-5">--</p>
+                      <p className="is-size-4 is-uppercase has-text-weight-semibold ">
+                      <Link to="/" className="green_color">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;---------------&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Link>
+                      </p>
+                      <p className="is-size-6">(Kochi)</p>
+                      <div className="mt-3">
+                        <img style={{ width: "150px" }}
+                          src="Sources/images/event/1-4.JPG"
+                          alt="404 - Not Given"
+                        />
+                      </div>
+                      {/* <div>
+                        <p className="is-size-5 blue_color has-text-weight-semibold">
+                          9,00,000 sqft
+                        </p>
+                        <p className="is-size-6 has-text-black">
+                          Largest Built-up Residential project
+                        </p>
+                      </div> */}
+                    </div>
+                  </Space>
+                </div>
+              </div>
+            </div>
+          </div>
+          
         </div>
       </section>
     </>

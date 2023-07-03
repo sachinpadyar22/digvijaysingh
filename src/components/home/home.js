@@ -297,7 +297,7 @@ const Home = () => {
         <div className="section_padding"></div>
       </section>
 
-      <section className="volunteer_card">
+      {/* <section className="volunteer_card">
         <div className="section_padding"></div>
         <div className="container">
           <div className="sectional_heading">
@@ -340,7 +340,7 @@ const Home = () => {
           </div>
         </div>
         <div className="section_padding"></div>
-      </section>
+      </section> */}
 
       <section className="our_collection">
         <div className="container-fluid">
@@ -510,11 +510,11 @@ const Home = () => {
             <p className="is-size-3 heading_style has-text-centered mb-1">
               Our Collections
             </p>
-            <p className="is-size-6 mb-5 has-text-centered">
+            {/* <p className="is-size-6 mb-5 has-text-centered">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry simply dummy text of the printing and typesetting
               industry.
-            </p>
+            </p> */}
           </div>
           <div>
             <Row>

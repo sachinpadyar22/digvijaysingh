@@ -17,6 +17,9 @@ import Shop from "./components/shop/shop";
 import Collectionwomen from "./components/collection/collectionwomen";
 import Aboutus from "./components/aboutus/aboutus";
 import Collectionmen from "./components/collection/collectionmen";
+import Lakmeone from "./components/fashion/lakmeone";
+import Lakmetwo from "./components/fashion/lakmetwo";
+import Lakmethree from "./components/fashion/lakmethree";
 
 
 const Main = () => {
@@ -39,6 +42,9 @@ const Main = () => {
         <Route path={url.colletion} element={<Colletion />} />
         <Route path={url.shop} element={<Shop />} />
         <Route path={url.fashion} element={<Fashion />} />
+        <Route path={url.lakmeone} element={<Lakmeone />} />
+        <Route path={url.lakmetwo} element={<Lakmetwo />} />
+        <Route path={url.lakmethree} element={<Lakmethree />} />
         <Route path={url.events} element={<Events />} />
         <Route path={url.collectionwomen} element={<Collectionwomen />} />
         <Route path={url.collectionmen} element={<Collectionmen />} />

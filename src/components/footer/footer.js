@@ -55,7 +55,7 @@ const Footer = () => {
   }
   return (
     <>
-      <section className="instagram_img" style={{ margin: "0" }}>
+      {/* <section className="instagram_img" style={{ margin: "0" }}>
         <div className="section_padding"></div>
         {width > 1023 && (
           <div className="container is-fluid">
@@ -105,7 +105,7 @@ const Footer = () => {
             </ImageList>
           </div>
         )}
-      </section>
+      </section> */}
       <AntFooter
         className="main_footer mobile_margin"
         // style={{ padding: "4rem 0" }}
@@ -138,9 +138,9 @@ const Footer = () => {
               <div className="forth_col">
                 {/* <h3 className="has-text-grey-lighter pb-4 mt-3">Address:</h3> */}
                 <p className="footer_link">
-                  Shayo Clothing,
-                  <br /> General Business Traders,
-                  <br /> Office 786, Floor 1,
+                  109, Shivalik Shilp II,
+                  <br /> Opposite ITC Narmada,
+                  <br /> Keshavbaug,
                   <br /> Ahmedabad, India.
                 </p>
                 <div>
