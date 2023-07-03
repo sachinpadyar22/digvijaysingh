@@ -3,7 +3,7 @@ import {Col,Row} from "antd";
 const fashionimages = [
 
   {
-    src: " /Sources/images/fashionimg/2.jpg",
+    src: "../Sources/images/fashionimg/2.jpg",
   },
   {
     src: "./Sources/images/fashionimg/3.jpg",
