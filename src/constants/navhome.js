@@ -6,6 +6,7 @@ export const url = {
   lakmeone:"/Lakmeone",
   lakmetwo:"/Lakmetwo",
   lakmethree:"/Lakmethree",
+  lakmefour:"/Lakmefour",
   SpecialOffers: "offers",
   Meetthedesigner: "meet",
   Blogs: "blog",

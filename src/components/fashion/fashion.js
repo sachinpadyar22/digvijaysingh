@@ -252,7 +252,7 @@ const Fashion = () => {
                     <div>
                       <p className="is-size-5">--</p>
                       <p className="is-size-4 is-uppercase has-text-weight-semibold ">
-                      <Link to="/" className="green_color">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;---------------&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Link>
+                      <Link to="/lakmefour" className="green_color">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;---------------&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Link>
                       </p>
                       <p className="is-size-6">(Goa)</p>
                       <div className="mt-3">

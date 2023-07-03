@@ -344,7 +344,7 @@ const Home = () => {
 
       <section className="our_collection">
         <div className="container-fluid">
-          <p className="is-size-3 heading_style has-text-centered mb-4">
+          <p className="is-size-3 has-text-centered mb-4 green_color">
             Our Collection
           </p>
           <Row>
@@ -404,9 +404,9 @@ const Home = () => {
         <div className="section_padding"></div>
         <div className="container">
           <div className="sectional_heading">
-            <p className="is-size-3 heading_style has-text-centered mb-4">
-              A Walk Down the Ramp
-            </p>
+          <p className="is-size-3 has-text-centered mb-4 green_color">
+          A Walk Down the Ramp
+          </p>
           </div>
           <div className="video_splash">
             {/* <video controls> */}
@@ -507,7 +507,7 @@ const Home = () => {
       <section>
         <div className="container">
           <div className="sectional_heading">
-            <p className="is-size-3 heading_style has-text-centered mb-1">
+            <p className="is-size-3 pb-5 has-text-centered mb-1 green_color">
               Our Collections
             </p>
             {/* <p className="is-size-6 mb-5 has-text-centered">
@@ -518,7 +518,7 @@ const Home = () => {
           </div>
           <div>
             <Row>
-              <Col xxl={6} lg={6} md={12} sm={24} xs={24}>
+              <Col xxl={6} lg={6} md={12} sm={12} xs={12}>
                 <div className="men_wear_wrapper">
                   <Space direction="vertical">
                     <img
@@ -528,7 +528,7 @@ const Home = () => {
                   </Space>
                 </div>
               </Col>
-              <Col xxl={6} lg={6} md={12} sm={24} xs={24}>
+              <Col xxl={6} lg={6} md={12} sm={12} xs={12}>
                 <div className="men_wear_wrapper">
                   <Space direction="vertical">
                     <img
@@ -538,7 +538,7 @@ const Home = () => {
                   </Space>
                 </div>
               </Col>
-              <Col xxl={6} lg={6} md={12} sm={24} xs={24}>
+              <Col xxl={6} lg={6} md={12} sm={12} xs={12}>
                 <div className="men_wear_wrapper">
                   <Space direction="vertical">
                     <img
@@ -548,7 +548,7 @@ const Home = () => {
                   </Space>
                 </div>
               </Col>
-              <Col xxl={6} lg={6} md={12} sm={24} xs={24}>
+              <Col xxl={6} lg={6} md={12} sm={12} xs={12}>
                 <div className="men_wear_wrapper">
                   <Space direction="vertical">
                     <img
@@ -585,7 +585,7 @@ const Home = () => {
                 </div>
               </Col> */}
             </Row>
-            <div className="has-text-centered">
+            <div className="has-text-centered pb-5">
               <Button size="large" className="bgbrown_color knowmore_button">
                 <Link to={url.Gallery}>BROWSE OUR COLLECTION</Link>
               </Button>
