@@ -6,13 +6,13 @@ import { Carousel } from "react-responsive-carousel";
 import { Link } from "react-router-dom";
 import { url } from "../../constants/navhome";
 // import Header from "../header/header";
-import img1 from "../home/images/1.png";
-import img2 from "../home/images/2.jpg";
+import img1 from "../home/images/2.jpg";
+// import img2 from "../home/images/2.jpg";
 import img3 from "../home/images/3.png";
 
 const carousel = [
   {
-    src: "Sources/images/carousal/1.png",
+    src: "Sources/images/carousal/2.jpg",
   },
   {
     src: "Sources/images/carousal/2.jpg",
@@ -89,9 +89,9 @@ const Home = () => {
               <div className="carousel-item active" data-bs-interval={2000}>
                 <img src={img1} className="d-block w-100" alt="..." />
               </div>
-              <div className="carousel-item" data-bs-interval={2000}>
+              {/* <div className="carousel-item" data-bs-interval={2000}>
                 <img src={img2} className="d-block w-100" alt="..." />
-              </div>
+              </div> */}
               <div className="carousel-item" data-bs-interval={2000}>
                 <img src={img3} className="d-block w-100" alt="..." />
               </div>
