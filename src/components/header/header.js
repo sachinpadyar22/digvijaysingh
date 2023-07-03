@@ -30,10 +30,10 @@ const headeritemleft = [
     headname: "New Arrivals",
     headlink: url.arrivals,
   },
-  {
-    headname: "Events",
-    headlink: url.events,
-  },
+  // {
+  //   headname: "Events",
+  //   headlink: url.events,
+  // },
 ];
 const headeritemright = [
   // {
