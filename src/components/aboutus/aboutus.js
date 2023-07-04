@@ -9,7 +9,7 @@ const Aboutus = () => {
         <div className="container ">
           <div>
             <div className="sectional_heading">
-              <p className="is-size-3 heading_style has-text-centered mb-4">
+              <p className="is-size-3 pt-6 has-text-centered mb-4">
                 About the Brand
               </p>
             </div>

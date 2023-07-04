@@ -65,7 +65,7 @@ const headeritemright = [
 
 const Header = () => {
   const nav = document.getElementsByClassName(".nav-item");
-  
+
   // Sticky Menu Area
   useEffect(() => {
     window.addEventListener("scroll", isSticky);
@@ -82,7 +82,7 @@ const Header = () => {
     else header.classList.remove("fixed-nav");
   };
   /* end*/
-  
+
 
   const [isActive, setIsActive] = useState(false);
 
@@ -102,140 +102,140 @@ const Header = () => {
 
 
 
-      <nav className="navbar navbarshadow navbar-expand-md bg-body-tertiary d-flex flex-column">
-        
-          <div class="container  text-center">
-            <div class="row w-100 ">
-              <div class="col ">
-                <div className="search-and-icons m-auto">
-                  <form className="d-flex mb-2 me-2" role="search">
-                    <input placeholder="Search"
-                      className="form-control me-2"
-                      type="search"
-                      aria-label="Search"
+      <nav className="navbar navbarshadow navbar-expand-md d-flex flex-column">
+
+        <div class="container  text-center">
+          <div class="row w-100 ">
+            <div class="col ">
+              <div className="search-and-icons m-auto">
+                <form className="d-flex mb-2 me-2" role="search">
+                  <input placeholder="Search"
+                    className="form-control me-2"
+                    type="search"
+                    aria-label="Search"
+                  />
+                </form>
+
+              </div>
+            </div>
+            <div class="col m-auto">
+              <div className="d-flex">
+
+                <div className="m-auto">
+                  <a className="navbar-brand" href="#">
+                    <img
+                      src="Sources/images/logo2.png"
+                      alt="Logo"
                     />
-                  </form>
-
-                </div>
-              </div>
-              <div class="col m-auto">
-                <div className="d-flex">
-
-                  <div className="m-auto">
-                    <a className="navbar-brand" href="#">
-                      <img
-                        src="Sources/images/logo2.png"
-                        alt="Logo"
-                      />
-                    </a>
-                    <button
-                      className="navbar-toggler"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#navbarSupportedContent"
-                      aria-controls="navbarSupportedContent"
-                      aria-expanded="false"
-                      aria-label="Toggle navigation"
-                    >
-                      <span className="navbar-toggler-icon" />
-                    </button>
-                  </div>
-
-                </div>
-              </div>
-              <div class="col ">
-                <div className="text-dark m-auto ">
-                  <div className="user-icons d-flex text-center justify-content-center">
-                    <div className="profile me-3">
-                      <i className="bi bi-person" />
-                    </div>
-                    <div className="wishlist me-3">
-                      <i className="bi bi-heart" />
-                    </div>
-                    <div className="cart">
-                      <i className="bi bi-cart3" />
-                    </div>
-                  </div>
+                  </a>
+                  <button
+                    className="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                  >
+                    <span className="navbar-toggler-icon" />
+                  </button>
                 </div>
 
               </div>
             </div>
-          </div>
-
-
-          <div className="collapse navbar-collapse m-auto" id="navbarSupportedContent">
-            <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li className="nav-item">
-                <Link className="green_color" to="/" >About Us</Link>
-              </li>
-              <li className="nav-item">
-                <Link className="green_color" to="/" >Home</Link>
-              </li>
-              <li className="nav-item">
-                <Link className="green_color" to="/fashion" >Fashion Week</Link>
-              </li>
-              <li className="nav-item">
-                <li className="nav-item">
-                  <div class="dropdown">
-                    <button class="dropbtn"><Link className=" green_color" to="/" >New Arrivals <span className="bi bi-caret-down-fill fs-6"></span></Link></button>
-                    <div class="dropdown-content">
-                      <div className="d-flex">
-                        <Link className="nav-item green_color" to="/" >Mens Wear
-
-                          <ul className="mini_ul">
-                            <li>Bandhgala Jackets</li>
-                            <li>Waist Coats</li>
-                            <li>Sheervani's</li>
-                            <li>Kurtas</li>
-                            <li>Shirts</li>
-                            <li>Sheervani's</li>
-                          </ul>
-                        </Link>
-                        <Link className="nav-item green_color" to="/" >Womens Wear
-                          <ul className="mini_ul">
-                            <li>Pret Wear</li>
-                            <li>Signature Wear</li>
-
-                          </ul></Link>
-                      </div>
-
-
-                    </div>
+            <div class="col ">
+              <div className="text-dark m-auto ">
+                <div className="user-icons d-flex text-center justify-content-center">
+                  <div className="profile me-3">
+                    <i className="bi bi-person" />
                   </div>
+                  <div className="wishlist me-3">
+                    <i className="bi bi-heart" />
+                  </div>
+                  <div className="cart">
+                    <i className="bi bi-cart3" />
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
 
 
-                  <ul className="dropdown-menu">
-                    <li>
-                      <Link className="green_color" to="/" >Mens Wear</Link>
-                    </li>
-                    <li>
-                      <Link className="green_color" to="/" >Womens Wear</Link>
-                    </li>
-
-
-                  </ul>
-                </li>
-
-              </li>
+        <div className="collapse navbar-collapse m-auto" id="navbarSupportedContent">
+          <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li className="nav-item">
+              <Link className="green_color" to="/aboutus">About Us</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="green_color" to="/" >Home</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="green_color" to="/fashion" >Fashion Week</Link>
+            </li>
+            <li className="nav-item">
               <li className="nav-item">
-                <Link className="green_color" to="/" >Special Offers</Link>
-              </li>
-              <li className="nav-item">
-                <Link className="green_color" to="/" >Meet The Designer</Link>
-              </li>
-              <li className="nav-item">
-                <Link className="green_color" to="/" >Blog</Link>
+                <div class="dropdown" style={{backgroundColor:"beige"}}>
+                  <button class="dropbtn"><Link className=" green_color" to="/" >New Arrivals <span className="bi bi-caret-down-fill fs-6"></span></Link></button>
+                  <div class="dropdown-content " style={{backgroundColor:"beige"}}>
+                    <div className="d-flex">
+                      <Link className="nav-item green_color" to="/" >Mens Wear
+
+                        <ul className="mini_ul">
+                          <li>Bandhgala Jackets</li>
+                          <li>Waist Coats</li>
+                          <li>Sheervani's</li>
+                          <li>Kurtas</li>
+                          <li>Shirts</li>
+                          <li>Sheervani's</li>
+                        </ul>
+                      </Link>
+                      <Link className="nav-item green_color" to="/" >Womens Wear
+                        <ul className="mini_ul">
+                          <li>Pret Wear</li>
+                          <li>Signature Wear</li>
+
+                        </ul></Link>
+                    </div>
+
+
+                  </div>
+                </div>
+
+
+                <ul className="dropdown-menu">
+                  <li>
+                    <Link className="green_color" to="/" >Mens Wear</Link>
+                  </li>
+                  <li>
+                    <Link className="green_color" to="/" >Womens Wear</Link>
+                  </li>
+
+
+                </ul>
               </li>
 
-            </ul>
+            </li>
+            <li className="nav-item">
+              <Link className="green_color" to="/" >Special Offers</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="green_color" to="/" >Meet The Designer</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="green_color" to="/" >Blog</Link>
+            </li>
 
-            {/* <div className="contact-info d-md-flex">
+          </ul>
+
+          {/* <div className="contact-info d-md-flex">
         <p>+0987654321 | +1234567890 </p>
         <p>
           <a href="mailto:">contact@domainname.com</a>
         </p>
       </div> */}
-         
+
         </div>
       </nav>
 

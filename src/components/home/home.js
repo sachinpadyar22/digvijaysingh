@@ -426,7 +426,7 @@ const Home = () => {
               </Col>
               <Col xxl={8} lg={8} md={12} sm={24} xs={24} style={{padding:"10px"}}>
                 <video loop muted autoPlay preload="auto">
-                  <source src="Sources/images/video.mp4" type="video/mp4" />
+                  <source src="Sources/images/video3.mp4" type="video/mp4" />
                 </video>
               </Col>
             </Row>
