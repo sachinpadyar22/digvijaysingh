@@ -106,7 +106,7 @@ const Header = () => {
 
         <div class="container  text-center">
           <div class="row w-100 ">
-            <div class="col ">
+            <div class="col " id="col2">
               <div className="search-and-icons m-auto">
                 <form className="d-flex mb-2 me-2" role="search">
                   <input placeholder="Search"
@@ -119,11 +119,11 @@ const Header = () => {
               </div>
             </div>
             <div class="col m-auto">
-              <div className="d-flex">
+              <div className="mobile d-flex">
 
-                <div className="m-auto">
+                <div className="d-flex m-auto">
                   <a className="navbar-brand" href="#">
-                    <img
+                    <img className="img m-auto"
                       src="Sources/images/logo2.png"
                       alt="Logo"
                     />
@@ -135,7 +135,7 @@ const Header = () => {
                     data-bs-target="#navbarSupportedContent"
                     aria-controls="navbarSupportedContent"
                     aria-expanded="false"
-                    aria-label="Toggle navigation"
+                    
                   >
                     <span className="navbar-toggler-icon" />
                   </button>
@@ -143,17 +143,17 @@ const Header = () => {
 
               </div>
             </div>
-            <div class="col ">
-              <div className="text-dark m-auto ">
+            <div class="col" id="col2">
+              <div className="green_color m-auto ">
                 <div className="user-icons d-flex text-center justify-content-center">
                   <div className="profile me-3">
-                    <i className="bi bi-person" />
+                  <i class="bi bi-instagram"></i>
                   </div>
                   <div className="wishlist me-3">
-                    <i className="bi bi-heart" />
+                    <i className="bi bi-meta" />
                   </div>
                   <div className="cart">
-                    <i className="bi bi-cart3" />
+                    <i className="bi bi-youtube" />
                   </div>
                 </div>
               </div>
@@ -165,22 +165,22 @@ const Header = () => {
 
         <div className="collapse navbar-collapse m-auto" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li className="nav-item">
-              <Link className="green_color" to="/aboutus">About Us</Link>
+            <li>
+              <Link className="nav-link"  to="/aboutus">About Us</Link>
             </li>
-            <li className="nav-item">
-              <Link className="green_color" to="/" >Home</Link>
+            <li>
+              <Link className="nav-link"  to="/" >Home</Link>
             </li>
-            <li className="nav-item">
-              <Link className="green_color" to="/fashion" >Fashion Week</Link>
+            <li>
+              <Link  className="nav-link" to="/fashion" >Fashion Week</Link>
             </li>
-            <li className="nav-item">
-              <li className="nav-item">
+            <li >
+              <li >
                 <div class="dropdown" style={{backgroundColor:"beige"}}>
-                  <button class="dropbtn"><Link className=" green_color" to="/" >New Arrivals <span className="bi bi-caret-down-fill fs-6"></span></Link></button>
+                  <button class="dropbtn"><Link   className="nav-link" to="/" >New Arrivals <span className="bi bi-caret-down-fill fs-6"></span></Link></button>
                   <div class="dropdown-content " style={{backgroundColor:"beige"}}>
                     <div className="d-flex">
-                      <Link className="nav-item green_color" to="/" >Mens Wear
+                      <Link to="/" >Mens Wear
 
                         <ul className="mini_ul">
                           <li>Bandhgala Jackets</li>
@@ -191,7 +191,7 @@ const Header = () => {
                           <li>Sheervani's</li>
                         </ul>
                       </Link>
-                      <Link className="nav-item green_color" to="/" >Womens Wear
+                      <Link to="/" >Womens Wear
                         <ul className="mini_ul">
                           <li>Pret Wear</li>
                           <li>Signature Wear</li>
@@ -206,10 +206,10 @@ const Header = () => {
 
                 <ul className="dropdown-menu">
                   <li>
-                    <Link className="green_color" to="/" >Mens Wear</Link>
+                    <Link className="nav-link"  to="/" >Mens Wear</Link>
                   </li>
                   <li>
-                    <Link className="green_color" to="/" >Womens Wear</Link>
+                    <Link className="nav-link"  to="/" >Womens Wear</Link>
                   </li>
 
 
@@ -217,14 +217,14 @@ const Header = () => {
               </li>
 
             </li>
-            <li className="nav-item">
-              <Link className="green_color" to="/" >Special Offers</Link>
+            <li>
+              <Link className="nav-link"  to="/" >Special Offers</Link>
             </li>
-            <li className="nav-item">
-              <Link className="green_color" to="/" >Meet The Designer</Link>
+            <li >
+              <Link  className="nav-link" to="/" >Meet The Designer</Link>
             </li>
-            <li className="nav-item">
-              <Link className="green_color" to="/" >Blog</Link>
+            <li >
+              <Link  className="nav-link"to="/" >Blog</Link>
             </li>
 
           </ul>

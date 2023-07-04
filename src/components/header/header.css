@@ -1,10 +1,11 @@
 .navbar-nav .nav-item {
-  margin: 0px 20px;
+  margin: 0px 18px;
+  color: #4f876c;
 }
 
 .navbar {
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
-  
+
 }
 
 /* .navbar .navbar-brand img {
@@ -12,7 +13,14 @@
 } */
 
 .navbar .navbar-nav .nav-link {
-  color: #000;
+  color: #000000;
+  border-radius: 5px;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  color: #ffffff;
+  background-color: #4f876c;
+  border-radius: 5px;
 }
 
 @media screen and (min-width: 1024px) {
@@ -53,7 +61,7 @@
 .search-and-icons form input {
   border-radius: 0;
   height: 2em;
-  background:transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='grey' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'/%3E%3C/svg%3E") no-repeat 95%;
+  background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='grey' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'/%3E%3C/svg%3E") no-repeat 95%;
 }
 
 .search-and-icons form input:focus {
@@ -99,9 +107,10 @@
   width: 460px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
-  
+
 }
-.Cont{
+
+.Cont {
   background-color: beige;
 }
 
@@ -121,13 +130,49 @@
 .dropdown:hover .dropdown-content {
   display: block;
 }
-.mini_ul li{
-font-size: 15px;
-margin: 10px 0;padding-left: 5px;
-font-family: Arial, Helvetica, sans-serif;
+
+.mini_ul li {
+  font-size: 15px;
+  margin: 10px 0;
+  padding-left: 5px;
+  font-family: Arial, Helvetica, sans-serif;
 
 }
-.mini_ul li:hover{
+
+.mini_ul li:hover {
   color: #4f876c;
 }
 
+
+#col2 {
+  display: block;
+}
+
+.navbar-toggler {
+  border: none;
+  outline: none;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+
+@media (max-width:770px) {
+  #col2 {
+    display: none;
+  }
+
+  .img {
+    width: 80px;
+  }
+
+  .mobile .navbar-toggler {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+  }
+}
