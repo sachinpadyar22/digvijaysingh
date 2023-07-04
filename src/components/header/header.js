@@ -122,12 +122,11 @@ const Header = () => {
               <div className="mobile d-flex">
 
                 <div className="d-flex m-auto">
-                  <a className="navbar-brand" href="#">
-                    <img className="img m-auto"
-                      src="Sources/images/logo2.png"
-                      alt="Logo"
-                    />
-                  </a>
+                  <Link to="/" className="navbar-brand"> <img className="img m-auto"
+                    src="Sources/images/logo2.png"
+                    alt="Logo"
+                  /></Link>
+
                   <button
                     className="navbar-toggler"
                     type="button"
@@ -135,7 +134,7 @@ const Header = () => {
                     data-bs-target="#navbarSupportedContent"
                     aria-controls="navbarSupportedContent"
                     aria-expanded="false"
-                    
+
                   >
                     <span className="navbar-toggler-icon" />
                   </button>
@@ -144,16 +143,16 @@ const Header = () => {
               </div>
             </div>
             <div class="col" id="col2">
-              <div className="green_color m-auto ">
+              <div className="green_color m-auto">
                 <div className="user-icons d-flex text-center justify-content-center">
                   <div className="profile me-3">
-                  <i class="bi bi-instagram"></i>
+                    <a href=""><i class="bi bi-instagram"></i></a>
                   </div>
                   <div className="wishlist me-3">
-                    <i className="bi bi-meta" />
+                    <a href=""><i className="bi bi-meta" /></a>
                   </div>
                   <div className="cart">
-                    <i className="bi bi-youtube" />
+                    <a href=""><i className="bi bi-youtube" /></a>
                   </div>
                 </div>
               </div>
@@ -166,19 +165,19 @@ const Header = () => {
         <div className="collapse navbar-collapse m-auto" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             <li>
-              <Link className="nav-link"  to="/aboutus">About Us</Link>
+              <Link className="nav-link" to="/aboutus">About Us</Link>
             </li>
             <li>
-              <Link className="nav-link"  to="/" >Home</Link>
+              <Link className="nav-link" to="/" >Home</Link>
             </li>
             <li>
-              <Link  className="nav-link" to="/fashion" >Fashion Week</Link>
+              <Link className="nav-link" to="/fashion" >Fashion Week</Link>
             </li>
             <li >
               <li >
-                <div class="dropdown" style={{backgroundColor:"beige"}}>
-                  <button class="dropbtn"><Link   className="nav-link" to="/" >New Arrivals <span className="bi bi-caret-down-fill fs-6"></span></Link></button>
-                  <div class="dropdown-content " style={{backgroundColor:"beige"}}>
+                <div class="dropdown" style={{ backgroundColor: "beige" }}>
+                  <button class="dropbtn"><Link className="nav-link" to="/" >New Arrivals <span className="bi bi-caret-down-fill fs-6"></span></Link></button>
+                  <div class="dropdown-content " style={{ backgroundColor: "beige" }}>
                     <div className="d-flex">
                       <Link to="/" >Mens Wear
 
@@ -206,10 +205,10 @@ const Header = () => {
 
                 <ul className="dropdown-menu">
                   <li>
-                    <Link className="nav-link"  to="/" >Mens Wear</Link>
+                    <Link className="nav-link" to="/" >Mens Wear</Link>
                   </li>
                   <li>
-                    <Link className="nav-link"  to="/" >Womens Wear</Link>
+                    <Link className="nav-link" to="/" >Womens Wear</Link>
                   </li>
 
 
@@ -218,13 +217,13 @@ const Header = () => {
 
             </li>
             <li>
-              <Link className="nav-link"  to="/" >Special Offers</Link>
+              <Link className="nav-link" to="/" >Special Offers</Link>
             </li>
             <li >
-              <Link  className="nav-link" to="/" >Meet The Designer</Link>
+              <Link className="nav-link" to="/" >Meet The Designer</Link>
             </li>
             <li >
-              <Link  className="nav-link"to="/" >Blog</Link>
+              <Link className="nav-link" to="/" >Blog</Link>
             </li>
 
           </ul>

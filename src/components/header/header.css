@@ -147,7 +147,24 @@
 #col2 {
   display: block;
 }
-
+.form-control{
+  width: 200px;
+}
+.search-and-icons{
+  position: absolute;
+  left: -50px;
+  top: 0;
+}
+.user-icons{
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.user-icons i{
+  font-size: 25px;
+  cursor: pointer;
+  color: #4f876c;
+}
 .navbar-toggler {
   border: none;
   outline: none;
