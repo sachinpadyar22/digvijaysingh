@@ -193,3 +193,7 @@
     top: 10px;
   }
 }
+
+.dropbtn .nav-link{
+  margin-left: -7px;
+}
