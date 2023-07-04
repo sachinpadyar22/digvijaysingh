@@ -7,6 +7,9 @@
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
 
 }
+.navbar .navbar-brand img {
+  margin-left: 38px;
+}
 
 /* .navbar .navbar-brand img {
   max-width: 80px;
@@ -65,7 +68,7 @@
 }
 
 .search-and-icons form input:focus {
-  background: #fff;
+  background: beige;
   box-shadow: none;
 }
 
@@ -184,7 +187,7 @@
   }
 
   .img {
-    width: 80px;
+    width: 100px;
   }
 
   .mobile .navbar-toggler {
@@ -192,6 +195,7 @@
     right: 10px;
     top: 10px;
   }
+  
 }
 
 .dropbtn .nav-link{

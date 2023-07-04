@@ -10,6 +10,7 @@ export const url = {
   lakmefive:"/Lakmefive",
   SpecialOffers: "offers",
   Meetthedesigner: "meet",
+  Contact:"contact",
   Blogs: "blog",
   residential: "/Residential",
   awards: "/Awards",

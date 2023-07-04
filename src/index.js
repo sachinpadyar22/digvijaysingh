@@ -16,6 +16,7 @@ import Fashion from "./components/fashion/fashion";
 import Shop from "./components/shop/shop";
 import Collectionwomen from "./components/collection/collectionwomen";
 import Aboutus from "./components/aboutus/aboutus";
+import Contact from "./components/meetdesigner/contact";
 import Collectionmen from "./components/collection/collectionmen";
 import Lakmeone from "./components/fashion/lakmeone";
 import Lakmetwo from "./components/fashion/lakmetwo";
@@ -39,6 +40,7 @@ const Main = () => {
       <Routes>
         <Route path={url.home} element={<Home />} />
         <Route path={url.aboutus} element={<Aboutus />} />
+        <Route path={url.Contact} element={<Contact />} />
         <Route path={url.residential} element={<Residential />} />
         <Route path={url.awards} element={<Awards />} />
         <Route path={url.colletion} element={<Colletion />} />

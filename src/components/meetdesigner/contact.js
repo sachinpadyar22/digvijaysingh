@@ -4,7 +4,9 @@ const Contact = () => {
     return (
       <>
       <section id="contact">
-  <h1 className="section-header">Contact</h1>
+      <div class="nine">
+            <h1>Contact</h1>
+          </div>
   <div className="contact-wrapper">
     {/* Left contact page */}
     <form id="contact-form" className="form-horizontal" role="form">
@@ -85,22 +87,22 @@ const Contact = () => {
       <ul className="social-media-list">
         <li>
           <a href="#" target="_blank" className="contact-icon">
-            <i className="fa fa-github" aria-hidden="true" />
+            <i class="bi bi-github" aria-hidden="true" ></i>
           </a>
         </li>
         <li>
           <a href="#" target="_blank" className="contact-icon">
-            <i className="fa fa-codepen" aria-hidden="true" />
+          <i class="bi bi-youtube" aria-hidden="true" ></i>
           </a>
         </li>
         <li>
           <a href="#" target="_blank" className="contact-icon">
-            <i className="fa fa-twitter" aria-hidden="true" />
+          <i class="bi bi-twitter" aria-hidden="true" ></i>
           </a>
         </li>
         <li>
           <a href="#" target="_blank" className="contact-icon">
-            <i className="fa fa-instagram" aria-hidden="true" />
+          <i class="bi bi-instagram" aria-hidden="true" ></i>
           </a>
         </li>
       </ul>
@@ -112,4 +114,4 @@ const Contact = () => {
 
       </>
     )}
-    export default Contact
+    export default Contact;

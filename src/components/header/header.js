@@ -122,7 +122,7 @@ const Header = () => {
               <div className="mobile d-flex">
 
                 <div className="d-flex m-auto">
-                  <Link to="/" className="navbar-brand"> <img className="img m-auto"
+                  <Link to="/" className="navbar-brand"> <img className="img"
                     src="Sources/images/logo2.png"
                     alt="Logo"
                   /></Link>
@@ -220,7 +220,7 @@ const Header = () => {
               <Link className="nav-link" to="/" >Special Offers</Link>
             </li>
             <li >
-              <Link className="nav-link" to="/" >Meet The Designer</Link>
+              <Link className="nav-link" to="/contact" >Meet The Designer</Link>
             </li>
             <li >
               <Link className="nav-link" to="/" >Blog</Link>
