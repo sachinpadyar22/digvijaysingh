@@ -1210,7 +1210,7 @@ hr {
   color: #fbb72c;
 }
 
-.navbar-brand {
+/* .navbar-brand {
   display: none;
 }
 .SearchBar {
@@ -1250,7 +1250,7 @@ hr {
   .Humburger_Nav {
     display: block;
   }
-}
+} */
 section {
   display: block;
   background-color: beige;
@@ -1259,3 +1259,4 @@ section {
 .about_para p{
   font-size: 19px;
 }
+

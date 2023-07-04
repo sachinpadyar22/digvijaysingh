@@ -11,7 +11,6 @@ import { Hidden } from "@mui/material";
 
 
 
-
 const headeritemleft = [
   // {
   //   headname: "Collection",
@@ -65,7 +64,8 @@ const headeritemright = [
 
 
 const Header = () => {
- 
+  const nav = document.getElementsByClassName(".nav-item");
+  
   // Sticky Menu Area
   useEffect(() => {
     window.addEventListener("scroll", isSticky);
@@ -82,7 +82,8 @@ const Header = () => {
     else header.classList.remove("fixed-nav");
   };
   /* end*/
- 
+  
+
   const [isActive, setIsActive] = useState(false);
 
   const [width, setWidth] = useState(window.innerWidth);
@@ -96,349 +97,154 @@ const Header = () => {
     <>
       <BackTop />
 
-      
 
 
-      <nav
-        className="navbar navbarshadow"
-        role="navigation"
-        aria-label="main navigation"
-      >
-        <div className="container  navigation ">
-          <div className="d-flex ">
-            <div className="navbar-brand">
-              <a className="navbar-item logo" href="\">
-                <img src="Sources/images/logo2.png" alt="logo" />
-              </a>
-            </div>
-            <a
-              role="button"
-              className={`my-auto navbar-burger ${isActive ? "is-active" : ""}`}
-              onClick={() => {
-                setIsActive(!isActive);
-              }}
-              aria-label="menu"
-              aria-expanded="false"
-              data-target="navbarBasicExample"
-            >
-              <span aria-hidden="true"></span>
-              <span aria-hidden="true"></span>
-              <span aria-hidden="true"></span>
-            </a>
-            <div className="SearchBar">
-              <form class="d-flex" role="search">
-                <span className="bi bi-search text-dark mt-1"></span>
-                <input
-                  class="form-control me-2 shadow-none"
-                  type="search"
-                  placeholder="Search"
-                  aria-label="Search"
-                />
-              </form>
+
+
+
+      <nav className="navbar navbarshadow navbar-expand-md bg-body-tertiary d-flex flex-column">
+        
+          <div class="container  text-center">
+            <div class="row w-100 ">
+              <div class="col ">
+                <div className="search-and-icons m-auto">
+                  <form className="d-flex mb-2 me-2" role="search">
+                    <input placeholder="Search"
+                      className="form-control me-2"
+                      type="search"
+                      aria-label="Search"
+                    />
+                  </form>
+
+                </div>
+              </div>
+              <div class="col m-auto">
+                <div className="d-flex">
+
+                  <div className="m-auto">
+                    <a className="navbar-brand" href="#">
+                      <img
+                        src="Sources/images/logo2.png"
+                        alt="Logo"
+                      />
+                    </a>
+                    <button
+                      className="navbar-toggler"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#navbarSupportedContent"
+                      aria-controls="navbarSupportedContent"
+                      aria-expanded="false"
+                      aria-label="Toggle navigation"
+                    >
+                      <span className="navbar-toggler-icon" />
+                    </button>
+                  </div>
+
+                </div>
+              </div>
+              <div class="col ">
+                <div className="text-dark m-auto ">
+                  <div className="user-icons d-flex text-center justify-content-center">
+                    <div className="profile me-3">
+                      <i className="bi bi-person" />
+                    </div>
+                    <div className="wishlist me-3">
+                      <i className="bi bi-heart" />
+                    </div>
+                    <div className="cart">
+                      <i className="bi bi-cart3" />
+                    </div>
+                  </div>
+                </div>
+
+              </div>
             </div>
           </div>
 
-          {/* <div className="navbar-end">
-            <div
-              className="navbar-end navbar_line my-auto"
-              style={{
-                width: width >= 1024 && "100%",
-                display: width >= 1024 && "flex",
-                justifyContent: width >= 1024 && "center",
-              }}
-            ></div>
-          </div> */}
-          <div
-            id="navbarBasicExample"
-            className={`borderXwidth navbar-menu ${isActive ? "is-active" : ""
-              }`}
-          >
-            <div
-              className="navbar-end navbar_line "
-              style={{
-                width: width >= 1024 && "100%",
-                display: width >= 1024 && "flex",
-                justifyContent: width >= 1024 && "center",
-                flexDirection: width >= 1024 && "column",
-              }}
-            >
-              <div id="logo">
 
-                <div className="container" style={{ textAlign: "center" }}>
-                  <img
-                    src="Sources/images/logo2.png"
-                    alt="logo"
-                    style={{ width: "6rem" }}
-                  />
-                </div>
+          <div className="collapse navbar-collapse m-auto" id="navbarSupportedContent">
+            <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li className="nav-item">
+                <Link className="green_color" to="/" >About Us</Link>
+              </li>
+              <li className="nav-item">
+                <Link className="green_color" to="/" >Home</Link>
+              </li>
+              <li className="nav-item">
+                <Link className="green_color" to="/fashion" >Fashion Week</Link>
+              </li>
+              <li className="nav-item">
+                <li className="nav-item">
+                  <div class="dropdown">
+                    <button class="dropbtn"><Link className=" green_color" to="/" >New Arrivals <span className="bi bi-caret-down-fill fs-6"></span></Link></button>
+                    <div class="dropdown-content">
+                      <div className="d-flex">
+                        <Link className="nav-item green_color" to="/" >Mens Wear
 
-                <a
-                  role="button"
-                  className={`my-auto navbar-burger ${isActive ? "is-active" : ""
-                    }`}
-                  onClick={() => {
-                    setIsActive(!isActive);
-                  }}
-                  aria-label="menu"
-                  aria-expanded="false"
-                  data-target="navbarBasicExample"
-                >
-                  <span aria-hidden="true"></span>
-                  <span aria-hidden="true"></span>
-                  <span aria-hidden="true"></span>
-                </a>
-              </div>
-              <div className="Humburger_Nav">
-                {headeritemleft.map((item, key) => {
-                  return (
-                    <div className="header_wrapper">
-                      <Link 
-                        className="navbar-item header_item hoverheader_item"
-                        to={item.headlink}
-                      >
-                        {item.headname}
-                      </Link>
+                          <ul className="mini_ul">
+                            <li>Bandhgala Jackets</li>
+                            <li>Waist Coats</li>
+                            <li>Sheervani's</li>
+                            <li>Kurtas</li>
+                            <li>Shirts</li>
+                            <li>Sheervani's</li>
+                          </ul>
+                        </Link>
+                        <Link className="nav-item green_color" to="/" >Womens Wear
+                          <ul className="mini_ul">
+                            <li>Pret Wear</li>
+                            <li>Signature Wear</li>
+
+                          </ul></Link>
+                      </div>
+
+
                     </div>
-                  );
-                })}
-                {headeritemright.map((item, key) => {
-                  return (
-                    <div className="header_wrapper">
-                      <Link 
-                        className="navbar-item header_item hoverheader_item"
-                        to={item.headlink}
-                      >
-                        {item.headname}
-                      </Link>
-                    </div>
-                  );
-                })}
-              </div>
-            </div>
-            {width > 1023 && (
-              <div className="navbar-end">
-                <div className="navbar-item">
-                  <div
-                    style={{
-                      display: "flex",
-                      textAlign: "center",
-                      lineHeight: "0",
-                    }}
-                  >
-                    <a href="" className="pr-0 pl-0 green_color">
-                      <FaPinterestP className="is-size-4" />
-                    </a>
-                    <a href="" className="pl-4 green_color">
-                      <BsFacebook className="is-size-4" />
-                    </a>
-                    <a
-                      href="https://instagram.com/digvijaysingh_artwear?igshid=YmMyMTA2M2Y="
-                      className="pl-4 green_color"
-                    >
-                      <BsInstagram className="is-size-4" />
-                    </a>
-                    <a href="" className="pl-4 green_color">
-                      <BsWhatsapp className="is-size-4" />
-                    </a>
                   </div>
-                </div>
-              </div>
-            )}
-            {width < 1024 && <div className="navbar-end"></div>}
-            {/* {width > 1023 && (
-              <div className="navbar-end">
-                <div>
-                  <div
-                    style={{
-                      display: "flex",
-                      textAlign: "end",
-                      paddingTop: "20px",
-                      lineHeight: "0",
-                    }}
-                  >
-                    <a href="" className="pr-0 pl-0 green_color">
-                      <FaPinterestP className="is-size-4" />
-                    </a>
-                    <a href="" className="pl-4 green_color">
-                      <BsFacebook className="is-size-4" />
-                    </a>
-                    <a
-                      href="https://instagram.com/digvijaysingh_artwear?igshid=YmMyMTA2M2Y="
-                      className="pl-4 green_color"
-                    >
-                      <BsInstagram className="is-size-4" />
-                    </a>
-                    <a href="" className="pl-4 green_color">
-                      <BsWhatsapp className="is-size-4" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            )} */}
-          </div>
-          {/* {width > 1023 && (
-              <div className="navbar-end">
-                <div>
-                  <div
-                    style={{
-                      display: "flex",
-                      textAlign: "end",
-                      paddingTop: "20px",
-                      lineHeight: "0",
-                    }}
-                  >
-                    <a href="" className="pr-0 pl-0 green_color">
-                      <FaPinterestP className="is-size-4" />
-                    </a>
-                    <a href="" className="pl-4 green_color">
-                      <BsFacebook className="is-size-4" />
-                    </a>
-                    <a
-                      href="https://instagram.com/digvijaysingh_artwear?igshid=YmMyMTA2M2Y="
-                      className="pl-4 green_color"
-                    >
-                      <BsInstagram className="is-size-4" />
-                    </a>
-                    <a href="" className="pl-4 green_color">
-                      <BsWhatsapp className="is-size-4" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            )} */}
-        </div>
-        <div className="main_nav">
 
-          {headeritemleft.map((item, key) => {
-            return (
-              <div className="header_wrapper">
-                <Link
-                  className="navbar-item header_item hoverheader_item"
-                  to={item.headlink}
-                >
-                  {item.headname}
-                </Link>
-              </div>
-            );
-          })}
-          {headeritemright.map((item, key) => {
-            return (
-              <div className="header_wrapper">
-                <Link
-                  className="navbar-item header_item hoverheader_item"
-                  to={item.headlink}
-                >
-                  {item.headname}
-                </Link>
-              </div>
-            );
-          })}
+
+                  <ul className="dropdown-menu">
+                    <li>
+                      <Link className="green_color" to="/" >Mens Wear</Link>
+                    </li>
+                    <li>
+                      <Link className="green_color" to="/" >Womens Wear</Link>
+                    </li>
+
+
+                  </ul>
+                </li>
+
+              </li>
+              <li className="nav-item">
+                <Link className="green_color" to="/" >Special Offers</Link>
+              </li>
+              <li className="nav-item">
+                <Link className="green_color" to="/" >Meet The Designer</Link>
+              </li>
+              <li className="nav-item">
+                <Link className="green_color" to="/" >Blog</Link>
+              </li>
+
+            </ul>
+
+            {/* <div className="contact-info d-md-flex">
+        <p>+0987654321 | +1234567890 </p>
+        <p>
+          <a href="mailto:">contact@domainname.com</a>
+        </p>
+      </div> */}
+         
         </div>
       </nav>
-      {/* <nav className="navbar" role="navigation" aria-label="main navigation">
-        <div className="container navigation">
-          <div className="navbar-brand">
-            <a className="navbar-item logo" href="\"></a>
 
-            <a
-              role="button"
-              className={`my-auto navbar-burger ${isActive ? "is-active" : ""}`}
-              onClick={() => {
-                setIsActive(!isActive);
-              }}
-              aria-label="menu"
-              aria-expanded="false"
-              data-target="navbarBasicExample"
-            >
-              <span aria-hidden="true"></span>
-              <span aria-hidden="true"></span>
-              <span aria-hidden="true"></span>
-            </a>
-          </div>
 
-          <div className="navbar-end">
-            <div
-              className="navbar-end navbar_line my-auto"
-              style={{
-                width: width >= 1024 && "100%",
-                display: width >= 1024 && "flex",
-                justifyContent: width >= 1024 && "center",
-              }}
-            ></div>
-          </div>
-          <div
-            id="navbarBasicExample"
-            className={`borderXwidth navbar-menu ${
-              isActive ? "is-active" : ""
-            }`}
-          >
-            <div
-              className="navbar-end navbar_line my-auto"
-              style={{
-                width: width >= 1024 && "100%",
-                display: width >= 1024 && "flex",
-                justifyContent: width >= 1024 && "center",
-              }}
-            >
-              {headeritemleft.map((item, key) => {
-                return (
-                  <div className="header_wrapper">
-                    <Link
-                      className="navbar-item header_item hoverheader_item"
-                      to={item.headlink}
-                    >
-                      {item.headname}
-                    </Link>
-                  </div>
-                );
-              })}
-              {headeritemright.map((item, key) => {
-                return (
-                  <div className="header_wrapper">
-                    <Link
-                      className="navbar-item header_item hoverheader_item"
-                      to={item.headlink}
-                    >
-                      {item.headname}
-                    </Link>
-                  </div>
-                );
-              })}
-            </div>
-            {width > 1023 && (
-              <div className="navbar-end">
-                <div className="navbar-item">
-                  <div
-                    style={{
-                      display: "flex",
-                      textAlign: "center",
-                      lineHeight: "0",
-                    }}
-                  >
-                    <a href="" className="pr-0 pl-0 green_color">
-                      <FaPinterestP className="is-size-4" />
-                    </a>
-                    <a href="" className="pl-4 green_color">
-                      <BsFacebook className="is-size-4" />
-                    </a>
-                    <a
-                      href="https://instagram.com/digvijaysingh_artwear?igshid=YmMyMTA2M2Y="
-                      className="pl-4 green_color"
-                    >
-                      <BsInstagram className="is-size-4" />
-                    </a>
-                    <a href="" className="pl-4 green_color">
-                      <BsWhatsapp className="is-size-4" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            )}
-            {width < 1024 && <div className="navbar-end"></div>}
-          </div>
-        </div>
-      
-      </nav>  */}
+
+
+
+
+
     </>
   );
 };
