@@ -35,7 +35,7 @@ body::-webkit-scrollbar {
   padding-bottom: 0.75rem !important;
 }
 .navbar {
-  background-color: beige;
+  background-color: rgb(243, 243, 235);
   color: white;
  
 }
@@ -1253,7 +1253,7 @@ hr {
 } */
 section {
   display: block;
-  background-color: beige;
+  background-color: rgb(243, 243, 235);
 }
 
 .about_para p{

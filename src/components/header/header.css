@@ -70,7 +70,7 @@
 }
 
 .search-and-icons form input:focus {
-  background: beige;
+  background: rgb(243, 243, 235);
   box-shadow: none;
 }
 
@@ -93,7 +93,6 @@
 .dropbtn {
   background-color: transparent;
   color: white;
-
   border: none;
 }
 
@@ -105,7 +104,7 @@
 
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
-  background-color: beige;
+  background-color: rgb(243, 243, 235);
   display: none;
   margin: 30px 0;
   position: absolute;
@@ -114,10 +113,22 @@
   z-index: 1;
 
 }
-
-.Cont {
-  background-color: beige;
+.dropdown-menu{
+  background-color: rgb(243, 243, 235);
+  display: none;
+  margin: 30px 0;
+  position: absolute;
+  width: 350px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
 }
+.mobile_down{
+  margin: 0px 20px;
+}
+
+/* .Cont {
+  background-color: beige;
+} */
 
 
 /* Links inside the dropdown */
@@ -214,6 +225,7 @@
 
 
   }
+ 
  
 
   

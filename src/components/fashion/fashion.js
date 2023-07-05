@@ -144,9 +144,9 @@ const Fashion = () => {
                     <div>
                       <p className="is-size-5">2006</p>
                       <p className="is-size-4 is-uppercase has-text-weight-semibold ">
-                        <Link to="/lakmeone" className="green_color">autumn Winter Collection </Link>
+                        <Link to="/lakmeone" className="green_color">Lakme Fashion Week</Link>
                       </p>
-                      <p className="is-size-6">(-)</p>
+                      {/* <p className="is-size-6">(-)</p> */}
                       <div className="mt-3">
                         <img style={{ width: "150px" }}
                           src="Sources/images/event/1-1.JPG"
@@ -180,9 +180,9 @@ const Fashion = () => {
                     <div>
                       <p className="is-size-5">2007</p>
                       <p className="is-size-4 is-uppercase has-text-weight-semibold ">
-                      <Link to="/lakmetwo" className="green_color">autumn Winter Collection </Link>
+                      <Link to="/lakmetwo" className="green_color">Lakme Fashion Week</Link>
                       </p>
-                      <p className="is-size-6">(-)</p>
+                      {/* <p className="is-size-6">(-)</p> */}
                       <div className="mt-3">
                         <img style={{ width: "150px" }}
                           src="Sources/images/event/1-2.JPG"
@@ -216,9 +216,9 @@ const Fashion = () => {
                     <div>
                       <p className="is-size-5">2014</p>
                       <p className="is-size-4 is-uppercase has-text-weight-semibold ">
-                      <Link to="/lakmethree" className="green_color">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Collection &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Link>
+                      <Link to="/lakmethree" className="green_color">Lakme Fashion Week</Link>
                       </p>
-                      <p className="is-size-6">(-)</p>
+                      {/* <p className="is-size-6">(-)</p> */}
                       <div className="mt-3">
                         <img style={{ width: "150px" }}
                           src="Sources/images/event/1-3.JPG"
@@ -250,11 +250,11 @@ const Fashion = () => {
                     className="mile_box"
                   >
                     <div>
-                      <p className="is-size-5">--</p>
+                      {/* <p className="is-size-5">--</p> */}
                       <p className="is-size-4 is-uppercase has-text-weight-semibold ">
-                      <Link to="/lakmefour" className="green_color">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;---------------&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Link>
+                      <Link to="/lakmefour" className="green_color">Goa Fashion</Link>
                       </p>
-                      <p className="is-size-6">(Goa)</p>
+                      {/* <p className="is-size-6">(Goa)</p> */}
                       <div className="mt-3">
                         <img style={{ width: "150px" }}
                           src="Sources/images/event/1-5.JPG"
@@ -286,11 +286,47 @@ const Fashion = () => {
                     className="mile_box"
                   >
                     <div>
-                      <p className="is-size-5">--</p>
+                      {/* <p className="is-size-5">--</p> */}
                       <p className="is-size-4 is-uppercase has-text-weight-semibold ">
-                      <Link to="/lakmefive" className="green_color">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;---------------&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Link>
+                      <Link to="/lakmefive" className="green_color">Kochi Fashion</Link>
                       </p>
-                      <p className="is-size-6">(kochi)</p>
+                      {/* <p className="is-size-6">(kochi)</p> */}
+                      <div className="mt-3">
+                        <img style={{ width: "150px" }}
+                          src="Sources/images/event/1-6.JPG"
+                          alt="404 - Not Given"
+                        />
+                      </div>
+                      {/* <div>
+                        <p className="is-size-5 blue_color has-text-weight-semibold">
+                          9,00,000 sqft
+                        </p>
+                        <p className="is-size-6 has-text-black">
+                          Largest Built-up Residential project
+                        </p>
+                      </div> */}
+                    </div>
+                  </Space>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="timeline-block timeline-block-right">
+            <div className="marker"></div>
+            <div>
+              <div className="space-align-container">
+                <div className="space-align-block">
+                  <Space
+                    align="center"
+                    direction="horizontal"
+                    className="mile_box"
+                  >
+                    <div>
+                      {/* <p className="is-size-5">--</p> */}
+                      <p className="is-size-4 is-uppercase has-text-weight-semibold ">
+                      <Link to="/lakmesix" className="green_color">Banglore Fashion</Link>
+                      </p>
+                      {/* <p className="is-size-6">(kochi)</p> */}
                       <div className="mt-3">
                         <img style={{ width: "150px" }}
                           src="Sources/images/event/1-6.JPG"

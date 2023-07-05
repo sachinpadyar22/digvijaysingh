@@ -6,13 +6,67 @@ const fashionimages = [
         src: "/Sources/images/event/lakmetwo/1.JPG",
     },
     {
-        src: "/Sources/images/event/lakmetwo/2.JPG",
-    },
-    {
-        src: "/Sources/images/event/lakmetwo/3.JPG",
-    },
-    {
         src: "/Sources/images/event/lakmetwo/4.JPG",
+    },
+    {
+        src: "/Sources/images/event/lakmetwo/9.JPG",
+    },
+    {
+        src: "/Sources/images/event/lakmetwo/12.JPG",
+    },
+    {
+        src: "/Sources/images/event/lakmetwo/16.JPG",
+    },
+    {
+        src: "/Sources/images/event/lakmetwo/19.JPG",
+    },
+    {
+        src: "/Sources/images/event/lakmetwo/22.JPG",
+    },
+    {
+        src: "/Sources/images/event/lakmetwo/26.JPG",
+    },
+    {
+        src: "/Sources/images/event/lakmetwo/30.JPG",
+    },
+    {
+        src: "/Sources/images/event/lakmetwo/32.JPG",
+    },
+    {
+        src: "/Sources/images/event/lakmetwo/33.JPG",
+    },
+    {
+        src: "/Sources/images/event/lakmetwo/34.JPG",
+    },
+    {
+        src: "/Sources/images/event/lakmetwo/38.JPG",
+    },
+    {
+        src: "/Sources/images/event/lakmetwo/41.JPG",
+    },
+    {
+        src: "/Sources/images/event/lakmetwo/46.JPG",
+    },
+    {
+        src: "/Sources/images/event/lakmetwo/48.JPG",
+    },
+    {
+        src: "/Sources/images/event/lakmetwo/52.JPG",
+    },
+    {
+        src: "/Sources/images/event/lakmetwo/53.JPG",
+    },
+    {
+        src: "/Sources/images/event/lakmetwo/57.JPG",
+    },
+    {
+        src: "/Sources/images/event/lakmetwo/58.JPG",
+    },
+    {
+        src: "/Sources/images/event/lakmetwo/59.JPG",
+    },
+    {
+        src: "/Sources/images/event/lakmetwo/60.JPG",
     },
     
     

@@ -12,6 +12,7 @@
     "@testing-library/user-event": "^13.5.0",
     "antd": "^4.22.7",
     "bulma": "^0.9.4",
+    "jquery": "^3.7.0",
     "less-loader": "^11.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, Component } from "react";
 import { FaPinterestP } from "react-icons/fa";
 import { BsFacebook } from "react-icons/bs";
 import { BsWhatsapp } from "react-icons/bs";
@@ -8,6 +8,7 @@ import { url } from "../../constants/navhome";
 import { BackTop } from "antd";
 import "./header.css";
 import { Hidden } from "@mui/material";
+
 
 
 
@@ -61,13 +62,12 @@ const headeritemright = [
   // },
 ];
 
-
-
 const Header = () => {
-  const nav = document.getElementsByClassName(".nav-item");
+
 
   // Sticky Menu Area
   useEffect(() => {
+   
     window.addEventListener("scroll", isSticky);
     return () => {
       window.removeEventListener("scroll", isSticky);
@@ -162,23 +162,25 @@ const Header = () => {
         </div>
 
 
-        <div className="container">
-        <div className="collapse navbar-collapse me-auto" id="navbarSupportedContent">
-          <ul className="navbar-nav m-auto mb-lg-0">
-            <li>
-              <Link className="nav-link" to="/aboutus">About Us</Link>
-            </li>
-            <li>
-              <Link className="nav-link" to="/" >Home</Link>
-            </li>
-            <li>
-              <Link className="nav-link" to="/fashion" >Fashion Week</Link>
-            </li>
-            <li >
+        <div className="container-fluid">
+          <div className="collapse navbar-collapse me-auto" id="navbarSupportedContent">
+            <ul className="navbar-nav m-auto mb-lg-0">
+              <li>
+                <Link className="nav-link" to="/aboutus"  >About Us</Link>
+              </li>
+              <li>
+                <Link className="nav-link" to="/" >Home</Link>
+              </li>
+              <li>
+                <Link className="nav-link" to="/fashion" >Fashion Week</Link>
+              </li>
               <li >
-                <div class="dropdown" style={{ backgroundColor: "beige" }}>
-                  <button class="dropbtn"><Link className="nav-link" to="/" >New Arrivals <span className="bi bi-caret-down-fill fs-6"></span></Link></button>
-                  <div class="dropdown-content " style={{ backgroundColor: "beige" }}>
+
+
+                {/*-------------- pc dropdown -------------*/}
+                <div className="dropdown">
+                  <button className="dropbtn"><Link className="nav-link" to="/" >New Arrivals <span className="bi bi-caret-down-fill fs-6"></span></Link></button>
+                  <div className="dropdown-content">
                     <div className="d-flex">
                       <Link to="/" >Mens Wear
 
@@ -216,27 +218,27 @@ const Header = () => {
                 </ul>
               </li>
 
-            </li>
-            <li>
-              <Link className="nav-link" to="/" >Special Offers</Link>
-            </li>
-            <li >
-              <Link className="nav-link" to="/contact" >Meet&nbsp;The&nbsp;Designer</Link>
-            </li>
-            <li >
-              <Link className="nav-link" to="/" >Blog</Link>
-            </li>
 
-          </ul>
+              <li>
+                <Link className="nav-link" to="/" >Special Offers</Link>
+              </li>
+              <li >
+                <Link className="nav-link" to="/contact" >Meet&nbsp;The&nbsp;Designer</Link>
+              </li>
+              <li >
+                <Link className="nav-link" to="/" >Blog</Link>
+              </li>
 
-          {/* <div className="contact-info d-md-flex">
+            </ul>
+
+            {/* <div className="contact-info d-md-flex">
         <p>+0987654321 | +1234567890 </p>
         <p>
           <a href="mailto:">contact@domainname.com</a>
         </p>
       </div> */}
 
-        </div>
+          </div>
         </div>
       </nav>
 

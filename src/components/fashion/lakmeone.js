@@ -3,13 +3,10 @@ import { Row, Col } from "antd";
 const fashionimages = [
 
     {
-        src: "/Sources/images/fashionimg/2.JPG",
+        src: "/Sources/images/fashionimg/1.JPG",
     },
     {
         src: "./Sources/images/fashionimg/3.JPG",
-    },
-    {
-        src: "./Sources/images/fashionimg/4.JPG",
     },
     {
         src: "./Sources/images/fashionimg/5.JPG",
@@ -18,15 +15,8 @@ const fashionimages = [
         src: "./Sources/images/fashionimg/6.JPG",
     },
     {
-        src: "./Sources/images/fashionimg/7.JPG",
-    },
-    {
-        src: "./Sources/images/fashionimg/8.JPG",
-    },
-    {
         src: "./Sources/images/fashionimg/9.JPG",
     },
-
     {
         src: "./Sources/images/fashionimg/11.JPG",
     },
@@ -34,22 +24,11 @@ const fashionimages = [
         src: "./Sources/images/fashionimg/12.JPG",
     },
     {
-        src: "./Sources/images/fashionimg/13.JPG",
-    },
-    {
-        src: "./Sources/images/fashionimg/14.JPG",
-    },
-    {
         src: "./Sources/images/fashionimg/15.JPG",
     },
-    {
-        src: "./Sources/images/fashionimg/16.JPG",
-    },
+
     {
         src: "./Sources/images/fashionimg/17.JPG",
-    },
-    {
-        src: "./Sources/images/fashionimg/18.JPG",
     },
     {
         src: "./Sources/images/fashionimg/19.JPG",
@@ -61,24 +40,12 @@ const fashionimages = [
         src: "./Sources/images/fashionimg/21.JPG",
     },
     {
-        src: "./Sources/images/fashionimg/22.JPG",
-    },
-    {
-        src: "./Sources/images/fashionimg/23.JPG",
-    },
-    {
         src: "./Sources/images/fashionimg/24.JPG",
     },
-
     {
-        src: "./Sources/images/fashionimg/1.JPG",
+        src: "./Sources/images/fashionimg/25.JPG",
     },
-    {
-        src: "./Sources/images/fashionimg/10.JPG",
-    },
-    {
-        src: "../Sources/images/fashionimg/25.JPG",
-    },
+    
 
 ];
 const Lakmeone = () => {
