@@ -165,8 +165,8 @@ const Header = () => {
         <div className="container-fluid">
           <div className="collapse navbar-collapse me-auto" id="navbarSupportedContent">
             <ul className="navbar-nav m-auto mb-lg-0">
-              <li>
-                <Link className="nav-link" to="/aboutus"  >About Us</Link>
+              <li className="nav-link">
+                <Link  to="/aboutus"  >About Us</Link>
               </li>
               <li>
                 <Link className="nav-link" to="/" >Home</Link>
