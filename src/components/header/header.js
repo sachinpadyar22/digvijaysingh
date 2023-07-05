@@ -104,9 +104,9 @@ const Header = () => {
 
       <nav className="navbar navbarshadow navbar-expand-md d-flex flex-column">
 
-        <div class="container  text-center">
-          <div class="row w-100 ">
-            <div class="col " id="col2">
+        <div className="container  text-center">
+          <div className="row w-100 ">
+            <div className="col " id="col2">
               <div className="search-and-icons m-auto">
                 <form className="d-flex mb-2 me-2" role="search">
                   <input placeholder="Search"
@@ -118,7 +118,7 @@ const Header = () => {
 
               </div>
             </div>
-            <div class="col m-auto">
+            <div className="col m-auto">
               <div className="mobile d-flex">
 
                 <div className="d-flex m-auto">
@@ -142,11 +142,11 @@ const Header = () => {
 
               </div>
             </div>
-            <div class="col" id="col2">
+            <div className="col" id="col2">
               <div className="green_color m-auto">
                 <div className="user-icons d-flex text-center justify-content-center">
                   <div className="profile me-3">
-                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i className="bi bi-instagram"></i></a>
                   </div>
                   <div className="wishlist me-3">
                     <a href=""><i className="bi bi-meta" /></a>
@@ -165,8 +165,8 @@ const Header = () => {
         <div className="container-fluid">
           <div className="collapse navbar-collapse me-auto" id="navbarSupportedContent">
             <ul className="navbar-nav m-auto mb-lg-0">
-              <li className="nav-link">
-                <Link  to="/aboutus"  >About Us</Link>
+              <li>
+                <Link className="nav-link" to="/aboutus">About Us</Link>
               </li>
               <li>
                 <Link className="nav-link" to="/" >Home</Link>
@@ -176,11 +176,11 @@ const Header = () => {
               </li>
               {/* /----------mobile dropdown------------- */}
               <li>
-                <div class="dropdown-center" id="mobile_drop">
-                  <button class="btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <div className="dropdown-center" id="mobile_drop">
+                  <button className="btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                     <Link className="nav-link" to="/" >New Arrivals <span className="bi bi-caret-down-fill fs-6"></span></Link>
                   </button>
-                  <ul class="dropdown-menu" style={{ backgroundColor: "rgb(243, 243, 235)" }}>
+                  <ul className="dropdown-menu" style={{ backgroundColor: "rgb(243, 243, 235)" }}>
                     <div className="d-flex ms-4 p-3">
                       <Link to="/" className="text-black">Mens Wear
 
@@ -236,7 +236,7 @@ const Header = () => {
 
 
                 <ul className="dropdown-menu">
-                  <li>
+                  <li>nav-lin
                     <Link className="nav-link" to="/" >Mens Wear</Link>
                   </li>
                   <li>
