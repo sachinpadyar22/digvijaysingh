@@ -8,7 +8,7 @@ import { url } from "../../constants/navhome";
 import { BackTop } from "antd";
 import "./header.css";
 import { Hidden } from "@mui/material";
-import $ from 'jquery'
+
 
 
 
@@ -63,11 +63,7 @@ const headeritemright = [
 ];
 
 const Header = () => {
-  $(document).ready(function () {
-    $('.navbar-nav>li>.nav-link').on('click', function () {
-      $('.navbar-collapse').collapse('hide');
-    });
-  } );
+ 
 
   // Sticky Menu Area
   useEffect(() => {
@@ -184,7 +180,7 @@ const Header = () => {
                   <button class="btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                     <Link className="nav-link" to="/" >New Arrivals <span className="bi bi-caret-down-fill fs-6"></span></Link>
                   </button>
-                  <ul class="dropdown-menu" style={{backgroundColor:"rgb(243, 243, 235)"}}>
+                  <ul class="dropdown-menu" style={{ backgroundColor: "rgb(243, 243, 235)" }}>
                     <div className="d-flex ms-4 p-3">
                       <Link to="/" className="text-black">Mens Wear
 
@@ -207,13 +203,13 @@ const Header = () => {
                   </ul>
                 </div>
               </li>
-              
-                {/*-------------- pc dropdown -------------*/}
+
+              {/*-------------- pc dropdown -------------*/}
               <li >
 
                 <div className="dropdown" id="pc_drop">
                   <button className="dropbtn"><Link className="nav-link" to="/" >New Arrivals <span className="bi bi-caret-down-fill fs-6"></span></Link></button>
-                  <div className="dropdown-content" style={{backgroundColor:"rgb(243, 243, 235)"}}>
+                  <div className="dropdown-content" style={{ backgroundColor: "rgb(243, 243, 235)" }}>
                     <div className="d-flex">
                       <Link to="/" >Mens Wear
 
