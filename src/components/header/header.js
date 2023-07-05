@@ -8,7 +8,7 @@ import { url } from "../../constants/navhome";
 import { BackTop } from "antd";
 import "./header.css";
 import { Hidden } from "@mui/material";
-
+import $ from 'jquery'
 
 
 
@@ -63,7 +63,11 @@ const headeritemright = [
 ];
 
 const Header = () => {
-
+  $(document).ready(function () {
+    $('.navbar-nav>li>.nav-link').on('click', function () {
+      $('.navbar-collapse').collapse('hide');
+    });
+  } );
 
   // Sticky Menu Area
   useEffect(() => {
