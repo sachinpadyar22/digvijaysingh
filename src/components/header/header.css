@@ -198,19 +198,14 @@
   .dropdown-content {
     background-color: beige;
     display: none;
-    margin: 30px 0;
+    margin-left: -50%;
     position: absolute;
-    width: 328px;
+    width: 322px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
   
   }
-  .navbar-nav{
-    margin-left: -40%;
-  }
-  
 
-  
 }
 
 .dropbtn .nav-link{
