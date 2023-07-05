@@ -122,13 +122,13 @@ const Header = () => {
               <div className="mobile d-flex">
 
                 <div className="d-flex m-auto">
-                  <Link to="/" className="navbar-brand"> <img className="img"
+                  <Link to="/" className="navbar-brand"><img className="img"
                     src="Sources/images/logo2.png"
                     alt="Logo"
                   /></Link>
 
                   <button
-                    className="navbar-toggler"
+                    className="navbar-toggler collapsed"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent"
@@ -163,8 +163,8 @@ const Header = () => {
 
 
         <div className="container-fluid">
-          <div className="collapse navbar-collapse me-auto" id="navbarSupportedContent">
-            <ul className="navbar-nav m-auto mb-lg-0">
+          <div className="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul className="navbar-nav m-auto ">
               <li>
                 <Link className="nav-link" to="/aboutus">About Us</Link>
               </li>
