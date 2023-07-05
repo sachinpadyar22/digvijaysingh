@@ -67,7 +67,7 @@ const Header = () => {
 
   // Sticky Menu Area
   useEffect(() => {
-   
+
     window.addEventListener("scroll", isSticky);
     return () => {
       window.removeEventListener("scroll", isSticky);
@@ -174,13 +174,42 @@ const Header = () => {
               <li>
                 <Link className="nav-link" to="/fashion" >Fashion Week</Link>
               </li>
+              {/* /----------mobile dropdown------------- */}
+              <li>
+                <div class="dropdown-center" id="mobile_drop">
+                  <button class="btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <Link className="nav-link" to="/" >New Arrivals <span className="bi bi-caret-down-fill fs-6"></span></Link>
+                  </button>
+                  <ul class="dropdown-menu" style={{backgroundColor:"rgb(243, 243, 235)"}}>
+                    <div className="d-flex ms-4 p-3">
+                      <Link to="/" className="text-black">Mens Wear
+
+                        <ul className="mini_ul me-4">
+                          <li>Bandhgala Jackets</li>
+                          <li>Waist Coats</li>
+                          <li>Sheervani's</li>
+                          <li>Kurtas</li>
+                          <li>Shirts</li>
+                          <li>Sheervani's</li>
+                        </ul>
+                      </Link>
+                      <Link to="/" className="text-black" >Womens Wear
+                        <ul className="mini_ul">
+                          <li>Pret Wear</li>
+                          <li>Signature Wear</li>
+
+                        </ul></Link>
+                    </div>
+                  </ul>
+                </div>
+              </li>
+              
+                {/*-------------- pc dropdown -------------*/}
               <li >
 
-
-                {/*-------------- pc dropdown -------------*/}
-                <div className="dropdown">
+                <div className="dropdown" id="pc_drop">
                   <button className="dropbtn"><Link className="nav-link" to="/" >New Arrivals <span className="bi bi-caret-down-fill fs-6"></span></Link></button>
-                  <div className="dropdown-content">
+                  <div className="dropdown-content" style={{backgroundColor:"rgb(243, 243, 235)"}}>
                     <div className="d-flex">
                       <Link to="/" >Mens Wear
 
