@@ -167,16 +167,16 @@ const Header = () => {
             <ul className="navbar-nav m-auto">
 
               <li>
-                <Link className="nav-link d-sm-none" to="/aboutus"><span data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse">About Us</span></Link>
+                <Link className="nav-link d-sm-none" to="/aboutus"><span className="nav-link" data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse">About Us</span></Link>
                 <Link to="/aboutus" className="nav-link d-none d-sm-block">About Us</Link>
               </li>
               <li >
-              <Link to="/" className="nav-link d-sm-none"><span data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse">Home</span></Link>
+              <Link to="/" className="nav-link d-sm-none"><span className="nav-link" data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse">Home</span></Link>
               <Link to="/" className="nav-link d-none d-sm-block">Home</Link>
                 {/* <Link className="nav-link" to="/">Home</Link> */}
               </li>
               <li>
-                <Link className="nav-link d-sm-none" to="/fashion" ><span data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse">Fashion Week</span></Link>
+                <Link className="nav-link d-sm-none" to="/fashion" ><span className="nav-link" data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse">Fashion Week</span></Link>
                 <Link to="/fashion" className="nav-link d-none d-sm-block">Fashion Week</Link>
               </li>
               {/* /----------mobile dropdown------------- */}
@@ -254,17 +254,17 @@ const Header = () => {
 
 
               <li>
-              <Link className="nav-link d-sm-none" to="/" ><span data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse">Special Offers</span></Link>
+              <Link className="nav-link d-sm-none" to="/" ><span className="nav-link" data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse">Special Offers</span></Link>
                 <Link to="/" className="nav-link d-none d-sm-block">Special Offers</Link>
                 {/* <Link className="nav-link" to="/" >Special Offers</Link> */}
               </li>
               <li >
-              <Link className="nav-link d-sm-none" to="/contact" ><span data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse">Meet&nbsp;The&nbsp;Designer</span></Link>
+              <Link className="nav-link d-sm-none" to="/contact" ><span className="nav-link" data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse">Meet&nbsp;The&nbsp;Designer</span></Link>
                 <Link to="/contact" className="nav-link d-none d-sm-block">Meet&nbsp;The&nbsp;Designer</Link>
                 {/* <Link className="nav-link" to="/contact" >Meet&nbsp;The&nbsp;Designer</Link> */}
               </li>
               <li >
-              <Link className="nav-link d-sm-none" to="/blog" ><span data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse">Blog</span></Link>
+              <Link className="nav-link d-sm-none" to="/blog" ><span className="nav-link" data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse">Blog</span></Link>
                 <Link to="/blog" className="nav-link d-none d-sm-block">Blog</Link>
                 
                 {/* <Link className="nav-link" to="/" >Blog</Link> */}
