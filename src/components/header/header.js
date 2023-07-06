@@ -102,7 +102,7 @@ const Header = () => {
 
 
 
-      <nav className="navbar navbarshadow navbar-expand-md d-flex flex-column">
+      <nav className="navbar collapseOnSelect navbarshadow navbar-expand-md d-flex flex-column">
 
         <div className="container  text-center">
           <div className="row w-100 ">
