@@ -166,22 +166,24 @@ const Header = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav m-auto">
 
-              <li >
-                <Link className="nav-link" to="/aboutus">About Us</Link>
-              </li>
               <li>
+                <Link className="nav-link d-sm-none" to="/aboutus"><span data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse">About Us</span></Link>
+                <Link to="/aboutus" className="nav-link d-none d-sm-block">About Us</Link>
+              </li>
+              <li >
               <Link to="/" className="nav-link d-sm-none"><span data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse">Home</span></Link>
-              {/* <Link to="/" className="nav-link d-none d-sm-block">Home</Link> */}
+              <Link to="/" className="nav-link d-none d-sm-block">Home</Link>
                 {/* <Link className="nav-link" to="/">Home</Link> */}
               </li>
               <li>
-                <Link className="nav-link" to="/fashion" >Fashion Week</Link>
+                <Link className="nav-link d-sm-none" to="/fashion" ><span data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse">Fashion Week</span></Link>
+                <Link to="/fashion" className="nav-link d-none d-sm-block">Fashion Week</Link>
               </li>
               {/* /----------mobile dropdown------------- */}
               <li>
                 <div className="dropdown-center" id="mobile_drop">
                   <button className="btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    <Link className="nav-link" to="/" >New Arrivals <span className="bi bi-caret-down-fill fs-6"></span></Link>
+                    <Link className="nav-link " to="/" >New Arrivals <span className="bi bi-caret-down-fill fs-6"></span></Link>
                   </button>
                   <ul className="dropdown-menu" style={{ backgroundColor: "rgb(243, 243, 235)" }}>
                     <div className="d-flex ms-4 p-3">
@@ -252,13 +254,20 @@ const Header = () => {
 
 
               <li>
-                <Link className="nav-link" to="/" >Special Offers</Link>
+              <Link className="nav-link d-sm-none" to="/" ><span data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse">Special Offers</span></Link>
+                <Link to="/" className="nav-link d-none d-sm-block">Special Offers</Link>
+                {/* <Link className="nav-link" to="/" >Special Offers</Link> */}
               </li>
               <li >
-                <Link className="nav-link" to="/contact" >Meet&nbsp;The&nbsp;Designer</Link>
+              <Link className="nav-link d-sm-none" to="/contact" ><span data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse">Meet&nbsp;The&nbsp;Designer</span></Link>
+                <Link to="/contact" className="nav-link d-none d-sm-block">Meet&nbsp;The&nbsp;Designer</Link>
+                {/* <Link className="nav-link" to="/contact" >Meet&nbsp;The&nbsp;Designer</Link> */}
               </li>
               <li >
-                <Link className="nav-link" to="/" >Blog</Link>
+              <Link className="nav-link d-sm-none" to="/blog" ><span data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse">Blog</span></Link>
+                <Link to="/blog" className="nav-link d-none d-sm-block">Blog</Link>
+                
+                {/* <Link className="nav-link" to="/" >Blog</Link> */}
               </li>
 
             </ul>
