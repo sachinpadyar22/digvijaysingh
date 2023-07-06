@@ -24,10 +24,17 @@
   font-size: 17px;
   font-family: 'Roboto', sans-serif;
 }
-/* .navbar .navbar-nav .nav-link span{
+#diff{
+  padding-right: 0%;
+}
+.navbar .navbar-nav .nav-link span{
   font-family: 'Roboto', sans-serif;
-  padding-right: 20%;
-} */
+  padding-right: 60%;
+  padding-left: 10px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
 
 
 
