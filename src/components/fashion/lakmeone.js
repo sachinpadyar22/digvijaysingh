@@ -3,47 +3,47 @@ import { Row, Col } from "antd";
 const fashionimages = [
 
     {
-        src: "/Sources/images/fashionimg/1.JPG",
+        src: "/Sources/images/event/lakmeone/1.JPG",
     },
     {
-        src: "./Sources/images/fashionimg/3.JPG",
+        src: "./Sources/images/event/lakmeone/3.JPG",
     },
     {
-        src: "./Sources/images/fashionimg/5.JPG",
+        src: "./Sources/images/event/lakmeone/5.JPG",
     },
     {
-        src: "./Sources/images/fashionimg/6.JPG",
+        src: "./Sources/images/event/lakmeone/6.JPG",
     },
     {
-        src: "./Sources/images/fashionimg/9.JPG",
+        src: "./Sources/images/event/lakmeone/9.JPG",
     },
     {
-        src: "./Sources/images/fashionimg/11.JPG",
+        src: "./Sources/images/event/lakmeone/11.JPG",
     },
     {
-        src: "./Sources/images/fashionimg/12.JPG",
+        src: "./Sources/images/event/lakmeone/12.JPG",
     },
     {
-        src: "./Sources/images/fashionimg/15.JPG",
+        src: "./Sources/images/event/lakmeone/15.JPG",
     },
 
     {
-        src: "./Sources/images/fashionimg/17.JPG",
+        src: "./Sources/images/event/lakmeone/17.JPG",
     },
     {
-        src: "./Sources/images/fashionimg/19.JPG",
+        src: "./Sources/images/event/lakmeone/19.JPG",
     },
     {
-        src: "./Sources/images/fashionimg/20.JPG",
+        src: "./Sources/images/event/lakmeone/20.JPG",
     },
     {
-        src: "./Sources/images/fashionimg/21.JPG",
+        src: "./Sources/images/event/lakmeone/21.JPG",
     },
     {
-        src: "./Sources/images/fashionimg/24.JPG",
+        src: "./Sources/images/event/lakmeone/24.JPG",
     },
     {
-        src: "./Sources/images/fashionimg/25.JPG",
+        src: "./Sources/images/event/lakmeone/25.JPG",
     },
     
 
