@@ -59,7 +59,7 @@ const Contact = () => {
     {/* Left contact page */}
     <div className="direct-contact-container text-start">
       <ul className='contact_ul'>
-        <li><span className='bi bi-geo-alt-fill'></span> &nbsp;&nbsp; <a href="">Ahemdabad, Gujarat</a></li>
+        <li><span className='bi bi-geo-alt-fill'></span> &nbsp;&nbsp; <a href="">Ahmedabad, Gujarat</a></li>
         <li><span className='bi bi-telephone-fill'></span> &nbsp;&nbsp; <a href="tel:1-212-555-5555" title="Give me a call">(212) 555-2368</a></li>
         <li><span className='bi bi-envelope-fill'></span> &nbsp;&nbsp;<a href="mailto:#" title="Send me an email"> hitmeup@gmail.com</a></li>
       </ul>
