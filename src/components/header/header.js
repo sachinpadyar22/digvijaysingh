@@ -84,8 +84,8 @@ const Header = () => {
   /* end*/
 
 
-  const [isActive, setIsActive] = useState(false);
-  const [isMobile, setIsMobile] = useState(false);
+  // const [isActive, setIsActive] = useState(false);
+
   const [width, setWidth] = useState(window.innerWidth);
 
   useEffect(() => {
