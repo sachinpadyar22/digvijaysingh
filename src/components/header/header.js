@@ -167,10 +167,10 @@ const Header = () => {
             <ul className="navbar-nav m-auto">
 
               <li >
-                <Link className="nav-link" to="/aboutus">About Us</Link>
+                <Link className="nav-link" to="/aboutus" aria-current="page">About Us</Link>
               </li>
               <li>
-                <Link className="nav-link" to="/" >Home</Link>
+                <Link className="nav-link" to="/" aria-current="page" >Home</Link>
               </li>
               <li>
                 <Link className="nav-link" to="/fashion" >Fashion Week</Link>
