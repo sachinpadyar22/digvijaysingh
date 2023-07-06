@@ -4,8 +4,10 @@ const Contact = () => {
     return (
       <>
       <section id="contact">
-      <div class="nine">
-            <h1>Contact</h1>
+      <div className="sectional_heading pt-5">
+            <p className="is-size-3 has-text-centered mb-4 green_color">
+              Contact
+            </p>
           </div>
   <div className="contact-wrapper">
     {/* Left contact page */}

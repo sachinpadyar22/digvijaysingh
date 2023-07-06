@@ -9,7 +9,7 @@ const Aboutus = () => {
         <div className="container ">
           <div>
             <div className="sectional_heading">
-              <p className="is-size-3 pt-6 has-text-centered mb-4">
+              <p className="is-size-3 pt-6 has-text-centered mb-4 green_color">
                 About the Brand
               </p>
             </div>
@@ -70,7 +70,7 @@ const Aboutus = () => {
             <Col xxl={16} lg={12} md={24} sm={24} xs={24} className="my-auto">
               <div >
                 <div className="sectional_heading ">
-                  <p className="is-size-3 heading_style has-text-centered mb-4">
+                  <p className="is-size-3  has-text-centered mb-4 green_color">
                     About the Designer
                   </p>
                 </div>
