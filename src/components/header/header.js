@@ -102,7 +102,7 @@ const Header = () => {
 
 
 
-      <nav className="navbar collapseOnSelect navbarshadow navbar-expand-md d-flex flex-column">
+      <nav className="navbar navbarshadow navbar-expand-md d-flex flex-column">
 
         <div className="container  text-center">
           <div className="row w-100 ">
@@ -167,10 +167,10 @@ const Header = () => {
             <ul className="navbar-nav m-auto">
 
               <li >
-                <Link className="nav-link" to="/aboutus" aria-current="page">About Us</Link>
+                <Link className="nav-link" to="/aboutus">About Us</Link>
               </li>
               <li>
-                <Link className="nav-link" to="/" aria-current="page" >Home</Link>
+                <Link className="nav-link" to="/">Home</Link>
               </li>
               <li>
                 <Link className="nav-link" to="/fashion" >Fashion Week</Link>
