@@ -181,7 +181,7 @@ const Home = () => {
           </div> */}
           <div className="collection_wrapper">
             <Row>
-              <Col xxl={8} lg={8} md={12} sm={12} xs={24}>
+              <Col xxl={8} lg={8} md={12} sm={12} xs={24} className="p-5">
                 <div
                   className="collection_img2"
                   style={{ width: "100%", height: "100%" }}
@@ -193,7 +193,7 @@ const Home = () => {
                   />
                 </div>
               </Col>
-              <Col xxl={8} lg={8} md={12} sm={12} xs={24}>
+              <Col xxl={8} lg={8} md={12} sm={12} xs={24} className="p-5">
                 <div
                   className="collection_img1"
                   style={{ width: "100%", height: "100%" }}
@@ -205,7 +205,7 @@ const Home = () => {
                   />
                 </div>
               </Col>
-              <Col xxl={8} lg={8} md={12} sm={12} xs={24}>
+              <Col xxl={8} lg={8} md={12} sm={12} xs={24} className="p-5">
                 <div
                   className="collection_img1"
                   style={{ width: "100%", height: "100%" }}

@@ -57,9 +57,14 @@ const Contact = () => {
       </button>
     </form>
     {/* Left contact page */}
-    <div className="direct-contact-container">
-      <ul className="contact-list">
-        <li className="list-item">
+    <div className="direct-contact-container text-start">
+      <ul className='contact_ul'>
+        <li><span className='bi bi-geo-alt-fill'></span> &nbsp;&nbsp; <a href="">Ahemdabad, Gujarat</a></li>
+        <li><span className='bi bi-telephone-fill'></span> &nbsp;&nbsp; <a href="tel:1-212-555-5555" title="Give me a call">(212) 555-2368</a></li>
+        <li><span className='bi bi-envelope-fill'></span> &nbsp;&nbsp;<a href="mailto:#" title="Send me an email"> hitmeup@gmail.com</a></li>
+      </ul>
+      {/* <ul className="contact-list text-start">
+        <li className="list-item text-start">
           <i className="fa fa-map-marker fa-2x">
             <span className="contact-text place">City, State</span>
           </i>
@@ -67,7 +72,7 @@ const Contact = () => {
         <li className="list-item">
           <i className="fa fa-phone fa-2x">
             <span className="contact-text phone">
-              <a href="tel:1-212-555-5555" title="Give me a call">
+              <a className="text-dark" href="tel:1-212-555-5555" title="Give me a call">
                 (212) 555-2368
               </a>
             </span>
@@ -76,15 +81,15 @@ const Contact = () => {
         <li className="list-item">
           <i className="fa fa-envelope fa-2x">
             <span className="contact-text gmail">
-              <a href="mailto:#" title="Send me an email">
+              <a className="text-dark" href="mailto:#" title="Send me an email">
                 hitmeup@gmail.com
               </a>
             </span>
           </i>
         </li>
-      </ul>
+      </ul> */}
       <hr />
-      <ul className="social-media-list">
+      <ul className="social-media-list mt-4">
         <li>
           <a href="#" target="_blank" className="contact-icon">
             <i class="bi bi-github" aria-hidden="true" ></i>
