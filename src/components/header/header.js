@@ -63,7 +63,7 @@ const headeritemright = [
 ];
 
 const Header = () => {
- 
+
 
   // Sticky Menu Area
   useEffect(() => {
@@ -85,7 +85,7 @@ const Header = () => {
 
 
   const [isActive, setIsActive] = useState(false);
-
+  const [isMobile, setIsMobile] = useState(false);
   const [width, setWidth] = useState(window.innerWidth);
 
   useEffect(() => {
@@ -164,9 +164,10 @@ const Header = () => {
 
         <div className="container-fluid" >
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav m-auto" id="collapseExample">
-              <li>
-                <Link className="nav-link"   to="/aboutus" data-toggle="collapse"  aria-expanded="false" aria-controls="collapseExample">About Us</Link>
+            <ul className="navbar-nav m-auto">
+
+              <li >
+                <Link className="nav-link" to="/aboutus">About Us</Link>
               </li>
               <li>
                 <Link className="nav-link" to="/" >Home</Link>
