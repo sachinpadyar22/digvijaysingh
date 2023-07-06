@@ -170,7 +170,9 @@ const Header = () => {
                 <Link className="nav-link" to="/aboutus">About Us</Link>
               </li>
               <li>
-                <Link className="nav-link" to="/">Home</Link>
+              <Link to="/" className="nav-link d-sm-none"><span data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse">Home</span></Link>
+              {/* <Link to="/" className="nav-link d-none d-sm-block">Home</Link> */}
+                {/* <Link className="nav-link" to="/">Home</Link> */}
               </li>
               <li>
                 <Link className="nav-link" to="/fashion" >Fashion Week</Link>
