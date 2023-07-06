@@ -64,12 +64,10 @@
   //     });
   //   });
    $(document).ready(function () {
-    $('.navbar-nav a').on('click', function () {
+    $('.navbar-nav a').on('click touchstart', function () {
       $('.navbar-collapse').collapse('hide');
     });
-    $('.navbar-nav a').on('touchstart', function () {
-      $('.navbar-collapse').collapse('hide');
-    });
+   
   } );
   </script>
 </body>
