@@ -9,7 +9,7 @@ const Aboutus = () => {
         <div className="container ">
           <div>
             <div className="sectional_heading">
-              <p className="is-size-3 pt-6 has-text-centered mb-4 green_color">
+              <p className="is-size-3 pt-5 has-text-centered mb-4 green_color">
                 About the Brand
               </p>
             </div>
@@ -42,6 +42,7 @@ const Aboutus = () => {
                 celebrations for the 10th year now and we are hise to let you
                 know that this is just the beginning.
               </p>
+              <br/>
               <p>
                 After studying at the National Institute of Design, Ahmedabad, Digvi-
                 jay has showcased his collections at the Fashion Weeks and has
@@ -74,7 +75,8 @@ const Aboutus = () => {
                     About the Designer
                   </p>
                 </div>
-                <p className="has-text-left" style={{ padding: "0 15px" , fontSize:"19px" }}>
+                <div className="about_para">
+                <p className="has-text-left " style={{  fontSize:"19px" }}>
                   The label Digvijay Singh was founded by Digvijay Singh in 2007
                   while he was in the second year of his fashion studies. A few
                   attempts at studying physiothisapy made his realize that his
@@ -95,6 +97,8 @@ const Aboutus = () => {
                   fashion designers in Gujarat when it comes to bridal fashion
                   and for his, the sky seems like the only limit.
                 </p>
+                </div>
+                
               </div>
             </Col>
             <Col xxl={8} lg={12} md={24} sm={24} xs={24}>

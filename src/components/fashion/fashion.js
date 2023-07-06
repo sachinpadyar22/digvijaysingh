@@ -95,10 +95,10 @@ const Fashion = () => {
             </p>
           </div> */}
           <div class="nine">
-            <h1>FASHION WEEKS<span>Lakme</span></h1>
+            <h1>Fashion Weeks<span>Lakme</span></h1>
           </div>
-          <div>
-            <p className="has-text-centered pt-5 pb-5 mb-5">
+          <div className="about_para">
+            <p className="pt-5 pb-5 mb-5">
               Digvijay Singh selected as a Gen Next Designer in 2007 at the
               Lakme fashion week and a finalist at the young entrepreneur of the
               year by the British Council and Elle magazine Digvijay Singh was
@@ -124,14 +124,14 @@ const Fashion = () => {
         </div>
         <div className="container">
           <div className="sectional_heading">
-            <p className="is-size-3 heading_style has-text-centered mb-4">
+            <p className="is-size-3  has-text-centered mb-4">
               Events
             </p>
           </div>
         </div>
         {/* <div className="container is-fluid timeline_wrapper"> */}
         <div className="timeline_wrapper">
-          <div className="timeline-block timeline-block-left">
+          <div className="timeline-block timeline-block-left" >
             <div className="marker"></div>
             <div>
               <div className="space-align-container">
@@ -143,7 +143,7 @@ const Fashion = () => {
                   >
                     <div>
                       <p className="is-size-5">2006</p>
-                      <p className="is-size-4 is-uppercase has-text-weight-semibold ">
+                      <p className="is-size-4  ">
                         <Link to="/lakmeone" className="green_color">Lakme Fashion Week</Link>
                       </p>
                       {/* <p className="is-size-6">(-)</p> */}
@@ -179,7 +179,7 @@ const Fashion = () => {
                   >
                     <div>
                       <p className="is-size-5">2007</p>
-                      <p className="is-size-4 is-uppercase has-text-weight-semibold ">
+                      <p className="is-size-4 ">
                       <Link to="/lakmetwo" className="green_color">Lakme Fashion Week</Link>
                       </p>
                       {/* <p className="is-size-6">(-)</p> */}
@@ -215,7 +215,7 @@ const Fashion = () => {
                   >
                     <div>
                       <p className="is-size-5">2014</p>
-                      <p className="is-size-4 is-uppercase has-text-weight-semibold ">
+                      <p className="is-size-4  ">
                       <Link to="/lakmethree" className="green_color">Lakme Fashion Week</Link>
                       </p>
                       {/* <p className="is-size-6">(-)</p> */}
@@ -251,8 +251,8 @@ const Fashion = () => {
                   >
                     <div>
                       {/* <p className="is-size-5">--</p> */}
-                      <p className="is-size-4 is-uppercase has-text-weight-semibold ">
-                      <Link to="/lakmefour" className="green_color">Goa Fashion</Link>
+                      <p className="is-size-4 ">
+                      <Link to="/lakmefour" className="green_color">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Goa Fashion&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Link>
                       </p>
                       {/* <p className="is-size-6">(Goa)</p> */}
                       <div className="mt-3">
@@ -287,8 +287,8 @@ const Fashion = () => {
                   >
                     <div>
                       {/* <p className="is-size-5">--</p> */}
-                      <p className="is-size-4 is-uppercase has-text-weight-semibold ">
-                      <Link to="/lakmefive" className="green_color">Kochi Fashion</Link>
+                      <p className="is-size-4 ">
+                      <Link to="/lakmefive" className="green_color">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kochi Fashion&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Link>
                       </p>
                       {/* <p className="is-size-6">(kochi)</p> */}
                       <div className="mt-3">
@@ -323,8 +323,8 @@ const Fashion = () => {
                   >
                     <div>
                       {/* <p className="is-size-5">--</p> */}
-                      <p className="is-size-4 is-uppercase has-text-weight-semibold ">
-                      <Link to="/lakmesix" className="green_color">Banglore Fashion</Link>
+                      <p className="is-size-4 ">
+                      <Link to="/lakmesix" className="green_color">&nbsp;&nbsp;&nbsp;Banglore Fashion&nbsp;&nbsp;&nbsp;</Link>
                       </p>
                       {/* <p className="is-size-6">(kochi)</p> */}
                       <div className="mt-3">

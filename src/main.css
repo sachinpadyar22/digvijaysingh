@@ -378,6 +378,7 @@ a.navbar-item.is-active,
   justify-content: space-between;
   clear: both;
 }
+
 .right_grid {
   margin-right: 2rem;
 }
@@ -1258,5 +1259,7 @@ section {
 
 .about_para p{
   font-size: 19px;
+  font-family:'Roboto', sans-serif;
+text-align: justify;
 }
 

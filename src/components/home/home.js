@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useEffect} from "react";
 import { Button, Col, Image, Row, Space } from "antd";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import "./home.css";
@@ -55,7 +55,9 @@ export const actor = [
     name: "Arjun Rampal",
   },
 ];
+
 const Home = () => {
+ 
   return (
     <>
       <section className="banner_carousel">
@@ -171,15 +173,16 @@ const Home = () => {
       <section>
 
         <div className="container">
-          <div class="nine">
-            <h1>AWARDS<span>Media</span></h1>
+       
+          <div class="nine" data-aos="fade-left" data-aos-duration="1200">
+            <h1>Awards<span>Media</span></h1>
           </div>
           {/* <div className="sectional_heading">
             <p className="is-size-3 heading_style has-text-centered mb-4">
               Movies
             </p>
           </div> */}
-          <div className="collection_wrapper">
+          <div className="collection_wrapper" data-aos="zoom-in" data-aos-duration="1200">
             <Row>
               <Col xxl={8} lg={8} md={12} sm={12} xs={24} className="p-5">
                 <div
@@ -348,7 +351,7 @@ const Home = () => {
             Our Collection
           </p>
           <Row>
-            <Col xxl={12} lg={12} md={24} sm={24} xs={24}>
+            <Col xxl={12} lg={12} md={24} sm={24} xs={24} data-aos="fade-right" data-aos-duration="1200">
               <div className="p-5">
                 <div className="women_wrapper">
                   <img
@@ -372,7 +375,7 @@ const Home = () => {
                 </div>
               </div>
             </Col>
-            <Col xxl={12} lg={12} md={24} sm={24} xs={24}>
+            <Col xxl={12} lg={12} md={24} sm={24} xs={24} data-aos="fade-left" data-aos-duration="1200">
               <div className="p-5">
                 <div className="women_wrapper">
                   <img
@@ -403,17 +406,16 @@ const Home = () => {
       <section>
         <div className="section_padding"></div>
         <div className="container">
-          <div className="sectional_heading">
+        
             <p className="is-size-3 has-text-centered mb-4 green_color">
               A Walk Down the Ramp
             </p>
-          </div>
-        
+         
             {/* <video controls> */}
             {/* <video loop muted autoPlay preload="auto">
               <source src="Sources/images/video.mp4" type="video/mp4" />
             </video> */}
-            <Row>
+            <Row data-aos="fade-up" data-aos-duration="1200">
               <Col xxl={8} lg={8} md={12} sm={24} xs={24} style={{padding:"10px"}}>
                 <video loop muted autoPlay preload="auto">
                   <source src="Sources/images/video.mp4" type="video/mp4" />

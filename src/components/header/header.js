@@ -145,7 +145,7 @@ const Header = () => {
             <div className="col" id="col2">
               <div className="green_color m-auto">
                 <div className="user-icons d-flex text-center justify-content-center">
-                  <div className="profile me-3">
+                  <div className="profile me-3" >
                     <a href=""><i className="bi bi-instagram"></i></a>
                   </div>
                   <div className="wishlist me-3">
@@ -207,6 +207,7 @@ const Header = () => {
                     </div>
                   </ul>
                 </div>
+                
               </li>
 
               {/*-------------- pc dropdown -------------*/}

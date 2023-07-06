@@ -1,6 +1,6 @@
 
 .nine h1 {
-    text-align:center; font-size:30px; text-transform:uppercase; color:#467860; letter-spacing:1px;
+    text-align:center; font-size:2rem; color:#467860; letter-spacing:1px;
     font-family:"Playfair Display", serif; font-weight:400; padding-top: 2rem;
   }
   .nine h1 span {

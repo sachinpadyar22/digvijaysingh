@@ -189,12 +189,24 @@ outline: none;
   position: absolute;
   right: 0;
   top: 0;
+  margin-top: 10px;
 }
 
 .user-icons i {
-  font-size: 25px;
+  font-size: 15px;
   cursor: pointer;
-  color: #4f876c;
+  color: white;
+  background-color: #4f876c;
+  padding: 10px 12px;
+  border-radius: 50%;
+  transition: .5s;
+
+}
+.user-icons i:hover {
+background-color: transparent;
+color: #4f876c;
+transition: .5s;
+
 }
 
 .navbar-toggler {
@@ -251,4 +263,3 @@ outline: none;
   
  
 }
-
