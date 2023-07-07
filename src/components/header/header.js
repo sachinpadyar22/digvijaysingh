@@ -195,7 +195,7 @@ const Header = () => {
                           <li>Sheervani's</li>
                           <li>Kurtas</li>
                           <li>Shirts</li>
-                          <li>Sheervani's</li>
+                          <li>Sheervani</li>
                         </ul>
                       </Link>
                       <Link to="/" className="text-black" >Womens Wear
