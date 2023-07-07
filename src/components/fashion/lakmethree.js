@@ -3,82 +3,82 @@ import { Row, Col } from "antd";
 const fashionimages = [
 
     {
-        src: "/Sources/images/event/lakmethree/1.JPG",
+        src: "/Sources/images/event/lakmethree/1.jpg",
     },
     {
-        src: "/Sources/images/event/lakmethree/2.JPG",
+        src: "/Sources/images/event/lakmethree/2.jpg",
     },
     {
-        src: "/Sources/images/event/lakmethree/4.JPG",
+        src: "/Sources/images/event/lakmethree/4.jpg",
     },
     {
-        src: "/Sources/images/event/lakmethree/5.JPG",
-    },
-    
-    {
-        src: "/Sources/images/event/lakmethree/7.JPG",
+        src: "/Sources/images/event/lakmethree/5.jpg",
     },
     
     {
-        src: "/Sources/images/event/lakmethree/8.JPG",
+        src: "/Sources/images/event/lakmethree/7.jpg",
     },
     
     {
-        src: "/Sources/images/event/lakmethree/9.JPG",
+        src: "/Sources/images/event/lakmethree/8.jpg",
     },
     
     {
-        src: "/Sources/images/event/lakmethree/10.JPG",
+        src: "/Sources/images/event/lakmethree/9.jpg",
     },
     
     {
-        src: "/Sources/images/event/lakmethree/12.JPG",
+        src: "/Sources/images/event/lakmethree/10.jpg",
     },
     
     {
-        src: "/Sources/images/event/lakmethree/13.JPG",
+        src: "/Sources/images/event/lakmethree/12.jpg",
     },
     
     {
-        src: "/Sources/images/event/lakmethree/15.JPG",
+        src: "/Sources/images/event/lakmethree/13.jpg",
     },
     
     {
-        src: "/Sources/images/event/lakmethree/16.JPG",
+        src: "/Sources/images/event/lakmethree/15.jpg",
     },
     
     {
-        src: "/Sources/images/event/lakmethree/18.JPG",
+        src: "/Sources/images/event/lakmethree/16.jpg",
     },
     
     {
-        src: "/Sources/images/event/lakmethree/19.JPG",
+        src: "/Sources/images/event/lakmethree/18.jpg",
     },
     
     {
-        src: "/Sources/images/event/lakmethree/20.JPG",
+        src: "/Sources/images/event/lakmethree/19.jpg",
     },
     
     {
-        src: "/Sources/images/event/lakmethree/22.JPG",
+        src: "/Sources/images/event/lakmethree/20.jpg",
+    },
+    
+    {
+        src: "/Sources/images/event/lakmethree/22.jpg",
     },
     {
-        src: "/Sources/images/event/lakmethree/24.JPG",
+        src: "/Sources/images/event/lakmethree/24.jpg",
     },
     {
-        src: "/Sources/images/event/lakmethree/25.JPG",
+        src: "/Sources/images/event/lakmethree/25.jpg",
     },
     {
-        src: "/Sources/images/event/lakmethree/26.JPG",
+        src: "/Sources/images/event/lakmethree/26.jpg",
     },
     {
-        src: "/Sources/images/event/lakmethree/27.JPG",
+        src: "/Sources/images/event/lakmethree/27.jpg",
     },
     {
-        src: "/Sources/images/event/lakmethree/28.JPG",
+        src: "/Sources/images/event/lakmethree/28.jpg",
     },
     {
-        src: "/Sources/images/event/lakmethree/29.JPG",
+        src: "/Sources/images/event/lakmethree/29.jpg",
     },
     
     
