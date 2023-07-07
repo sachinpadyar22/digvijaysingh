@@ -329,7 +329,7 @@ const Fashion = () => {
                       {/* <p className="is-size-6">(kochi)</p> */}
                       <div className="mt-3">
                         <img style={{ width: "150px" }}
-                          src="Sources/images/event/1-7.JPG"
+                          src="Sources/images/event/1-7.jpg"
                           alt="404 - Not Given"
                         />
                       </div>
