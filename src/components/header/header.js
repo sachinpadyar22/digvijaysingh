@@ -192,7 +192,7 @@ const Header = () => {
                         <ul className="mini_ul me-4">
                           <li>Bandhgala Jackets</li>
                           <li>Waist Coats</li>
-                          <li>Sheervani's</li>
+                         
                           <li>Kurtas</li>
                           <li>Shirts</li>
                           <li>Sheervani</li>
