@@ -222,10 +222,10 @@ const Header = () => {
                         <ul className="mini_ul">
                           <li>Bandhgala Jackets</li>
                           <li>Waist Coats</li>
-                          <li>Sheervani's</li>
+                        
                           <li>Kurtas</li>
                           <li>Shirts</li>
-                          <li>Sheervani's</li>
+                          <li>Sheervani</li>
                         </ul>
                       </Link>
                       <Link to="/" >Womens Wear
