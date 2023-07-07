@@ -3,43 +3,43 @@ import { Row, Col } from "antd";
 const fashionimages = [
 
     {
-        src: "/Sources/images/event/lakmesix/1.JPG",
+        src: "/Sources/images/event/lakmesix/1.jpg",
     },
 
     {
-        src: "/Sources/images/event/lakmesix/2.JPG",
+        src: "/Sources/images/event/lakmesix/2.jpg",
     },
     {
-        src: "/Sources/images/event/lakmesix/3.JPG ",
+        src: "/Sources/images/event/lakmesix/3.jpg ",
     },
   
     {
-        src: "/Sources/images/event/lakmesix/4.JPG",
+        src: "/Sources/images/event/lakmesix/4.jpg",
     },
 
     {
-        src: "/Sources/images/event/lakmesix/5.JPG",
+        src: "/Sources/images/event/lakmesix/5.jpg",
     },
     {
-        src: "/Sources/images/event/lakmesix/6.JPG ",
+        src: "/Sources/images/event/lakmesix/6.jpg ",
     },
     {
-        src: "/Sources/images/event/lakmesix/7.JPG ",
+        src: "/Sources/images/event/lakmesix/7.jpg ",
     },
     {
-        src: "/Sources/images/event/lakmesix/8.JPG ",
+        src: "/Sources/images/event/lakmesix/8.jpg ",
     },
     {
-        src: "/Sources/images/event/lakmesix/9.JPG ",
+        src: "/Sources/images/event/lakmesix/9.jpg ",
     },
     {
-        src: "/Sources/images/event/lakmesix/10.JPG ",
+        src: "/Sources/images/event/lakmesix/10.jpg ",
     },
     {
-        src: "/Sources/images/event/lakmesix/11.JPG ",
+        src: "/Sources/images/event/lakmesix/11.jpg ",
     },
     {
-        src: "/Sources/images/event/lakmesix/12.JPG ",
+        src: "/Sources/images/event/lakmesix/12.jpg ",
     },
    
   
