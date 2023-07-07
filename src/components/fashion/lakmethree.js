@@ -16,7 +16,7 @@ const fashionimages = [
     },
     
     {
-        src: "/Sources/images/event/lakmethree/7.jpg",
+        src: "/Sources/images/event/lakmethree/7.JPG",
     },
     
     {
