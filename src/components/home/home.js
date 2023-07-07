@@ -408,7 +408,7 @@ const Home = () => {
         <Row className="popular_collection">
           <Col className="first m-auto" xxl={12} lg={12} md={24} sm={24} xs={24}>
                     <h1>Digvijay Popular Collection</h1>
-                    <p>The Popular Brand Wears is Hear</p>
+                    <p>The Popular Brand Wear is Here</p>
                     <button>View Collection</button>
 
           </Col>
