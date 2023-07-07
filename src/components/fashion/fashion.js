@@ -257,7 +257,7 @@ const Fashion = () => {
                       {/* <p className="is-size-6">(Goa)</p> */}
                       <div className="mt-3">
                         <img style={{ width: "150px" }}
-                          src="Sources/images/event/1-5.JPG"
+                          src="Sources/images/event/1-4.JPG"
                           alt="404 - Not Given"
                         />
                       </div>
@@ -329,7 +329,7 @@ const Fashion = () => {
                       {/* <p className="is-size-6">(kochi)</p> */}
                       <div className="mt-3">
                         <img style={{ width: "150px" }}
-                          src="Sources/images/event/1-6.JPG"
+                          src="Sources/images/event/1-7.JPG"
                           alt="404 - Not Given"
                         />
                       </div>
