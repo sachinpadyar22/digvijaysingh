@@ -1,8 +1,8 @@
 import React, { useEffect, useState, Component } from "react";
-import { FaPinterestP } from "react-icons/fa";
-import { BsFacebook } from "react-icons/bs";
-import { BsWhatsapp } from "react-icons/bs";
-import { BsInstagram } from "react-icons/bs";
+// import { FaPinterestP } from "react-icons/fa";
+// import { BsFacebook } from "react-icons/bs";
+// import { BsWhatsapp } from "react-icons/bs";
+// import { BsInstagram } from "react-icons/bs";
 import { Link } from "react-router-dom";
 import { url } from "../../constants/navhome";
 import { BackTop } from "antd";
@@ -109,7 +109,7 @@ const Header = () => {
             <div className="col " id="col2">
               <div className="search-and-icons m-auto">
                 <form className="d-flex mb-2 me-2" role="search">
-                  <input placeholder="Search"
+                  <input placeholder="Search"  style={{border:"none"}}
                     className="form-control me-2"
                     type="search"
                     aria-label="Search"
@@ -148,9 +148,9 @@ const Header = () => {
                   <div className="profile me-3" >
                     <a href=""><i className="bi bi-instagram"></i></a>
                   </div>
-                  <div className="wishlist me-3">
+                  {/* <div className="wishlist me-3">
                     <a href=""><i className="bi bi-meta" /></a>
-                  </div>
+                  </div> */}
                   <div className="cart">
                     <a href=""><i className="bi bi-youtube" /></a>
                   </div>

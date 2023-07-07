@@ -24,5 +24,45 @@
     background-color:rgb(0, 0, 0);
   }
   
-  
-  
+  .popular_collection h1{
+    font-size: 35px;
+    font-weight: 500;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    color: #3b6350;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+    
+  .popular_collection p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.7;
+  }
+  .popular_collection button{
+    width: 200px;
+    border: none;
+    font-size: 17px;
+    background-color: #467860;
+    border-radius: 20px;
+    padding: 7px 0px ;
+    font-weight: 600;
+    color: white;
+    margin-top: 30px;
+  }
+  .popular_collection button:hover{
+   
+    background-color: #599477;
+   
+  }
+  .first{
+    text-align: end;
+  }
+  @media (max-width:991px){
+    .first {
+      text-align: center;
+      padding: 50px 0;
+    }
+  }

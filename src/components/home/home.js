@@ -225,7 +225,7 @@ const Home = () => {
               <h1><span>Movies</span></h1>
             </div>
             <Row>
-              <Col xxl={12} lg={12} md={24} sm={242} xs={24}>
+              <Col xxl={12} lg={12} md={12} sm={242} xs={24}>
                 <div
                   className="collection_img2"
                   style={{ width: "100%", height: "100%" }}
@@ -237,7 +237,7 @@ const Home = () => {
                   />
                 </div>
               </Col>
-              <Col xxl={12} lg={12} md={24} sm={24} xs={24}>
+              <Col xxl={12} lg={12} md={12} sm={24} xs={24}>
                 <div
                   className="collection_img1"
                   style={{ width: "100%", height: "100%" }}
@@ -351,7 +351,7 @@ const Home = () => {
             Our Collection
           </p>
           <Row>
-            <Col xxl={12} lg={12} md={24} sm={24} xs={24} data-aos="fade-right" data-aos-duration="1200">
+            <Col xxl={12} lg={12} md={12} sm={24} xs={24} data-aos="fade-right" data-aos-duration="1200">
               <div className="p-5">
                 <div className="women_wrapper">
                   <img
@@ -375,7 +375,7 @@ const Home = () => {
                 </div>
               </div>
             </Col>
-            <Col xxl={12} lg={12} md={24} sm={24} xs={24} data-aos="fade-left" data-aos-duration="1200">
+            <Col xxl={12} lg={12} md={12} sm={24} xs={24} data-aos="fade-left" data-aos-duration="1200">
               <div className="p-5">
                 <div className="women_wrapper">
                   <img
@@ -401,7 +401,26 @@ const Home = () => {
             </Col>
           </Row>
         </div>
+        <div className="section_padding"></div>
       </section>
+      
+      <section className="bg-white">
+        <Row className="popular_collection">
+          <Col className="first m-auto" xxl={12} lg={12} md={24} sm={24} xs={24}>
+                    <h1>Digvijay Popular Collection</h1>
+                    <p>The Popular Brand Wears is Hear</p>
+                    <button>View Collection</button>
+
+          </Col>
+          <Col className="text-center" xxl={12} lg={12} md={24} sm={24} xs={24}>
+                    <div style={{padding:"0px 30px"}}>
+                      <img src="Sources/images/1.JPG" alt="404 - Not Given" />
+                    </div>
+
+          </Col>
+        </Row>
+      </section>
+
 
       <section>
         <div className="section_padding"></div>

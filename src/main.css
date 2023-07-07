@@ -39,11 +39,6 @@ body::-webkit-scrollbar {
   color: white;
  
 }
-.form-control {
-  background-color: transparent;
-  border: none;
-  outline: none;
-}
 
 .is-sticky {
   position: fixed;
