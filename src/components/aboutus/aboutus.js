@@ -42,7 +42,7 @@ const Aboutus = () => {
                 celebrations for the 10th year now and we are hise to let you
                 know that this is just the beginning.
               </p>
-              <br/>
+              <br />
               <p>
                 After studying at the National Institute of Design, Ahmedabad, Digvi-
                 jay has showcased his collections at the Fashion Weeks and has
@@ -60,6 +60,21 @@ const Aboutus = () => {
                 young designers by Vogue India.
               </p>
             </div>
+            <div>
+              <Row>
+                <Col style={{ padding: "30px 50px" }} xxl={12} lg={12} md={24} sm={24} xs={24}>
+                  <div style={{ width: "100%", height: "100%" }}>
+                    <img src="/Sources/images/s-1.JPG" alt="404-Not Found" style={{height:"85%", width:"100%"}} />
+                  </div>
+
+                </Col>
+                <Col style={{ padding: "30px 50px" }} xxl={12} lg={12} md={24} sm={24} xs={24}>
+                  <div style={{  margin:"auto" }}>
+                    <img src="/Sources/images/s-2.jpg" alt="404-Not Found" style={{ marginLeft: "auto", marginRight: "auto"}} />
+                  </div>
+                </Col>
+              </Row>
+            </div>
           </div>
         </div>
         <div className="section_padding"></div>
@@ -76,29 +91,29 @@ const Aboutus = () => {
                   </p>
                 </div>
                 <div className="about_para">
-                <p className="has-text-left " style={{  fontSize:"19px" }}>
-                  The label Digvijay Singh was founded by Digvijay Singh in 2007
-                  while he was in the second year of his fashion studies. A few
-                  attempts at studying physiothisapy made his realize that his
-                  true calling lied elsewhise. It all started with stitching
-                  most basic of his designs and selling them door to door in a
-                  really small town of Gujarat with very few expectations.
-                  Little did he know that he would be rewarded with a phenomenal
-                  journey and he would make it to the top of his game. Digvijay
-                  Singh is a petite human who harbours a great soul. This
-                  pocket-sized powerhouse fills up the room with his warmth and
-                  innocence. his passion for creating ensembles that voice the
-                  elegance of traditional wear and his unique sense of fashion
-                  drove the brand to new heights. he had been awarded for 'The
-                  Most Innovative Collection' in the first year of his
-                  graduation itself at INIFD, Vadodara but he considers the
-                  smiles of satisfaction of his customers as a greater award.
-                  Today he has become a stalwart and one of the most celebrated
-                  fashion designers in Gujarat when it comes to bridal fashion
-                  and for his, the sky seems like the only limit.
-                </p>
+                  <p className="has-text-left " style={{ fontSize: "19px" }}>
+                    The label Digvijay Singh was founded by Digvijay Singh in 2007
+                    while he was in the second year of his fashion studies. A few
+                    attempts at studying physiothisapy made his realize that his
+                    true calling lied elsewhise. It all started with stitching
+                    most basic of his designs and selling them door to door in a
+                    really small town of Gujarat with very few expectations.
+                    Little did he know that he would be rewarded with a phenomenal
+                    journey and he would make it to the top of his game. Digvijay
+                    Singh is a petite human who harbours a great soul. This
+                    pocket-sized powerhouse fills up the room with his warmth and
+                    innocence. his passion for creating ensembles that voice the
+                    elegance of traditional wear and his unique sense of fashion
+                    drove the brand to new heights. he had been awarded for 'The
+                    Most Innovative Collection' in the first year of his
+                    graduation itself at INIFD, Vadodara but he considers the
+                    smiles of satisfaction of his customers as a greater award.
+                    Today he has become a stalwart and one of the most celebrated
+                    fashion designers in Gujarat when it comes to bridal fashion
+                    and for his, the sky seems like the only limit.
+                  </p>
                 </div>
-                
+
               </div>
             </Col>
             <Col xxl={8} lg={12} md={24} sm={24} xs={24}>
@@ -106,7 +121,7 @@ const Aboutus = () => {
                 <img
                   src="Sources/images/digvijaysingh.png"
                   alt="404 - Not Given"
-                  style={{ width: "60%", paddingTop:"20px",  }}
+                  style={{ width: "60%", paddingTop: "20px", }}
                 />
               </div>
             </Col>
@@ -114,7 +129,7 @@ const Aboutus = () => {
         </div>
         <div className="section_padding"></div>
       </section>
-     
+
     </>
   );
 };

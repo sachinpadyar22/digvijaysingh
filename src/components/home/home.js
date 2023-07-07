@@ -244,6 +244,7 @@ const Home = () => {
                 >
                   <img
                     src="Sources/images/movie1.png"
+                    
                     alt="404 - Not Given"
                     style={{ marginLeft: "auto", marginRight: "auto", paddingTop: "70px", display: "block" }}
                   />
@@ -345,7 +346,7 @@ const Home = () => {
         <div className="section_padding"></div>
       </section> */}
 
-      <section className="our_collection">
+      {/* <section className="our_collection">
         <div className="container-fluid">
           <p className="is-size-3 has-text-centered mb-4 green_color">
             Our Collection
@@ -362,7 +363,7 @@ const Home = () => {
                   />
                   <div>
                     <p className="shop_women">WOMEN</p>
-                    {/* <div className="view_button">
+                    <div className="view_button">
                       <Button
                         type="primary"
                         className="view_collection has-text-weight-semibold"
@@ -370,7 +371,7 @@ const Home = () => {
                       >
                         <Link to={url.collectionwomen}> View Collection</Link>
                       </Button>
-                    </div> */}
+                    </div>
                   </div>
                 </div>
               </div>
@@ -386,7 +387,7 @@ const Home = () => {
                   />
                   <div>
                     <p className="shop_women">MEN</p>
-                    {/* <div className="view_button">
+                    <div className="view_button">
                       <Button
                         type="primary"
                         size="large"
@@ -394,7 +395,7 @@ const Home = () => {
                       >
                         <Link to={url.collectionmen}>View Collection</Link>
                       </Button>
-                    </div> */}
+                    </div>
                   </div>
                 </div>
               </div>
@@ -402,7 +403,7 @@ const Home = () => {
           </Row>
         </div>
         <div className="section_padding"></div>
-      </section>
+      </section> */}
       
       <section className="bg-white">
         <Row className="popular_collection">
