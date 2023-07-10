@@ -4,10 +4,8 @@ const Contact = () => {
     return (
       <>
       <section id="contact">
-      <div className="sectional_heading pt-5">
-            <p className="is-size-3 has-text-centered mb-4 green_color">
-              Contact
-            </p>
+      <div class="nine mb-4" data-aos="fade-left" data-aos-duration="1200">
+            <h1>Contact</h1>
           </div>
   <div className="contact-wrapper">
     {/* Left contact page */}
@@ -91,8 +89,12 @@ const Contact = () => {
         </li>
       </ul> */}
       <hr />
-      <ul className="social-media-list mt-4">
-        <li>
+      <ul className="social-media-list mt-4 d-flex">
+     <a href="https://www.instagram.com/digvijaysingh_artwear/" className='bi bi-instagram'></a>
+<a href="https://www.instagram.com/digvijaysingh_artwear/" className='bi bi-youtube'></a>
+   <a href="https://www.instagram.com/digvijaysingh_artwear/" className='bi bi-meta'></a>
+      {/* <li><a href="https://www.instagram.com/digvijaysingh_artwear/" className='bi bi-email'></a></li> */}
+        {/* <li>
           <a href="#" target="_blank" className="contact-icon">
             <i class="bi bi-github" aria-hidden="true" ></i>
           </a>
@@ -108,10 +110,10 @@ const Contact = () => {
           </a>
         </li>
         <li>
-          <a href="#" target="_blank" className="contact-icon">
+          <a href="https://www.instagram.com/digvijaysingh_artwear/" target="_blank" className="contact-icon">
           <i class="bi bi-instagram" aria-hidden="true" ></i>
           </a>
-        </li>
+        </li> */}
       </ul>
       <hr />
       <div className="copyright">© ALL OF THE RIGHTS RESERVED</div>

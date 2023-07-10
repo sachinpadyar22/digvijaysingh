@@ -140,7 +140,7 @@ textarea {
   margin: 0 auto;
   padding: 0;
 }
-
+/* 
 .social-media-list li .contact-icon {
   color: #fff;
 }
@@ -185,8 +185,26 @@ textarea {
 
 .social-media-list li:hover a {
   color: #000;
-}
+} */
 
+.social-media-list a{
+  color: white;
+}
+.social-media-list a{
+  margin: 10px 20px;
+  background-color: black;
+  /* color: white; */
+  padding: 10px 15px;
+  border-radius: 50%;
+}
+.social-media-list a:hover{
+  margin: 10px 20px;
+  background-color: transparent;
+  color: #4f876c;
+  padding: 10px 15px;
+  border-radius: 50%;
+  transition: .5s;
+}
 .copyright {
   font: 200 14px 'Oswald', sans-serif;
   color: #555;

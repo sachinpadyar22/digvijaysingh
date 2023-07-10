@@ -9,9 +9,9 @@ const Aboutus = () => {
         <div className="container ">
           <div>
             <div className="sectional_heading">
-              <p className="is-size-3 pt-5 has-text-centered mb-4 green_color">
-                About the Brand
-              </p>
+              <div class="nine mb-4" data-aos="fade-left" data-aos-duration="1200">
+            <h1> About The Brand</h1>
+          </div>
             </div>
             <div className="has-text-left about_para">
               <p>

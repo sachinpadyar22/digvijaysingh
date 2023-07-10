@@ -426,10 +426,12 @@ const Home = () => {
       <section>
         <div className="section_padding"></div>
         <div className="container">
-        
-            <p className="is-size-3 has-text-centered mb-4 green_color">
+        <div class="nine mb-4" data-aos="fade-left" data-aos-duration="1200">
+            <h1> A Walk Down the Ramp</h1>
+          </div>
+            {/* <p className="is-size-3 has-text-centered mb-4 green_color">
               A Walk Down the Ramp
-            </p>
+            </p> */}
          
             {/* <video controls> */}
             {/* <video loop muted autoPlay preload="auto">

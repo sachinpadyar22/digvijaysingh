@@ -19,11 +19,12 @@
 } */
 
 .navbar .navbar-nav .nav-link {
-  color: #000000;
+  color: #343434;
   /* padding: 10px 10px; */
   font-size: 17px;
   font-family: 'Roboto', sans-serif;
   border-bottom: 1px solid rgb(243, 243, 235);
+  font-weight: 600;
 }
 #diff{
   padding-right: 0%;

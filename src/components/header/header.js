@@ -109,7 +109,7 @@ const Header = () => {
             <div className="col " id="col2">
               <div className="search-and-icons m-auto">
                 <form className="d-flex mb-2 me-2" role="search">
-                  <input placeholder="Search"  style={{border:"none"}}
+                  <input placeholder="Search" style={{ border: "none" }}
                     className="form-control me-2"
                     type="search"
                     aria-label="Search"
@@ -136,6 +136,7 @@ const Header = () => {
                     aria-expanded="false"
 
                   >
+                   
                     <span className="navbar-toggler-icon" />
                   </button>
                 </div>
@@ -171,8 +172,8 @@ const Header = () => {
                 <Link to="/aboutus" className="nav-link d-none d-sm-block">About Us</Link>
               </li>
               <li >
-              <Link to="/" className="nav-link d-sm-none"><span data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse">Home</span></Link>
-              <Link to="/" className="nav-link d-none d-sm-block">Home</Link>
+                <Link to="/" className="nav-link d-sm-none"><span data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse">Home</span></Link>
+                <Link to="/" className="nav-link d-none d-sm-block">Home</Link>
                 {/* <Link className="nav-link" to="/">Home</Link> */}
               </li>
               <li>
@@ -181,7 +182,7 @@ const Header = () => {
               </li>
               {/* /----------mobile dropdown------------- */}
               <li>
-                <div className="dropdown-center" style={{paddingLeft:"11px"}} id="mobile_drop">
+                <div className="dropdown-center" style={{ paddingLeft: "11px" }} id="mobile_drop">
                   <button className="btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                     <Link className="nav-link " to="/" >New Arrivals <span className="bi bi-caret-down-fill fs-6" id="diff"></span></Link>
                   </button>
@@ -192,7 +193,6 @@ const Header = () => {
                         <ul className="mini_ul me-4">
                           <li>Bandhgala Jackets</li>
                           <li>Waist Coats</li>
-                         
                           <li>Kurtas</li>
                           <li>Shirts</li>
                           <li>Sheervani</li>
@@ -207,7 +207,7 @@ const Header = () => {
                     </div>
                   </ul>
                 </div>
-                
+
               </li>
 
               {/*-------------- pc dropdown -------------*/}
@@ -222,7 +222,6 @@ const Header = () => {
                         <ul className="mini_ul">
                           <li>Bandhgala Jackets</li>
                           <li>Waist Coats</li>
-                        
                           <li>Kurtas</li>
                           <li>Shirts</li>
                           <li>Sheervani</li>
@@ -255,19 +254,19 @@ const Header = () => {
 
 
               <li>
-              <Link className="nav-link d-sm-none" to="/" ><span data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse">Special Offers</span></Link>
+                <Link className="nav-link d-sm-none" to="/" ><span data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse">Special Offers</span></Link>
                 <Link to="/" className="nav-link d-none d-sm-block">Special Offers</Link>
                 {/* <Link className="nav-link" to="/" >Special Offers</Link> */}
               </li>
               <li >
-              <Link className="nav-link d-sm-none" to="/contact" ><span data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse">Meet&nbsp;The&nbsp;Designer</span></Link>
+                <Link className="nav-link d-sm-none" to="/contact" ><span data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse">Meet&nbsp;The&nbsp;Designer</span></Link>
                 <Link to="/contact" className="nav-link d-none d-sm-block">Meet&nbsp;The&nbsp;Designer</Link>
                 {/* <Link className="nav-link" to="/contact" >Meet&nbsp;The&nbsp;Designer</Link> */}
               </li>
               <li >
-              <Link className="nav-link d-sm-none" to="/blog" ><span data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse">Blog</span></Link>
+                <Link className="nav-link d-sm-none" to="/blog" ><span data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse">Blog</span></Link>
                 <Link to="/blog" className="nav-link d-none d-sm-block">Blog</Link>
-                
+
                 {/* <Link className="nav-link" to="/" >Blog</Link> */}
               </li>
 
