@@ -20,7 +20,7 @@ const Lakmefive = () => {
         <>
             <section>
                 <div class="nine">
-                    <h1>FASHION WEEKS<span>Collection</span></h1>
+                    <h1>FASHION WEEKS<span>Kochi fashion</span></h1>
                 </div>
                 <div className="images px-5">
                     <Row>

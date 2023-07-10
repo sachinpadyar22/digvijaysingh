@@ -174,7 +174,7 @@ const Home = () => {
 
         <div className="container">
        
-          <div class="nine" data-aos="fade-left" data-aos-duration="1200">
+          <div class="nine">
             <h1>Awards<span>Media</span></h1>
           </div>
           {/* <div className="sectional_heading">
