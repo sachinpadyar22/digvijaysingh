@@ -86,9 +86,9 @@ const Aboutus = () => {
             <Col xxl={16} lg={12} md={24} sm={24} xs={24} className="my-auto">
               <div >
                 <div className="sectional_heading ">
-                  <p className="is-size-3  has-text-centered mb-4 green_color">
-                    About the Designer
-                  </p>
+                <div class="nine mb-4" data-aos="fade-left" data-aos-duration="1200">
+            <h1> About The Designer</h1>
+          </div>
                 </div>
                 <div className="about_para">
                   <p className="has-text-left " style={{ fontSize: "19px" }}>

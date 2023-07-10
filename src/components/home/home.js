@@ -1,4 +1,4 @@
-import React,{useEffect} from "react";
+import React, { useEffect } from "react";
 import { Button, Col, Image, Row, Space } from "antd";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import "./home.css";
@@ -57,7 +57,7 @@ export const actor = [
 ];
 
 const Home = () => {
- 
+
   return (
     <>
       <section className="banner_carousel">
@@ -173,7 +173,7 @@ const Home = () => {
       <section>
 
         <div className="container">
-       
+
           <div class="nine">
             <h1>Awards<span>Media</span></h1>
           </div>
@@ -244,7 +244,7 @@ const Home = () => {
                 >
                   <img
                     src="Sources/images/movie1.png"
-                    
+
                     alt="404 - Not Given"
                     style={{ marginLeft: "auto", marginRight: "auto", paddingTop: "70px", display: "block" }}
                   />
@@ -404,19 +404,19 @@ const Home = () => {
         </div>
         <div className="section_padding"></div>
       </section> */}
-      
+
       <section className="bg-white">
         <Row className="popular_collection">
           <Col className="first m-auto" xxl={12} lg={12} md={24} sm={24} xs={24}>
-                    <h1>Digvijay Popular Collection</h1>
-                    <p>The Popular Brand Wear is Here</p>
-                    <button>View Collection</button>
+            <h1>Digvijay Popular Collection</h1>
+            <p>The Popular Brand Wear is Here</p>
+            <button>View Collection</button>
 
           </Col>
           <Col className="text-center" xxl={12} lg={12} md={24} sm={24} xs={24}>
-                    <div style={{padding:"0px 30px"}}>
-                      <img src="Sources/images/1.JPG" alt="404 - Not Given" />
-                    </div>
+            <div style={{ padding: "0px 30px" }}>
+              <img src="Sources/images/1.JPG" alt="404 - Not Given" />
+            </div>
 
           </Col>
         </Row>
@@ -426,37 +426,71 @@ const Home = () => {
       <section>
         <div className="section_padding"></div>
         <div className="container">
-        <div class="nine mb-4" data-aos="fade-left" data-aos-duration="1200">
+          <div class="nine mb-4" data-aos="fade-left" data-aos-duration="1200">
             <h1> A Walk Down the Ramp</h1>
           </div>
-            {/* <p className="is-size-3 has-text-centered mb-4 green_color">
+          {/* <p className="is-size-3 has-text-centered mb-4 green_color">
               A Walk Down the Ramp
             </p> */}
-         
-            {/* <video controls> */}
-            {/* <video loop muted autoPlay preload="auto">
+
+          {/* <video controls> */}
+          {/* <video loop muted autoPlay preload="auto">
               <source src="Sources/images/video.mp4" type="video/mp4" />
             </video> */}
-            <Row data-aos="fade-up" data-aos-duration="1200">
-              <Col xxl={8} lg={8} md={12} sm={24} xs={24} style={{padding:"10px"}}>
-                <video loop muted autoPlay preload="auto">
-                  <source src="Sources/images/video.mp4" type="video/mp4" />
-                </video>
-              </Col>
-              <Col xxl={8} lg={8} md={12} sm={24} xs={24} style={{padding:"10px"}}>
-                <video loop muted autoPlay preload="auto">
-                  <source src="Sources/images/video2.mp4" type="video/mp4" />
-                </video>
-              </Col>
-              <Col xxl={8} lg={8} md={12} sm={24} xs={24} style={{padding:"10px"}}>
-                <video loop muted autoPlay preload="auto">
-                  <source src="Sources/images/video3.mp4" type="video/mp4" />
-                </video>
-              </Col>
-            </Row>
-          </div>
-       
+          <Row data-aos="fade-up" data-aos-duration="1200">
+            <Col xxl={8} lg={8} md={12} sm={24} xs={24} style={{ padding: "10px" }}>
+              <video loop muted autoPlay preload="auto">
+                <source src="Sources/images/video.mp4" type="video/mp4" />
+              </video>
+            </Col>
+            <Col xxl={8} lg={8} md={12} sm={24} xs={24} style={{ padding: "10px" }}>
+              <video loop muted autoPlay preload="auto">
+                <source src="Sources/images/video2.mp4" type="video/mp4" />
+              </video>
+            </Col>
+            <Col xxl={8} lg={8} md={12} sm={24} xs={24} style={{ padding: "10px" }}>
+              <video loop muted autoPlay preload="auto">
+                <source src="Sources/images/video3.mp4" type="video/mp4" />
+              </video>
+            </Col>
+          </Row>
+        </div>
+
         <div className="section_padding"></div>
+      </section>
+
+      <section className="bg-white appoint" >
+        <div class="row w-100">
+          <div class="col  text-white text-center first">
+           <img src="Sources/images/logo2.png" alt="" style={{width:"200px", padding:"30px 0"}} />
+          </div>
+          <div class="col text-start second">
+            <h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Book an Appointment</h1>
+            <hr />
+            <br />
+            <div class="input-group mb-3" id="Contact_P" >
+              <input type="text" class="form-control" placeholder="Recipient's Email" aria-label="Recipient's username" aria-describedby="button-addon2" />
+              <button class="btn btn-outline-secondary ps-5 pe-5" type="button" id="button-addon2">Join</button>
+            </div>
+            <div className="section_padding"></div>
+          </div>
+
+        </div>
+        {/* <Row>
+          <Col xxl={8} lg={8} md={12} sm={24} xs={24} className="text-center m-auto">
+
+          </Col>
+          <Col xxl={8} lg={8} md={12} sm={24} xs={24} className="text-start m-auto">
+            <h1>Book an Appointment</h1>
+            <br />
+            <div class="input-group mb-3" id="Contact_P">
+              <input type="text" class="form-control" placeholder="Recipient's Email" aria-label="Recipient's username" aria-describedby="button-addon2"/>
+                <button class="btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
+            </div>
+
+          </Col>
+        </Row> */}
+
       </section>
 
       {/* <section>
