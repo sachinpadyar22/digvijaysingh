@@ -217,7 +217,7 @@ const Header = () => {
                   <button className="dropbtn"><Link className="nav-link" to="/" >New Arrivals <span className="bi bi-caret-down-fill fs-6 diff" id="diff"></span></Link></button>
                   <div className="dropdown-content" style={{ backgroundColor: "rgb(243, 243, 235)" }}>
                     <div className="d-flex">
-                      <Link to="/" >Mens Wear
+                      <Link to="/">Mens Wear
 
                         <ul className="mini_ul">
                           <li>Bandhgala Jackets</li>
@@ -240,7 +240,7 @@ const Header = () => {
                 </div>
 
 
-                <ul className="dropdown-menu">
+                {/* <ul className="dropdown-menu">
                   <li>
                     <Link className="nav-link" to="/" >Mens Wear</Link>
                   </li>
@@ -249,7 +249,7 @@ const Header = () => {
                   </li>
 
 
-                </ul>
+                </ul> */}
               </li>
 
 
