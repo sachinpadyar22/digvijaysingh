@@ -263,12 +263,12 @@ const Header = () => {
                 <Link to="/contact" className="nav-link d-none d-sm-block">Meet&nbsp;The&nbsp;Designer</Link>
                 {/* <Link className="nav-link" to="/contact" >Meet&nbsp;The&nbsp;Designer</Link> */}
               </li>
-              <li >
+              {/* <li >
                 <Link className="nav-link d-sm-none" to="/blog" ><span data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse">Blog</span></Link>
                 <Link to="/blog" className="nav-link d-none d-sm-block">Blog</Link>
 
-                {/* <Link className="nav-link" to="/" >Blog</Link> */}
-              </li>
+                <Link className="nav-link" to="/" >Blog</Link>
+              </li> */}
 
             </ul>
 
