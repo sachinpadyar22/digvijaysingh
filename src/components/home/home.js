@@ -6,21 +6,21 @@ import { Carousel } from "react-responsive-carousel";
 import { Link } from "react-router-dom";
 import { url } from "../../constants/navhome";
 // import Header from "../header/header";
-import img1 from "../home/images/2.jpg";
+import img1 from "../home/images/hero1.jpg";
 // import img2 from "../home/images/2.jpg";
 import img3 from "../home/images/3.png";
 
-const carousel = [
-  {
-    src: "Sources/images/carousal/2.jpg",
-  },
-  {
-    src: "Sources/images/carousal/2.jpg",
-  },
-  {
-    src: "Sources/images/carousal/3.png",
-  },
-];
+// const carousel = [
+//   {
+//     src: "Sources/images/carousal/2.jpg",
+//   },
+//   {
+//     src: "Sources/images/carousal/2.jpg",
+//   },
+//   {
+//     src: "Sources/images/carousal/3.png",
+//   },
+// ];
 export const actor = [
   {
     src: "Sources/images/actor/1.png",
@@ -94,9 +94,9 @@ const Home = () => {
               {/* <div className="carousel-item" data-bs-interval={2000}>
                 <img src={img2} className="d-block w-100" alt="..." />
               </div> */}
-              <div className="carousel-item" data-bs-interval={2000}>
+              {/* <div className="carousel-item" data-bs-interval={2000}>
                 <img src={img3} className="d-block w-100" alt="..." />
-              </div>
+              </div> */}
             </div>
             <button
               className="carousel-control-prev"
@@ -439,17 +439,17 @@ const Home = () => {
             </video> */}
           <Row data-aos="fade-up" data-aos-duration="1200">
             <Col xxl={8} lg={8} md={12} sm={24} xs={24} style={{ padding: "10px" }}>
-              <video loop muted autoPlay preload="auto">
+              <video loop muted autoPlay >
                 <source src="Sources/images/video.mp4" type="video/mp4" />
               </video>
             </Col>
             <Col xxl={8} lg={8} md={12} sm={24} xs={24} style={{ padding: "10px" }}>
-              <video loop muted autoPlay preload="auto">
+              <video loop muted autoPlay>
                 <source src="Sources/images/video2.mp4" type="video/mp4" />
               </video>
             </Col>
             <Col xxl={8} lg={8} md={12} sm={24} xs={24} style={{ padding: "10px" }}>
-              <video loop muted autoPlay preload="auto">
+              <video loop muted autoPlay>
                 <source src="Sources/images/video3.mp4" type="video/mp4" />
               </video>
             </Col>

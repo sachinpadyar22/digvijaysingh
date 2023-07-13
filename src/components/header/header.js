@@ -102,7 +102,7 @@ const Header = () => {
 
 
 
-      <nav className="navbar navbarshadow navbar-expand-md d-flex flex-column">
+      <nav className="navbar black navbarshadow navbar-expand-md d-flex flex-column" id="navbar">
 
         <div className="container  text-center">
           <div className="row w-100 ">
@@ -119,9 +119,11 @@ const Header = () => {
               </div>
             </div>
             <div className="col m-auto">
+              
               <div className="mobile d-flex">
 
                 <div className="d-flex m-auto">
+                  
                   <Link to="/" className="navbar-brand"><img className="img"
                     src="Sources/images/logo2.png"
                     alt="Logo"
@@ -137,7 +139,9 @@ const Header = () => {
 
                   >
                    
-                    <span className="navbar-toggler-icon" />
+                    <span style={{border:"1px solid white"}}></span>
+                    <span style={{border:"1px solid white"}}></span>
+                    <span style={{border:"1px solid white"}}></span>
                   </button>
                 </div>
 
