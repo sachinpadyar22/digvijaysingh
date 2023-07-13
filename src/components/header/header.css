@@ -273,7 +273,7 @@ transition: .5s;
   .mobile .navbar-toggler {
     color: white;
     position: absolute;
-    right: 10px;
+    left: 10px;
     top: 10px;
   }
 
