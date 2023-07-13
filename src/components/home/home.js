@@ -439,17 +439,17 @@ const Home = () => {
             </video> */}
           <Row data-aos="fade-up" data-aos-duration="1200">
             <Col xxl={8} lg={8} md={12} sm={24} xs={24} style={{ padding: "10px" }}>
-              <video loop muted >
+              <video controls >
                 <source src="Sources/images/video.mp4" type="video/mp4" />
               </video>
             </Col>
             <Col xxl={8} lg={8} md={12} sm={24} xs={24} style={{ padding: "10px" }}>
-              <video loop muted >
+              <video controls>
                 <source src="Sources/images/video2.mp4" type="video/mp4" />
               </video>
             </Col>
             <Col xxl={8} lg={8} md={12} sm={24} xs={24} style={{ padding: "10px" }}>
-              <video loop muted>
+              <video controls>
                 <source src="Sources/images/video3.mp4" type="video/mp4" />
               </video>
             </Col>
