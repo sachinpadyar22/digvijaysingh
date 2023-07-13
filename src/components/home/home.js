@@ -171,17 +171,278 @@ const Home = () => {
       </section> */}
 
       <section>
-
+      <div className="container">
+          <div className="section_padding"></div>
+          {/* <div className="sectional_heading">
+            <p className="is-size-3 heading_style has-text-centered mb-4">
+              Fashion Weeks
+            </p>
+          </div> */}
+          <div class="nine">
+            <h1>Fashion Weeks<span>Lakme</span></h1>
+          </div>
+          <div className="about_para">
+            <p className="pt-5 pb-5 mb-5">
+              Digvijay Singh selected as a Gen Next Designer in 2007 at the
+              Lakme fashion week and a finalist at the young entrepreneur of the
+              year by the British Council and Elle magazine Digvijay Singh was
+              featured as one of the 10 most promising designers by Vogue India.
+              In 2012 he was nominated for the best costume designer for the
+              movie (Saheb Biwi Aur Gangster ) at Producer's guilt Apsara
+              awards.
+            </p>
+          </div>
+          {/* <div className="images">
+            <Row>
+              {fashionimages.map((item, key) => {
+                return (
+                    <Col xxl={4} lg={4} md={6} sm={12} xs={12}>
+                  <div className="fashionimg">
+                    <img src={item.src} alt="404 - not Found" style={{padding:"10px"}} />
+                  </div>
+                  </Col>
+                );
+              })}
+            </Row>
+          </div> */}
+        </div>
         <div className="container">
+          <div className="sectional_heading">
+            <p className="is-size-3  has-text-centered mb-4">
+              Events
+            </p>
+          </div>
+        </div>
+        {/* <div className="container is-fluid timeline_wrapper"> */}
+        <div className="timeline_wrapper">
+          <div className="timeline-block timeline-block-left" >
+            <div className="marker"></div>
+            <div>
+              <div className="space-align-container">
+                <div className="space-align-block">
+                  <Space
+                    align="center"
+                    direction="horizontal"
+                    className="mile_box"
+                  >
+                    <div>
+                      <p className="is-size-5">2006</p>
+                      <p className="is-size-4  ">
+                        <Link to="/lakmeone" className="green_color">Lakme Fashion Week</Link>
+                      </p>
+                      {/* <p className="is-size-6">(-)</p> */}
+                      <div className="mt-3">
+                        <img style={{ width: "150px" }}
+                          src="Sources/images/event/1-1.JPG"
+                          alt="404 - Not Given"
+                        />
+                      </div>
+                      {/* <div>
+                        <p className="is-size-5 blue_color has-text-weight-semibold">
+                          9,00,000 sqft
+                        </p>
+                        <p className="is-size-6 has-text-black">
+                          Largest Built-up Residential project
+                        </p>
+                      </div> */}
+                    </div>
+                  </Space>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="timeline-block timeline-block-right">
+            <div className="marker"></div>
+            <div>
+              <div className="space-align-container">
+                <div className="space-align-block">
+                  <Space
+                    align="center"
+                    direction="horizontal"
+                    className="mile_box"
+                  >
+                    <div>
+                      <p className="is-size-5">2007</p>
+                      <p className="is-size-4 ">
+                      <Link to="/lakmetwo" className="green_color">Lakme Fashion Week</Link>
+                      </p>
+                      {/* <p className="is-size-6">(-)</p> */}
+                      <div className="mt-3">
+                        <img style={{ width: "150px" }}
+                          src="Sources/images/event/1-2.JPG"
+                          alt="404 - Not Given"
+                        />
+                      </div>
+                      {/* <div>
+                        <p className="is-size-5 blue_color has-text-weight-semibold">
+                          9,00,000 sqft
+                        </p>
+                        <p className="is-size-6 has-text-black">
+                          Largest Built-up Residential project
+                        </p>
+                      </div> */}
+                    </div>
+                  </Space>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="timeline-block timeline-block-left">
+            <div className="marker"></div>
+            <div>
+              <div className="space-align-container">
+                <div className="space-align-block">
+                  <Space
+                    align="center"
+                    direction="horizontal"
+                    className="mile_box"
+                  >
+                    <div>
+                      <p className="is-size-5">2014</p>
+                      <p className="is-size-4  ">
+                      <Link to="/lakmethree" className="green_color">Lakme Fashion Week</Link>
+                      </p>
+                      {/* <p className="is-size-6">(-)</p> */}
+                      <div className="mt-3">
+                        <img style={{ width: "150px" }}
+                          src="Sources/images/event/1-3.JPG"
+                          alt="404 - Not Given"
+                        />
+                      </div>
+                      {/* <div>
+                        <p className="is-size-5 blue_color has-text-weight-semibold">
+                          9,00,000 sqft
+                        </p>
+                        <p className="is-size-6 has-text-black">
+                          Largest Built-up Residential project
+                        </p>
+                      </div> */}
+                    </div>
+                  </Space>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="timeline-block timeline-block-right">
+            <div className="marker"></div>
+            <div>
+              <div className="space-align-container">
+                <div className="space-align-block">
+                  <Space
+                    align="center"
+                    direction="horizontal"
+                    className="mile_box"
+                  >
+                    <div>
+                      {/* <p className="is-size-5">--</p> */}
+                      <p className="is-size-4 ">
+                      <Link to="/lakmefour" className="green_color">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Goa Fashion&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Link>
+                      </p>
+                      {/* <p className="is-size-6">(Goa)</p> */}
+                      <div className="mt-3">
+                        <img style={{ width: "150px" }}
+                          src="Sources/images/event/1-4.JPG"
+                          alt="404 - Not Given"
+                        />
+                      </div>
+                      {/* <div>
+                        <p className="is-size-5 blue_color has-text-weight-semibold">
+                          9,00,000 sqft
+                        </p>
+                        <p className="is-size-6 has-text-black">
+                          Largest Built-up Residential project
+                        </p>
+                      </div> */}
+                    </div>
+                  </Space>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="timeline-block timeline-block-left">
+            <div className="marker"></div>
+            <div>
+              <div className="space-align-container">
+                <div className="space-align-block">
+                  <Space
+                    align="center"
+                    direction="horizontal"
+                    className="mile_box"
+                  >
+                    <div>
+                      {/* <p className="is-size-5">--</p> */}
+                      <p className="is-size-4 ">
+                      <Link to="/lakmefive" className="green_color">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kochi Fashion&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Link>
+                      </p>
+                      {/* <p className="is-size-6">(kochi)</p> */}
+                      <div className="mt-3">
+                        <img style={{ width: "150px" }}
+                          src="Sources/images/event/1-6.JPG"
+                          alt="404 - Not Given"
+                        />
+                      </div>
+                      {/* <div>
+                        <p className="is-size-5 blue_color has-text-weight-semibold">
+                          9,00,000 sqft
+                        </p>
+                        <p className="is-size-6 has-text-black">
+                          Largest Built-up Residential project
+                        </p>
+                      </div> */}
+                    </div>
+                  </Space>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="timeline-block timeline-block-right">
+            <div className="marker"></div>
+            <div>
+              <div className="space-align-container">
+                <div className="space-align-block">
+                  <Space
+                    align="center"
+                    direction="horizontal"
+                    className="mile_box"
+                  >
+                    <div>
+                      {/* <p className="is-size-5">--</p> */}
+                      <p className="is-size-4 ">
+                      <Link to="/lakmesix" className="green_color">&nbsp;&nbsp;&nbsp;Bengaluru Fashion&nbsp;&nbsp;&nbsp;</Link>
+                      </p>
+                      {/* <p className="is-size-6">(kochi)</p> */}
+                      <div className="mt-3">
+                        <img style={{ width: "150px" }}
+                          src="Sources/images/event/1-7.jpg"
+                          alt="404 - Not Given"
+                        />
+                      </div>
+                      {/* <div>
+                        <p className="is-size-5 blue_color has-text-weight-semibold">
+                          9,00,000 sqft
+                        </p>
+                        <p className="is-size-6 has-text-black">
+                          Largest Built-up Residential project
+                        </p>
+                      </div> */}
+                    </div>
+                  </Space>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        {/* <div className="container">
 
           <div class="nine">
             <h1>Awards<span>Media</span></h1>
           </div>
-          {/* <div className="sectional_heading">
+          <div className="sectional_heading">
             <p className="is-size-3 heading_style has-text-centered mb-4">
               Movies
             </p>
-          </div> */}
+          </div>
           <div className="collection_wrapper" data-aos="zoom-in" data-aos-duration="1200">
             <Row>
               <Col xxl={8} lg={8} md={12} sm={12} xs={24} className="p-5">
@@ -252,7 +513,7 @@ const Home = () => {
               </Col>
 
             </Row>
-            {/* <div className="collection">
+            <div className="collection">
               <div className="collection_content">
                 <h6 className="is-size-5">Charismatic</h6>
                 <h3
@@ -295,9 +556,9 @@ const Home = () => {
                   typesetting industry.
                 </p>
               </div>
-            </div> */}
+            </div>
           </div>
-        </div>
+        </div> */}
         <div className="section_padding"></div>
       </section>
 
@@ -405,7 +666,7 @@ const Home = () => {
         <div className="section_padding"></div>
       </section> */}
 
-      <section className="bg-white">
+      {/* <section className="bg-white">
         <Row className="popular_collection">
           <Col className="first m-auto" xxl={12} lg={12} md={24} sm={24} xs={24}>
             <h1>Digvijay Popular Collection</h1>
@@ -420,7 +681,7 @@ const Home = () => {
 
           </Col>
         </Row>
-      </section>
+      </section> */}
 
 
       <section>
@@ -439,9 +700,9 @@ const Home = () => {
             </video> */}
           <Row data-aos="fade-up" data-aos-duration="1200">
             <Col xxl={8} lg={8} md={12} sm={24} xs={24} style={{ padding: "10px" }}>
-              <video controls >
+              {/* <video controls >
                 <source src="Sources/images/video.mp4" type="video/mp4" />
-              </video>
+              </video> */}
             </Col>
             <Col xxl={8} lg={8} md={12} sm={24} xs={24} style={{ padding: "10px" }}>
               <video controls>

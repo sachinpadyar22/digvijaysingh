@@ -102,7 +102,7 @@ const Header = () => {
 
 
 
-      <nav className="navbar black navbarshadow navbar-expand-md d-flex flex-column" id="navbar">
+      <nav className="navbar navbarshadow navbar-expand-md d-flex flex-column">
 
         <div className="container  text-center">
           <div className="row w-100 ">
@@ -139,9 +139,9 @@ const Header = () => {
 
                   >
                    
-                    <span style={{border:"1px solid white"}}></span>
-                    <span style={{border:"1px solid white"}}></span>
-                    <span style={{border:"1px solid white"}}></span>
+                    <span style={{border:"1px solid black"}}></span>
+                    <span style={{border:"1px solid black"}}></span>
+                    <span style={{border:"1px solid black"}}></span>
                   </button>
                 </div>
 
@@ -171,19 +171,16 @@ const Header = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav m-auto">
 
-              <li>
-                <Link className="nav-link d-sm-none" to="/aboutus"><span data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse">About Us</span></Link>
-                <Link to="/aboutus" className="nav-link d-none d-sm-block">About Us</Link>
-              </li>
+              
               <li >
                 <Link to="/" className="nav-link d-sm-none"><span data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse">Home</span></Link>
                 <Link to="/" className="nav-link d-none d-sm-block">Home</Link>
                 {/* <Link className="nav-link" to="/">Home</Link> */}
               </li>
-              <li>
+              {/* <li>
                 <Link className="nav-link d-sm-none" to="/fashion" ><span data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse">Fashion Week</span></Link>
                 <Link to="/fashion" className="nav-link d-none d-sm-block">Fashion Week</Link>
-              </li>
+              </li> */}
               {/* /----------mobile dropdown------------- */}
               <li>
                 <div className="dropdown-center" style={{ paddingLeft: "11px" }} id="mobile_drop">
@@ -219,7 +216,7 @@ const Header = () => {
 
                 <div className="dropdown" id="pc_drop">
                   <button className="dropbtn"><Link className="nav-link" to="/" >New Arrivals <span className="bi bi-caret-down-fill fs-6 diff" id="diff"></span></Link></button>
-                  <div className="dropdown-content" style={{ backgroundColor: "rgb(243, 243, 235)" }}>
+                  <div className="dropdown-content">
                     <div className="d-flex">
                       <Link to="/">Mens Wear
 
@@ -266,6 +263,10 @@ const Header = () => {
                 <Link className="nav-link d-sm-none" to="/contact" ><span data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse">Meet&nbsp;The&nbsp;Designer</span></Link>
                 <Link to="/contact" className="nav-link d-none d-sm-block">Meet&nbsp;The&nbsp;Designer</Link>
                 {/* <Link className="nav-link" to="/contact" >Meet&nbsp;The&nbsp;Designer</Link> */}
+              </li>
+              <li>
+                <Link className="nav-link d-sm-none" to="/aboutus"><span data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse">About Us</span></Link>
+                <Link to="/aboutus" className="nav-link d-none d-sm-block">About Us</Link>
               </li>
               {/* <li >
                 <Link className="nav-link d-sm-none" to="/blog" ><span data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse">Blog</span></Link>

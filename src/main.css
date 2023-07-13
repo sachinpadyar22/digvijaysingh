@@ -37,7 +37,7 @@ body::-webkit-scrollbar {
 
 }
 .navbar  {
-  background-color: #353535;
+  background-color: #f8f8f8;
   /* background:url("./components/home/images/nav.jpg");
   background-size: cover; */
   color: white;
@@ -1252,12 +1252,14 @@ hr {
 } */
 section {
   display: block;
-  background-color: #fffdf9;
+  background-color: #f8f8f8;
 }
 
 .about_para p{
-  font-size: 19px;
-  font-family:'Roboto', sans-serif;
+
+  font-size: 17px;
+  color: rgb(58, 58, 58);
+  font-family: "Playfair Display", serif;
 text-align: justify;
 }
 

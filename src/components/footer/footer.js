@@ -121,7 +121,7 @@ const Footer = () => {
                 />
                 {/* <h3 className="green_color pb-4 mt-3">ABOUT US</h3> */}
                 <p className="foot_text has-text-left">
-                  Welcome to the offical website of celebrated designer
+                  Welcome to the official website of celebrated designer
                   Digvijay singh.
                 </p>
               </div>
