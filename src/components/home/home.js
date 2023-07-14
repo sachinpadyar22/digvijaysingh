@@ -87,6 +87,11 @@ const Home = () => {
             className="carousel slide "
             data-bs-ride="carousel"
           >
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
             <div className="carousel-inner">
               <div className="carousel-item active" data-bs-interval={2000}>
                 <img src={img1} className="d-block w-100" alt="..." />
@@ -117,6 +122,7 @@ const Home = () => {
               <span className="visually-hidden">Next</span>
             </button>
           </div>
+
         </>
       </section>
 
@@ -171,7 +177,7 @@ const Home = () => {
       </section> */}
 
       <section>
-      <div className="container">
+        <div className="container">
           <div className="section_padding"></div>
           {/* <div className="sectional_heading">
             <p className="is-size-3 heading_style has-text-centered mb-4">
@@ -264,7 +270,7 @@ const Home = () => {
                     <div>
                       <p className="is-size-5">2007</p>
                       <p className="is-size-4 ">
-                      <Link to="/lakmetwo" className="green_color">Lakme Fashion Week</Link>
+                        <Link to="/lakmetwo" className="green_color">Lakme Fashion Week</Link>
                       </p>
                       {/* <p className="is-size-6">(-)</p> */}
                       <div className="mt-3">
@@ -300,7 +306,7 @@ const Home = () => {
                     <div>
                       <p className="is-size-5">2014</p>
                       <p className="is-size-4  ">
-                      <Link to="/lakmethree" className="green_color">Lakme Fashion Week</Link>
+                        <Link to="/lakmethree" className="green_color">Lakme Fashion Week</Link>
                       </p>
                       {/* <p className="is-size-6">(-)</p> */}
                       <div className="mt-3">
@@ -336,7 +342,7 @@ const Home = () => {
                     <div>
                       {/* <p className="is-size-5">--</p> */}
                       <p className="is-size-4 ">
-                      <Link to="/lakmefour" className="green_color">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Goa Fashion&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Link>
+                        <Link to="/lakmefour" className="green_color">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Goa Fashion&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Link>
                       </p>
                       {/* <p className="is-size-6">(Goa)</p> */}
                       <div className="mt-3">
@@ -372,7 +378,7 @@ const Home = () => {
                     <div>
                       {/* <p className="is-size-5">--</p> */}
                       <p className="is-size-4 ">
-                      <Link to="/lakmefive" className="green_color">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kochi Fashion&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Link>
+                        <Link to="/lakmefive" className="green_color">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kochi Fashion&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Link>
                       </p>
                       {/* <p className="is-size-6">(kochi)</p> */}
                       <div className="mt-3">
@@ -408,7 +414,7 @@ const Home = () => {
                     <div>
                       {/* <p className="is-size-5">--</p> */}
                       <p className="is-size-4 ">
-                      <Link to="/lakmesix" className="green_color">&nbsp;&nbsp;&nbsp;Bengaluru Fashion&nbsp;&nbsp;&nbsp;</Link>
+                        <Link to="/lakmesix" className="green_color">&nbsp;&nbsp;&nbsp;Bengaluru Fashion&nbsp;&nbsp;&nbsp;</Link>
                       </p>
                       {/* <p className="is-size-6">(kochi)</p> */}
                       <div className="mt-3">
@@ -431,7 +437,7 @@ const Home = () => {
               </div>
             </div>
           </div>
-          
+
         </div>
         {/* <div className="container">
 
@@ -703,6 +709,7 @@ const Home = () => {
               {/* <video controls >
                 <source src="Sources/images/video.mp4" type="video/mp4" />
               </video> */}
+              <video controls="true" width='100%' height='100%' src='Sources/images/video2.mp4' type='video/mp4'></video>
             </Col>
             <Col xxl={8} lg={8} md={12} sm={24} xs={24} style={{ padding: "10px" }}>
               <video controls>
@@ -723,7 +730,7 @@ const Home = () => {
       <section className="bg-white appoint" >
         <div class="row w-100">
           <div class="col  text-white text-center first">
-           <img src="Sources/images/logo2.png" alt="" style={{width:"200px", padding:"30px 0"}} />
+            <img src="Sources/images/logo2.png" alt="" style={{ width: "200px", padding: "30px 0" }} />
           </div>
           <div class="col text-start second">
             <h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Book an Appointment</h1>

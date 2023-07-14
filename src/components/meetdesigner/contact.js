@@ -3,7 +3,7 @@ import "./contact.css";
 const Contact = () => {
   return (
     <>
-      <section id="contact">
+      <section id="contact" style={{backgroundColor:"#f8f8f8"}}>
       
 
         <div className="container">
