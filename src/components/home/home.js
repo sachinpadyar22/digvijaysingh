@@ -709,7 +709,7 @@ const Home = () => {
               {/* <video controls >
                 <source src="Sources/images/video.mp4" type="video/mp4" />
               </video> */}
-              <video controls="true" width='100%' height='100%' src='Sources/images/video2.mp4' type='video/mp4'></video>
+              <video controls="true" width='100%' height='100%' src='Sources/images/video2.mp4#t=0.001' type='video/mp4'></video>
             </Col>
             <Col xxl={8} lg={8} md={12} sm={24} xs={24} style={{ padding: "10px" }}>
               <video controls>
