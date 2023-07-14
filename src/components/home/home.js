@@ -103,7 +103,7 @@ const Home = () => {
                 <img src={img3} className="d-block w-100" alt="..." />
               </div> */}
             </div>
-            <button
+            {/* <button
               className="carousel-control-prev"
               type="button"
               data-bs-target="#carouselExampleInterval"
@@ -120,7 +120,7 @@ const Home = () => {
             >
               <span className="carousel-control-next-icon" aria-hidden="true" />
               <span className="visually-hidden">Next</span>
-            </button>
+            </button> */}
           </div>
 
         </>
