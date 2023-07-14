@@ -723,7 +723,7 @@ const Home = () => {
         <div className="section_padding"></div>
       </section>
 
-      <section className="bg-white appoint" >
+      {/* <section className="bg-white appoint" >
         <div class="row w-100">
           <div class="col  text-white text-center first">
             <img src="Sources/images/logo2.png" alt="" style={{ padding: "30px 0" }} />
@@ -736,11 +736,11 @@ const Home = () => {
               <input type="text" class="form-control" placeholder="Recipient's Email" aria-label="Recipient's username" aria-describedby="button-addon2" />
               <button class="btn btn-outline-secondary ps-5 pe-5" type="button" id="button-addon2">Join</button>
             </div>
-            {/* <div className="section_padding"></div> */}
+            <div className="section_padding"></div>
           </div>
 
         </div>
-        {/* <Row>
+        <Row>
           <Col xxl={8} lg={8} md={12} sm={24} xs={24} className="text-center m-auto">
 
           </Col>
@@ -753,9 +753,9 @@ const Home = () => {
             </div>
 
           </Col>
-        </Row> */}
+        </Row>
 
-      </section>
+      </section> */}
 
       {/* <section>
         <div className="container">
