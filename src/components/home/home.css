@@ -74,6 +74,10 @@
 
 .first {
   text-align: end;
+  
+}
+.first img {
+  width: 180px;
 }
 
 @media (max-width:991px) {
@@ -81,7 +85,12 @@
     text-align: center;
     padding: 50px 0;
   }
+}@media (max-width:600px) {
+  .first img {
+    width: 130px;
+  }
 }
+
 
 .second {
 
