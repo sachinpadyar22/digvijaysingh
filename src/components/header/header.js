@@ -119,11 +119,11 @@ const Header = () => {
               </div>
             </div>
             <div className="col m-auto">
-              
+
               <div className="mobile d-flex">
 
                 <div className="d-flex m-auto">
-                  
+
                   <Link to="/" className="navbar-brand"><img className="img"
                     src="Sources/images/logo2.png"
                     alt="Logo"
@@ -138,10 +138,10 @@ const Header = () => {
                     aria-expanded="false"
 
                   >
-                   
-                    <span style={{border:"1px solid black"}}></span>
-                    <span style={{border:"1px solid black"}}></span>
-                    <span style={{border:"1px solid black"}}></span>
+
+                    <span style={{ border: "1px solid black" }}></span>
+                    <span style={{ border: "1px solid black" }}></span>
+                    <span style={{ border: "1px solid black" }}></span>
                   </button>
                 </div>
 
@@ -169,9 +169,9 @@ const Header = () => {
 
         <div className="container-fluid" >
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav m-auto">
+            <ul className="navbar-nav m-auto pb-4">
 
-              
+
               <li >
                 <Link to="/" className="nav-link d-sm-none"><span data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse">Home</span></Link>
                 <Link to="/" className="nav-link d-none d-sm-block">Home</Link>
@@ -210,6 +210,7 @@ const Header = () => {
                 </div>
 
               </li>
+
 
               {/*-------------- pc dropdown -------------*/}
               <li >
@@ -268,6 +269,7 @@ const Header = () => {
                 <Link className="nav-link d-sm-none" to="/aboutus"><span data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse">About Us</span></Link>
                 <Link to="/aboutus" className="nav-link d-none d-sm-block">About Us</Link>
               </li>
+
               {/* <li >
                 <Link className="nav-link d-sm-none" to="/blog" ><span data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse">Blog</span></Link>
                 <Link to="/blog" className="nav-link d-none d-sm-block">Blog</Link>
@@ -276,7 +278,10 @@ const Header = () => {
               </li> */}
 
             </ul>
-
+            {/* <div className="social_mb">
+              <span className="bi bi-instagram"></span>
+              <span className="bi bi-youtube"></span>
+            </div> */}
             {/* <div className="contact-info d-md-flex">
         <p>+0987654321 | +1234567890 </p>
         <p>

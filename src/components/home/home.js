@@ -693,9 +693,9 @@ const Home = () => {
       <section>
         <div className="section_padding"></div>
         <div className="container">
-          <div class="nine mb-4" data-aos="fade-left" data-aos-duration="1200">
+          {/* <div class="nine mb-4" data-aos="fade-left" data-aos-duration="1200">
             <h1> A Walk Down the Ramp</h1>
-          </div>
+          </div> */}
           {/* <p className="is-size-3 has-text-centered mb-4 green_color">
               A Walk Down the Ramp
             </p> */}
@@ -704,22 +704,18 @@ const Home = () => {
           {/* <video loop muted autoPlay preload="auto">
               <source src="Sources/images/video.mp4" type="video/mp4" />
             </video> */}
-          <Row data-aos="fade-up" data-aos-duration="1200">
-            <Col xxl={8} lg={8} md={12} sm={24} xs={24} style={{ padding: "10px" }}>
+          <Row data-aos="fade-up" data-aos-duration="1200" className="videos">
+            <Col xxl={8} lg={8} md={12} sm={12} xs={24} style={{ padding: "10px" }}>
               {/* <video controls >
                 <source src="Sources/images/video.mp4" type="video/mp4" />
               </video> */}
               <video controls="true" width='100%' height='100%' src='Sources/images/video2.mp4#t=0.001' type='video/mp4'></video>
             </Col>
-            <Col xxl={8} lg={8} md={12} sm={24} xs={24} style={{ padding: "10px" }}>
-              <video controls>
-                <source src="Sources/images/video2.mp4#t=0.001" type="video/mp4" />
-              </video>
+            <Col xxl={8} lg={8} md={12} sm={12} xs={24} style={{ padding: "10px" }}>
+            <video controls="true" width='100%' height='100%' src='Sources/images/video3.mp4#t=0.001' type='video/mp4'></video>
             </Col>
-            <Col xxl={8} lg={8} md={12} sm={24} xs={24} style={{ padding: "10px" }}>
-              <video controls>
-                <source src="Sources/images/video3.mp4#t=0.001" type="video/mp4" />
-              </video>
+            <Col xxl={8} lg={8} md={12} sm={12} xs={24} style={{ padding: "10px" }}>
+            <video controls="true" width='100%' height='100%' src='Sources/images/video4.mp4#t=0.001' type='video/mp4'></video>
             </Col>
           </Row>
         </div>
