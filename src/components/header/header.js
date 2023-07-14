@@ -219,7 +219,7 @@ const Header = () => {
                   <button className="dropbtn"><Link className="nav-link" to="/" >New Arrivals <span className="bi bi-caret-down-fill fs-6 diff" id="diff"></span></Link></button>
                   <div className="dropdown-content">
                     <div className="d-flex">
-                      <Link to="/">Mens Wear
+                      <Link to="/" className="text-black">Mens Wear
 
                         <ul className="mini_ul">
                           <li>Bandhgala Jackets</li>
@@ -229,7 +229,7 @@ const Header = () => {
                           <li>Sheervani</li>
                         </ul>
                       </Link>
-                      <Link to="/" >Womens Wear
+                      <Link to="/"  className="text-black">Womens Wear
                         <ul className="mini_ul">
                           <li>Pret Wear</li>
                           <li>Signature Wear</li>
