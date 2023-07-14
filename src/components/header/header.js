@@ -187,7 +187,7 @@ const Header = () => {
                   <button className="btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                     <Link className="nav-link " to="/" >New Arrivals <span className="bi bi-caret-down-fill fs-6" id="diff"></span></Link>
                   </button>
-                  <ul className="dropdown-menu" style={{ backgroundColor: "rgb(243, 243, 235)" }}>
+                  <ul className="dropdown-menu" style={{ backgroundColor: "#f8f8f8" }}>
                     <div className="d-flex ms-4 p-3">
                       <Link to="/" className="text-black">Mens Wear
 
