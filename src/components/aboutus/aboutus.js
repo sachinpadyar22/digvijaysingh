@@ -16,12 +16,10 @@ const Aboutus = () => {
             <div className="has-text-left about_para">
 
               <p>
-                Digvijay Singh Fashion House in Gujarat has established itself as a renowned
-                and esteemed brand, deeply rooted in the principles of tradition and fashion.
-                As we proudly enter our 10th year in the industry, we take pride in our growing
-                base of loyal customers and admirers. Our journey, which started as a humble dream,
-                has now transformed into a remarkable reality, driven by the unwavering dedication of
-                our team and the visionary expertise of our head designer, Digvijay Singh.
+                Digvijay Singh Fashion House in Gujarat has become a renowned and esteemed brand,
+                rooted in tradition and fashion principles. As they proudly celebrate their 10th year
+                in the industry, they credit their success to the dedication of their team and visionary
+                expertise of their head designer, Digvijay Singh.
                 {/* Digvijay Singh is a celebrated fashion house in Gujarat. We
                 believe in holding the ground of tradition when it comes to
                 fashion. Having entered the 10th glorious year of our fashion
@@ -33,11 +31,9 @@ const Aboutus = () => {
               </p>
               <br />
               <p>
-                Through our intuitive understanding of our customers' desires and the ability to
-                perceive their emotions, we operate in a synergistic and interconnected manner.
-                We firmly believe that fashion is a form of storytelling and a powerful means of self-expression.
-                Our commitment is to deliver fashion that exquisitely conveys narratives of beauty and elegance,
-                capturing the essence of each individual wearer.
+                Their approach is centered around understanding their customers' desires and emotions, treating
+                fashion as a powerful means of self-expression and storytelling. They specialize in crafting garments
+                that beautifully embody the dreams of modern brides, making them an integral part of people's joyous celebrations.
                 {/* From reading minds of our customers and registering their
                 emotions to translating them into finely designed ensembles, we
                 work in a closely knitted modus operandi. We believe that
@@ -46,31 +42,16 @@ const Aboutus = () => {
                 it tells a tale of beauty and grace altogethis. */}
               </p>
               <br />
-              <p>
-                With a deep understanding of the modern bride's desires at the core of our creations,
-                we skillfully intertwine threads to craft garments that embody their wedding day dreams.
-                For a decade now, we have dedicated ourselves to becoming an integral part of people's joyous
-                celebrations, and we are excited to announce that this milestone is just the beginning of our
-                journey.
-                {/* Keeping the bride of today in the heart and soul of our
-                creation, we entangle the threads and weave them into something
-                that resembles a bride's dream for his big day. We have been
-                working diligently to become the happy part of people's
-                celebrations for the 10th year now and we are hise to let you
-                know that this is just the beginning. */}
-              </p>
-              <br />
+
+
               <p>
                 Digvijay Singh, an alumnus of the prestigious National Institute of Design in Ahmedabad,
-                has showcased his remarkable collections at esteemed Fashion Weeks. His exceptional talent
-                has led him to design for prominent Bollywood celebrities such as Anil Kapoor, A R Rehman,
-                Vidhu Vinod Chopra, and others. Digvijay has also made significant contributions to the
-                film industry, receiving a nomination in the best costume design category for his exceptional
-                work in the film "Sahib Biwi aur Gangster." His recent film project includes "Sahib Biwi and
-                Gangster Returns." Notably, Digvijay's creativity and artistry have earned him both popular
-                acclaim and critical recognition. He was recognized as a finalist for the Young Design
-                Entrepreneur award by the British Council in 2010 and was named one of Vogue India's 10 most
-                promising young designers, solidifying his position in the industry.
+                has showcased his remarkable collections at esteemed Fashion Weeks. His exceptional talent has
+                led him to design for prominent Bollywood celebrities, and he has made significant contributions
+                to the film industry, garnering both popular acclaim and critical recognition. Notably,
+                Digvijay was recognized as a finalist for the Young Design Entrepreneur award by the British
+                Council in 2010 and named one of Vogue India's 10 most promising young designers, solidifying his
+                position in the industry.
                 {/* After studying at the National Institute of Design, Ahmedabad, Digvi-
                 jay has showcased his collections at the Fashion Weeks and has
 
@@ -119,24 +100,21 @@ const Aboutus = () => {
                 </div>
                 <div className="about_para">
                   <p className="has-text-left " style={{ fontSize: "19px" }}>
-                    In 2007, during his second year of fashion studies, Digvijay Singh
-                    founded the renowned label bearing his name. After a brief exploration
-                    of physiotherapy, he discovered his true passion lay elsewhere. His journey
-                    began by crafting basic designs and selling them door-to-door in
-                    a small town in Gujarat, with modest expectations. Little did he anticipate
-                    the extraordinary path that awaited him, propelling him to the pinnacle of his profession.
+
+                    In 2007, Digvijay Singh founded his renowned label during his second year of fashion studies.
+                    Despite briefly exploring physiotherapy, he found his true passion in fashion, starting with basic
+                    designs and selling them door-to-door in Gujarat. Little did he know that this humble beginning
+                    would lead him to incredible heights in his profession.
                     <br /> <br />
-                    Digvijay Singh, a humble and compassionate individual, radiates warmth and
-                    innocence, despite his petite stature. His unwavering dedication to creating
-                    ensembles that embody the grace of traditional attire, combined with his distinctive
-                    fashion sense, propelled his brand to unprecedented heights. Even in his first year
-                    of graduation at INIFD, Vadodara, he was recognized with the prestigious
-                    'Most Innovative Collection' award. However, he considers the smiles of satisfaction
-                    from his customers as the greatest reward.
+                    Digvijay Singh, though humble and compassionate, exudes warmth and innocence.
+                    His dedication to creating ensembles that embody the grace of traditional attire,
+                    coupled with his unique fashion sense, propelled his brand to unparalleled success.
+                    Even during his first year of graduation at INIFD, Vadodara, he received the prestigious
+                    'Most Innovative Collection' award. However, he finds the smiles of satisfaction from his customers
+                    to be the most rewarding.
                     <br /> <br />
-                    Today, Digvijay Singh stands as a towering figure and one of Gujarat's most
-                    celebrated fashion designers, particularly in the realm of bridal fashion. For him,
-                    the sky appears to be the sole limit to his boundless creativity and success.
+                    Today, Digvijay Singh stands as one of Gujarat's most celebrated fashion designers, particularly
+                    renowned for his bridal fashion creations. His boundless creativity and success seem to have no limits.
                     {/* The label Digvijay Singh was founded by Digvijay Singh in 2007
                     while he was in the second year of his fashion studies. A few
                     attempts at studying physiothisapy made his realize that his
