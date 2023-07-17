@@ -8,12 +8,12 @@ const Contact = () => {
 
         
         <div className="container">
-        <div className="d-flex pb-5 pt-5">
+        
+          <h1>Request a private appointment now</h1>
+          <div className="d-flex pb-5 pt-5">
           <p><Link to="/" className="nav-link">Home</Link></p>
           <span className="bi bi-chevron-compact-right">Request</span>
         </div>
-          <h1>Request a private appointment now</h1>
-
           <div className="mb-3">
             <label for="exampleFormControlInput1" className="form-label">Name</label>
             <input type="Name" className="form-control" id="exampleFormControlInput1" placeholder="Name" />
