@@ -146,3 +146,6 @@
   aspect-ratio: 3/2;
  object-fit: contain;
 }
+.carousel-item img{
+  height: 100vh;
+}

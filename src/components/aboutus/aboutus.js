@@ -164,9 +164,9 @@ const Aboutus = () => {
             <Col xxl={8} lg={12} md={24} sm={24} xs={24}>
               <div className="has-text-centered">
                 <img
-                  src="Sources/images/digvijaysingh.png"
+                  src="Sources/images/digvijaysingh1.JPG"
                   alt="404 - Not Given"
-                  style={{ width: "60%", paddingTop: "20px", }}
+                  style={{ width: "100%", padding: "20px", }}
                 />
               </div>
             </Col>

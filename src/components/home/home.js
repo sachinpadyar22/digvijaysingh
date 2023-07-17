@@ -8,7 +8,7 @@ import { url } from "../../constants/navhome";
 // import Header from "../header/header";
 import img1 from "../home/images/hero1.jpg";
 // import img2 from "../home/images/2.jpg";
-import img3 from "../home/images/3.png";
+import img2 from "../home/images/4.jpg"
 
 // const carousel = [
 //   {
@@ -96,9 +96,9 @@ const Home = () => {
               <div className="carousel-item active" data-bs-interval={2000}>
                 <img src={img1} className="d-block w-100" alt="..." />
               </div>
-              {/* <div className="carousel-item" data-bs-interval={2000}>
+              <div className="carousel-item" data-bs-interval={2000}>
                 <img src={img2} className="d-block w-100" alt="..." />
-              </div> */}
+              </div>
               {/* <div className="carousel-item" data-bs-interval={2000}>
                 <img src={img3} className="d-block w-100" alt="..." />
               </div> */}
