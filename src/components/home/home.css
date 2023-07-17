@@ -113,7 +113,9 @@
 .appoint {
   background-color: #f7f6f2;
 }
-
+.carousel-item img{
+  height: 100vh;
+}
 @media (max-width:600px) {
   .appoint .row {
     display: flex;
@@ -122,6 +124,12 @@
 
   .second {
     padding: 0px 30px;
+  }
+ 
+}
+@media (max-width:900px) {
+  .carousel-item img{
+    height: 100%;
   }
 }
 
@@ -145,7 +153,4 @@
   width: 100%;
   aspect-ratio: 3/2;
  object-fit: contain;
-}
-.carousel-item img{
-  height: 100vh;
 }

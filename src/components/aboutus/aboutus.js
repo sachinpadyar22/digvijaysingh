@@ -1,6 +1,6 @@
 import { Col, Row } from "antd";
 import React from "react";
-
+import { Link } from "react-router-dom";
 const Aboutus = () => {
   return (
     <>
@@ -12,6 +12,11 @@ const Aboutus = () => {
               <div class="nine mb-4" data-aos="fade-left" data-aos-duration="1200">
                 <h1> About The Brand</h1>
               </div>
+              <div className="d-flex pb-5" style={{fontSize:"17px"}}>
+                <p><Link to="/" className="text-dark" >Home </Link></p>
+                <span className="bi bi-chevron-compact-right"> About us</span>
+              </div>
+
             </div>
             <div className="has-text-left about_para">
 
@@ -99,7 +104,7 @@ const Aboutus = () => {
                   </div>
                 </div>
                 <div className="about_para">
-                  <p className="has-text-left " style={{ fontSize: "19px" }}>
+                  <p className="has-text-left " style={{ fontSize: "17px" }}>
 
                     In 2007, Digvijay Singh founded his renowned label during his second year of fashion studies.
                     Despite briefly exploring physiotherapy, he found his true passion in fashion, starting with basic

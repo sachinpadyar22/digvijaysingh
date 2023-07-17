@@ -185,7 +185,7 @@ const Header = () => {
               <li>
                 <div className="dropdown-center" style={{ paddingLeft: "11px" }} id="mobile_drop">
                   <button className="btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    <Link className="nav-link " to="/" >New Arrivals <span className="bi bi-caret-down-fill fs-6" id="diff"></span></Link>
+                    <Link className="nav-link " to="/" >New Arrivals<span className="bx bx-chevron-down fs-6" id="diff"></span></Link>
                   </button>
                   <ul className="dropdown-menu" style={{ backgroundColor: "#f8f8f8" }}>
                     <div className="d-flex ms-4 p-3">
@@ -219,7 +219,7 @@ const Header = () => {
                   <button className="dropbtn"><Link className="nav-link" to="/" >New Arrivals <span className="bi bi-caret-down-fill fs-6 diff" id="diff"></span></Link></button>
                   <div className="dropdown-content">
                     <div className="d-flex">
-                      <Link to="/" className="text-black">Mens Wear
+                      <Link to="/" className="text-black" style={{fontFamily:"Playfair Display serif" }}>Mens Wear
 
                         <ul className="mini_ul">
                           <li>Bandhgala Jackets</li>
@@ -229,7 +229,7 @@ const Header = () => {
                           <li>Sheervani</li>
                         </ul>
                       </Link>
-                      <Link to="/"  className="text-black">Womens Wear
+                      <Link to="/"  className="text-black" style={{fontFamily:"Playfair Display serif" }}>Womens Wear
                         <ul className="mini_ul">
                           <li>Pret Wear</li>
                           <li>Signature Wear</li>
