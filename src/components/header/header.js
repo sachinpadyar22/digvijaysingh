@@ -151,13 +151,13 @@ const Header = () => {
               <div className="green_color m-auto">
                 <div className="user-icons d-flex text-center justify-content-center">
                   <div className="profile me-3" >
-                    <a href=""><i className="bi bi-instagram"></i></a>
+                    <a href="https://www.instagram.com/digvijaysingh_artwear/?igshid=YzcxN2Q2NzY0OA%3D%3D" target="_digvijay"><i className="bi bi-instagram"></i></a>
                   </div>
                   {/* <div className="wishlist me-3">
                     <a href=""><i className="bi bi-meta" /></a>
                   </div> */}
                   <div className="cart">
-                    <a href=""><i className="bi bi-youtube" /></a>
+                    <a href="https://www.facebook.com/digvijay.singh.digi?mibextid=ZbWKwL" target="_digvijay"><i className="bi bi-meta" /></a>
                   </div>
                 </div>
               </div>

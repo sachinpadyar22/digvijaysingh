@@ -144,21 +144,19 @@ const Footer = () => {
                   <br /> Ahmedabad, India.
                 </p>
                 <div>
-                  <Link href="" className="pr-0 pl-0 has-text-grey-lighter">
-                    <FaPinterestP className="is-size-4" />
-                  </Link>
-                  <Link href="" className="pl-4 has-text-grey-lighter">
+                 
+                  <a href="https://www.facebook.com/digvijay.singh.digi?mibextid=ZbWKwL" className="pl-4 has-text-grey-lighter" target="_digvijay">
                     <BsFacebook className="is-size-4" />
-                  </Link>
-                  <Link
-                    href="https://instagram.com/digvijaysingh_artwear?igshid=YmMyMTA2M2Y="
+                  </a>
+                  <a
+                    href="https://www.instagram.com/digvijaysingh_artwear/?igshid=YzcxN2Q2NzY0OA%3D%3D" target="_digvijay"
                     className="pl-4 has-text-grey-lighter"
                   >
                     <BsInstagram className="is-size-4" />
-                  </Link>
-                  <Link href="" className="pl-4 has-text-grey-lighter">
+                  </a>
+                  <a href="https://wa.me/9925277862" className="pl-4 has-text-grey-lighter" target="_digvijay">
                     <BsWhatsapp className="is-size-4" />
-                  </Link>
+                  </a>
                 </div>
               </div>
             </Col>
