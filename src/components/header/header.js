@@ -221,7 +221,7 @@ const Header = () => {
                 <div className="dropdown" id="pc_drop">
                   <button className="dropbtn"><Link className="nav-link" to="/" >New Arrivals <span className="bi bi-caret-down-fill fs-6 diff" id="diff"></span></Link></button>
                   <div className="dropdown-content">
-                    <h4 className="ps-3 p-4">Comming Soon</h4>
+                    <h4 className="ps-3 ">Comming Soon</h4>
                     {/* <div className="d-flex">
                       <Link to="/" className="text-black" style={{fontFamily:"Playfair Display serif" }}>Mens Wear
 
