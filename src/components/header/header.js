@@ -187,9 +187,12 @@ const Header = () => {
                   <button className="btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                     <Link className="nav-link " to="/" >New Arrivals<span className="bx bx-chevron-down fs-6" id="diff"></span></Link>
                   </button>
+                  
                   <ul className="dropdown-menu" style={{ backgroundColor: "#f8f8f8" }}>
-                    <div className="d-flex ms-4 p-3">
-                      <Link to="/" className="text-black">Mens Wear
+                 
+                   <div className="d-flex ms-4 p-3">
+                   <h4>Comming Soon</h4>
+                      {/*  <Link to="/" className="text-black">Mens Wear
 
                         <ul className="mini_ul me-4">
                           <li>Bandhgala Jackets</li>
@@ -204,9 +207,9 @@ const Header = () => {
                           <li>Pret Wear</li>
                           <li>Signature Wear</li>
 
-                        </ul></Link>
+                        </ul></Link>*/}
                     </div>
-                  </ul>
+                  </ul> 
                 </div>
 
               </li>
@@ -218,7 +221,8 @@ const Header = () => {
                 <div className="dropdown" id="pc_drop">
                   <button className="dropbtn"><Link className="nav-link" to="/" >New Arrivals <span className="bi bi-caret-down-fill fs-6 diff" id="diff"></span></Link></button>
                   <div className="dropdown-content">
-                    <div className="d-flex">
+                    <h4 className="ps-3 p-4">Comming Soon</h4>
+                    {/* <div className="d-flex">
                       <Link to="/" className="text-black" style={{fontFamily:"Playfair Display serif" }}>Mens Wear
 
                         <ul className="mini_ul">
@@ -235,7 +239,7 @@ const Header = () => {
                           <li>Signature Wear</li>
 
                         </ul></Link>
-                    </div>
+                    </div> */}
 
 
                   </div>
