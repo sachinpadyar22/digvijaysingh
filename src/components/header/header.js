@@ -109,6 +109,7 @@ const Header = () => {
             <div className="col " id="col2">
               <div className="search-and-icons m-auto">
                 <form className="d-flex mb-2 me-2" role="search">
+                <i class="bi bi-search" style={{color:"black", fontSize: "18px", marginTop:"5px"}}></i>
                   <input placeholder="Search" style={{ border: "none" }}
                     className="form-control me-2"
                     type="search"
