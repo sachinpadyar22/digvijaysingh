@@ -89,6 +89,10 @@
   .first img {
     width: 130px;
   }
+
+  .button{
+    content: none;
+  }
 }
 
 
@@ -138,6 +142,11 @@
     height: 60vh;
   }
 }
+
+/* .carousel-indicators{
+  width: 50px;
+  height: 5px
+} */
 
 
 
