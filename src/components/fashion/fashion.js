@@ -252,7 +252,7 @@ const Fashion = () => {
                     <div>
                       {/* <p className="is-size-5">--</p> */}
                       <p className="is-size-4 ">
-                      <Link to="/lakmefour" className="green_color">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Goa Fashion&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Link>
+                      <Link to="/lakmefour" className="green_color">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Goa Fashion Show&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Link>
                       </p>
                       {/* <p className="is-size-6">(Goa)</p> */}
                       <div className="mt-3">
@@ -288,7 +288,7 @@ const Fashion = () => {
                     <div>
                       {/* <p className="is-size-5">--</p> */}
                       <p className="is-size-4 ">
-                      <Link to="/lakmefive" className="green_color">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kochi Fashion&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Link>
+                      <Link to="/lakmefive" className="green_color">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kochi Fashion Show&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Link>
                       </p>
                       {/* <p className="is-size-6">(kochi)</p> */}
                       <div className="mt-3">
@@ -324,7 +324,7 @@ const Fashion = () => {
                     <div>
                       {/* <p className="is-size-5">--</p> */}
                       <p className="is-size-4 ">
-                      <Link to="/lakmesix" className="green_color">&nbsp;&nbsp;&nbsp;Bengaluru Fashion&nbsp;&nbsp;&nbsp;</Link>
+                      <Link to="/lakmesix" className="green_color">&nbsp;&nbsp;&nbsp;Bengaluru Fashion Show&nbsp;&nbsp;&nbsp;</Link>
                       </p>
                       {/* <p className="is-size-6">(kochi)</p> */}
                       <div className="mt-3">

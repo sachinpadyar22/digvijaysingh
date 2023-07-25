@@ -54,10 +54,39 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
     crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
   <script>
 
+  
+  $(document).ready(function () {
+    // Initialize Swiper
+    var mySwiper = new Swiper('#carouselExampleControls', {
+      // Optional parameters
+      loop: true, // Set to true if you want the slider to loop continuously
+      slidesPerView: 1, // Number of slides to show at a time
+      spaceBetween: 30, // Space between slides (in pixels)
 
+      // Navigation arrows (optional)
+      navigation: {
+        nextEl: '.carousel-control-next',
+        prevEl: '.carousel-control-prev',
+      },
+
+      // Enable touch/drag support
+      touchEventsTarget: 'wrapper',
+      touchRatio: 1,
+      touchReleaseOnEdges: true,
+
+      // Enable mousewheel control
+      mousewheel: true,
+      mousewheelSensitivity: 0.5,
+    });
+  });
+
+
+
+ 
 $(function() {
   $('a[href*=#]').on('click', function(e) {
     e.preventDefault();
@@ -91,6 +120,14 @@ $(function() {
   //   });
    
   // } );
+
+  $(".carousel").swipe({
+                swipe: function (event, direction, distance, duration, fingerCount, fingerData) {
+                    if (direction == 'left') $(this).carousel('next');
+                    if (direction == 'right') $(this).carousel('prev');
+                },
+                allowPageScroll: "vertical" 
+            });
   </script>
 </body>
 
