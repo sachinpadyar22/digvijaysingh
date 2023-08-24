@@ -260,11 +260,11 @@ const Header = () => {
               </li>
 
 
-              <li>
+              {/* <li>
                 <Link className="nav-link d-sm-none" to="/" ><span data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse">Special Offers</span></Link>
                 <Link to="/" className="nav-link d-none d-sm-block">Special Offers</Link>
-                {/* <Link className="nav-link" to="/" >Special Offers</Link> */}
-              </li>
+                <Link className="nav-link" to="/" >Special Offers</Link>
+              </li> */}
               <li >
                 <Link className="nav-link d-sm-none" to="/contact" ><span data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse">Meet&nbsp;The&nbsp;Designer</span></Link>
                 <Link to="/contact" className="nav-link d-none d-sm-block">Meet&nbsp;The&nbsp;Designer</Link>
